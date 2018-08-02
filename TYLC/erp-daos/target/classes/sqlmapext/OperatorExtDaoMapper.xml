@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.qs.erp.daos.daoext.OperatorDaoExt">
+    <select id="GetPageByPageQueryParameters" resultType="Operator">
+        SELECT * FROM Operator
+        <where>
+            <if test="1==1">
+                TenantRowId=#{TenantRowId}
+            </if>
+            <if test="map.BeginDate!=null">AND CreateDate>=#{map.BeginDate}</if>
+            <if test="map.EndDate!=null">AND CreateDate&lt;=#{map.EndDate}</if>
+            <if test="map.IsEnabled!=null">AND IsEnabled=#{map.IsEnabled}</if>
+            <if test="map.Account!=null and map.Account!=''">AND Name LIKE CONCAT(#{map.Account},'%' )</if>
+        </where>
+        order by CreateDate desc limit #{map.BeginRowIndex},#{map.PageRowCount}
+    </select>
+    <select id="GetCountByPageQueryParameters" resultType="Long">
+        select count(*) from operator
+        <where>
+            <if test="1==1">
+                TenantRowId=#{TenantRowId}
+            </if>
+            <if test="map.BeginDate!=null">AND CreateDate>=#{map.BeginDate}</if>
+            <if test="map.EndDate!=null">AND CreateDate&lt;=#{map.EndDate}</if>
+            <if test="map.IsEnabled!=null">AND IsEnabled=#{map.IsEnabled}</if>
+            <if test="map.Name!=null and map.Name!=''">AND Name LIKE CONCAT(#{map.Name},'%' )</if>
+        </where>
+    </select>
+    <update id="Enabled">
+        update operator set IsEnabled=#{map.IsEnabled}
+        where TenantRowId=#{TenantRowId} and
+            RowId=#{map.RowId}
+    </update>
+    <select id="findByAccount" resultType="Operator">
+        select * from operator where account=#{Account} and TenantRowId=#{TenantRowId}
+    </select>
+    <select id="findPermissionsByRoles" resultType="java.util.HashMap">
+        SELECT DISTINCT SystemResource.Code FROM SystemResource
+        JOIN RoleSystemResource ON RoleSystemResource.`SystemResourceRowId`=SystemResource.`RowId`
+        WHERE RoleSystemResource.TenantRowId=#{TenantRowId}
+        <if test="map.ListRoleRowId!=null">
+            and RoleSystemResource.`RoleRowId` in
+            <foreach collection="map.ListRoleRowId" index="i" item="item" open="(" separator="," close=")">
+                #{item}
+            </foreach>
+        </if>
+    </select>
+    <select id="findRolesByRoles" resultType="java.util.HashMap">
+        SELECT Role.Code from Role where TenantRowId=#{TenantRowId} and RowId in
+        <foreach collection="map.ListRoleRowId" index="i" item="item" open="(" separator="," close=")">
+            #{item}
+        </foreach>
+    </select>
+    <select id="getSystemResourceByListRowId" resultType="java.util.HashMap">
+        SELECT DISTINCT SystemResource.*,CASE WHEN SystemResource.`ParentRowId`=0 THEN 'closed' ELSE 'open' END AS state
+        FROM SystemResource
+        JOIN RoleSystemResource ON RoleSystemResource.`SystemResourceRowId`=SystemResource.`RowId`
+        WHERE RoleSystemResource.TenantRowId=#{TenantRowId} and SystemResource.`TypeName`='menu' and SystemResource.IsCs=0
+        <if test="map.ListRoleRowId!=null">
+            AND RoleSystemResource.`RoleRowId` in
+            <foreach collection="map.ListRoleRowId" index="i" item="item" open="(" separator="," close=")">
+                #{item}
+            </foreach>
+        </if>
+        order by SystemResource.DisplayNum
+    </select>
+
+    <select id="getPdaSystemResourceByListRowId" resultType="java.util.HashMap">
+        SELECT DISTINCT SystemResource.*,CASE WHEN SystemResource.`ParentRowId`=0 THEN 'closed' ELSE 'open' END AS state
+        FROM SystemResource
+        JOIN RoleSystemResource ON RoleSystemResource.`SystemResourceRowId`=SystemResource.`RowId`
+        WHERE RoleSystemResource.TenantRowId=#{TenantRowId} and SystemResource.`TypeName`='pdaMenu' and SystemResource.IsCs=0
+        <if test="map.ListRoleRowId!=null">
+            AND RoleSystemResource.`RoleRowId` in
+            <foreach collection="map.ListRoleRowId" index="i" item="item" open="(" separator="," close=")">
+                #{item}
+            </foreach>
+        </if>
+        order by SystemResource.DisplayNum
+    </select>
+
+    <select id="getSystemResourceByListRowIdNoJCJM" resultType="java.util.HashMap">
+        SELECT DISTINCT SystemResource.*,CASE WHEN SystemResource.`ParentRowId`=0 THEN 'closed' ELSE 'open' END AS state
+        FROM SystemResource
+        JOIN RoleSystemResource ON RoleSystemResource.`SystemResourceRowId`=SystemResource.`RowId`
+        WHERE RoleSystemResource.TenantRowId=#{TenantRowId} and Code!="303105" and
+        SystemResource.`TypeName`='menu' and SystemResource.IsCs=0 AND RoleSystemResource.`RoleRowId` in
+        <foreach collection="map.ListRoleRowId" index="i" item="item" open="(" separator="," close=")">
+            #{item}
+        </foreach>
+        order by SystemResource.DisplayNum
+    </select>
+
+
+    <select id="getTenantResoure" resultType="java.util.HashMap">
+        SELECT DISTINCT SystemResource.*,CASE WHEN SystemResource.`ParentRowId`=0 THEN 'closed' ELSE  'open'  END AS state
+FROM  SystemResource where   rowid in (525130000025059328,559614700307152896,539619017273704448)
+    </select>
+
+    <select id="getOperatorList" resultType="Map">
+        SELECT operator.RowId,operator.Account,employee.Name,employee.PinYin FROM operator INNER JOIN employee ON
+        operator.RowId=employee.RowId
+        <where>
+            operator.TenantRowId=#{TenantRowId} and employee.TenantRowId=#{TenantRowId}
+            <if test="map.Account!=''">and operator.Account LIKE
+                CONCAT('%',#{map.Account},'%')
+            </if>
+        </where>
+        order by operator.Account desc limit #{map.BeginRowIndex},#{map.PageRowCount}
+    </select>
+    <select id="getOperatorCount" resultType="Long">
+        SELECT COUNT(*) FROM operator INNER JOIN employee ON
+        operator.RowId=employee.RowId
+        <where>
+            TenantRowId=#{TenantRowId}
+            <if test="map.Account!=''">and operator.Account LIKE
+                CONCAT('%',#{map.Account},'%')
+            </if>
+        </where>
+    </select>
+</mapper>

@@ -1,0 +1,2 @@
+function window_onerror(e,o,r,n,t){if(1!=ko.c8GetParentWindow().getLoginState())if(t){var s=t.name+t.message+t.stack;s||(s=t.statusText+t.responseText+t.responseText),alert(s)}else alert(e+o)}window.onerror=window_onerror;
+//# sourceMappingURL=global.js.map

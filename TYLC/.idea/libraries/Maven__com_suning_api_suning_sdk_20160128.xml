@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.suning.api:suning_sdk:20160128">
+    <CLASSES>
+      <root url="jar://D:/soft/maven/repository/com/suning/api/suning_sdk/20160128/suning_sdk-20160128.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://D:/soft/maven/repository/com/suning/api/suning_sdk/20160128/suning_sdk-20160128-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://D:/soft/maven/repository/com/suning/api/suning_sdk/20160128/suning_sdk-20160128-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,128 @@
+({
+    appDir: "../",
+    baseUrl: "./",
+    dir: "../public",
+    keepBuildDir: false,
+    optimizeCss: 'standard',
+    skipModuleInsertion: true,
+    removeCombined: true,
+    generateSourceMaps:true,
+    modules: [
+        {
+            name: 'core',
+            include: ['jquery-1.11.3.min', 'jquery.easyui.min', 'easyui-lang-zh_CN', 'knockout','knockout.mapping-latest',
+            'bootstrap.min','datagrid-detailview','String','Array','Date','c8formatter','c8help','reconnecting-websocket.min',
+            'knockoutExt','bootstrap-hover-dropdown.min','uploadPreview.min','FileSaver.min','ajaxfileUpAndDown.min',
+            'jquery-confirm.min','jquery.poshytip.min','city-picker','select2.full.min','select2.zh-CN','jquery.slimscroll-1.3.7',
+            'hotkeys.min','JqueryExt','EasyuiExt','c8GridPaginationModel','c8Grid', 'c8TreeGrid','c8Window','com.qiansheng.control',
+            'vm.Control.GridLayout','select2.control']
+        },
+        {
+            name:'control',
+            include:['vm.Control.MultiSelectProductModel','vm.Control.SelectDistributorModel','vm.Control.SelectSupplierModel',
+            'vm.Control.SelectSupplierTextModel','vm.Control.MultiSelectProductBatchModel','vm.Control.MultiSelectProductBatchInventoryModel',
+            'vm.Control.MultiSelectShopModel','vm.Control.SelectPurchaseOrderModel','vm.Control.SelectPurchaseReturnOrderModel',
+            'vm.Control.MultiSelectWarehousePositionModel','vm.Control.MultiSelectWarehouseModel','vm.Control.SelectVopOutWarehouseModel',
+            'vm.Control.MultiSelectRegionModel','vm.Control.MultiSelectOrderTypeModel','vm.Control.SelectWarehousePositionModel',
+            'vm.Control.SelectActiveLockModel','vm.Control.SelectUnApprovedSellOrderModel','vm.Control.SelectAccountModel',
+            'vm.Control.SelectVipModel','vm.Control.SelectExpressModel','vm.Control.SelectReturnChangedOrder','vm.Control.SelectWarehouseModel',
+            'vm.Control.SelectPositionModel','vm.Control.SelectFlagModel','vm.Control.SelectEmployeeModel','vm.Control.SelectPayTypeModel',
+            'vm.Control.SellOrderModel','vm.Control.SelectCostTypeModel','vm.Control.SelectProductSkuModel','vm.Control.SelectVopPickModel',
+            'vm.Control.SelectSeparateBoxWaveModel','vm.Control.MultiSelectProvinceModel','vm.Control.SelectPostPrintOrderWaveModel',
+            'vm.Control.SelectPostPrintOrder2WaveModel','vm.Control.SelectExpectDeliveryDate','vm.PostPrintOrder2.PickProductsPrint',
+            'vm.Control.ShowPostPrintOrder2RemainProducts','vm.Control.SelectInvoiceOrder','c8ControlExt','CaiNiaoPrintFuncs']
+        }
+    ],
+    fileExclusionRegExp: /^(\.|build|public|html|MyReport|MyReportDemo|QSContent|Sound|favicon|qs_favicon|jquery-3.1.0.min)/,
+    onBuildRead: function (moduleName, path, contents) {
+        if (moduleName === 'core'||moduleName === 'control') {
+            return '/* empty code */';
+        }
+        return contents;
+    }, paths: {
+        //easyui基础类库
+        "jquery-1.11.3.min": "./Content/js/jquery-1.11.3.min",
+        "jquery.easyui.min": "./Content/js/jquery-easyui-1.4.1/jquery.easyui.min",
+        "easyui-lang-zh_CN": "./Content/js/jquery-easyui-1.4.1/locale/easyui-lang-zh_CN",
+        "knockout": "./Content/js/Core/knockout-3.1.0",
+        "knockout.mapping-latest":"./Content/js/Core/knockout.mapping-latest",
+        "bootstrap.min":"./Content/bootstrap/3.3.5/js/bootstrap.min",
+        "datagrid-detailview":"./Content/js/jquery-easyui-1.4.1/plugins/datagrid-detailview",
+        //自定义帮助类
+        "String":"./Content/js/Core/String",
+        "Array":"./Content/js/Core/Array",
+        "Date":"./Content/js/Core/Date",
+        "c8formatter":"./Content/js/Core/c8formatter",
+        "c8help":"./Content/js/Core/c8help",
+        "reconnecting-websocket.min":"./Content/js/Core/reconnecting-websocket.min",
+        "knockoutExt":"./Content/js/Core/knockoutExt",
+        //bootstrap插件
+        "bootstrap-hover-dropdown.min":"./Content/js/bootstrap-ext/hover-dropdown/bootstrap-hover-dropdown.min",
+        //jquery插件
+        "uploadPreview.min":"./Content/js/jquery-ext/uploadPreview.min",
+        "FileSaver.min":"./Content/js/jquery-ext/filesaver/FileSaver.min",
+        "ajaxfileUpAndDown.min":"./Content/js/jquery-ext/ajaxfileUpAndDown.min",
+        "jquery-confirm.min":"./Content/js/jquery-ext/confirm/jquery-confirm.min",
+        "jquery.poshytip.min":"./Content/js/jquery-ext/poshytip/jquery.poshytip.min",
+        "city-picker":"./Content/js/jquery-ext/city-picker/city-picker",
+        "select2.full.min":"./Content/js/jquery-ext/select2/4.0.2/select2.full.min",
+        "select2.zh-CN":"./Content/js/jquery-ext/select2/4.0.2/i18n/zh-CN",
+        "jquery.slimscroll-1.3.7":"./Content/js/jquery-ext/jquery.slimscroll-1.3.7.min",
+        //"jquery.jqGrid.min":"./Content/js/jquery-ext/jqGrid/js/jquery.jqGrid.min",
+        //"grid.locale-cn":"./Content/js/jquery-ext/jqGrid/js/i18n/grid.locale-cn",
+        "hotkeys.min":"./Content/js/jquery-ext/hotkeys/hotkeys.min",
+        "JqueryExt":"./Content/js/jquery-ext/JqueryExt",
+        "EasyuiExt":"./Content/js/easyui-ext/EasyuiExt",
+        //自定义js控件
+        "c8GridPaginationModel":"./ViewJSModels/base/c8GridPaginationModel",
+        "c8Grid":"./ViewJSModels/base/c8Grid",
+        "c8TreeGrid":"./ViewJSModels/base/c8TreeGrid",
+        "c8Window":"./ViewJSModels/base/c8Window",
+        "com.qiansheng.control":"./ViewJSModels/base/com.qiansheng.control",
+        "vm.Control.GridLayout":"./ViewJSModels/base/c8Control/vm.Control.GridLayout",
+        "select2.control":"./ViewJSModels/base/select2.control",
+
+        //自定义js控件
+        "vm.Control.MultiSelectProductModel":"./ViewJSModels/base/c8Control/vm.Control.MultiSelectProductModel",
+        "vm.Control.SelectDistributorModel":"./ViewJSModels/base/c8Control/vm.Control.SelectDistributorModel",
+        "vm.Control.SelectSupplierModel":"./ViewJSModels/base/c8Control/vm.Control.SelectSupplierModel",
+        "vm.Control.SelectSupplierTextModel":"./ViewJSModels/base/c8Control/vm.Control.SelectSupplierTextModel",
+        "vm.Control.MultiSelectProductBatchModel":"./ViewJSModels/base/c8Control/vm.Control.MultiSelectProductBatchModel",
+        "vm.Control.MultiSelectProductBatchInventoryModel":"./ViewJSModels/base/c8Control/vm.Control.MultiSelectProductBatchInventoryModel",
+        "vm.Control.MultiSelectShopModel":"./ViewJSModels/base/c8Control/vm.Control.MultiSelectShopModel",
+        "vm.Control.SelectPurchaseOrderModel":"./ViewJSModels/base/c8Control/vm.Control.SelectPurchaseOrderModel",
+        "vm.Control.SelectPurchaseReturnOrderModel":"./ViewJSModels/base/c8Control/vm.Control.SelectPurchaseReturnOrderModel",
+        "vm.Control.MultiSelectWarehousePositionModel":"./ViewJSModels/base/c8Control/vm.Control.MultiSelectWarehousePositionModel",
+        "vm.Control.MultiSelectWarehouseModel":"./ViewJSModels/base/c8Control/vm.Control.MultiSelectWarehouseModel",
+        "vm.Control.SelectVopOutWarehouseModel":"./ViewJSModels/base/c8Control/vm.Control.SelectVopOutWarehouseModel",
+        "vm.Control.MultiSelectRegionModel":"./ViewJSModels/base/c8Control/vm.Control.MultiSelectRegionModel",
+        "vm.Control.MultiSelectOrderTypeModel":"./ViewJSModels/base/c8Control/vm.Control.MultiSelectOrderTypeModel",
+        "vm.Control.SelectWarehousePositionModel":"./ViewJSModels/base/c8Control/vm.Control.SelectWarehousePositionModel",
+        "vm.Control.SelectActiveLockModel":"./ViewJSModels/base/c8Control/vm.Control.SelectActiveLockModel",
+        "vm.Control.SelectUnApprovedSellOrderModel":"./ViewJSModels/base/c8Control/vm.Control.SelectUnApprovedSellOrderModel",
+        "vm.Control.SelectAccountModel":"./ViewJSModels/base/c8Control/vm.Control.SelectAccountModel",
+        "vm.Control.SelectVipModel":"./ViewJSModels/base/c8Control/vm.Control.SelectVipModel",
+        "vm.Control.SelectExpressModel":"./ViewJSModels/base/c8Control/vm.Control.SelectExpressModel",
+        "vm.Control.SelectReturnChangedOrder":"./ViewJSModels/base/c8Control/vm.Control.SelectReturnChangedOrder",
+        "vm.Control.SelectWarehouseModel":"./ViewJSModels/base/c8Control/vm.Control.SelectWarehouseModel",
+        "vm.Control.SelectPositionModel":"./ViewJSModels/base/c8Control/vm.Control.SelectPositionModel",
+        "vm.Control.SelectFlagModel":"./ViewJSModels/base/c8Control/vm.Control.SelectFlagModel",
+        "vm.Control.SelectEmployeeModel":"./ViewJSModels/base/c8Control/vm.Control.SelectEmployeeModel",
+        "vm.Control.SelectPayTypeModel":"./ViewJSModels/base/c8Control/vm.Control.SelectPayTypeModel",
+        "vm.Control.SellOrderModel":"./ViewJSModels/base/c8Control/vm.Control.SellOrderModel",
+        "vm.Control.SelectCostTypeModel":"./ViewJSModels/base/c8Control/vm.Control.SelectCostTypeModel",
+        "vm.Control.SelectProductSkuModel":"./ViewJSModels/base/c8Control/vm.Control.SelectProductSkuModel",
+        "vm.Control.SelectVopPickModel":"./ViewJSModels/base/c8Control/vm.Control.SelectVopPickModel",
+        "vm.Control.SelectSeparateBoxWaveModel":"./ViewJSModels/base/c8Control/vm.Control.SelectSeparateBoxWaveModel",
+        "vm.Control.MultiSelectProvinceModel":"./ViewJSModels/base/c8Control/vm.Control.MultiSelectProvinceModel",
+        "vm.Control.SelectPostPrintOrderWaveModel":"./ViewJSModels/base/c8Control/vm.Control.SelectPostPrintOrderWaveModel",
+        "vm.Control.SelectPostPrintOrder2WaveModel":"./ViewJSModels/base/c8Control/vm.Control.SelectPostPrintOrder2WaveModel",
+        "vm.Control.SelectExpectDeliveryDate":"./ViewJSModels/base/c8Control/vm.Control.SelectExpectDeliveryDate",
+        "vm.PostPrintOrder2.PickProductsPrint":"./ViewJSModels/PostPrintOrder2/vm.PostPrintOrder2.PickProductsPrint",
+        "vm.Control.ShowPostPrintOrder2RemainProducts":"./ViewJSModels/base/c8Control/vm.Control.ShowPostPrintOrder2RemainProducts",
+        "vm.Control.SelectInvoiceOrder":"./ViewJSModels/base/c8Control/vm.Control.SelectInvoiceOrder",
+        "c8ControlExt":"./ViewJSModels/base/c8ControlExt",
+        "CaiNiaoPrintFuncs":"./Content/js/CaiNiaoPrintFuncs"
+    }
+
+})

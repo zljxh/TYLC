@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:util="http://www.springframework.org/schema/util"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+           http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+            http://www.springframework.org/schema/util
+               http://www.springframework.org/schema/util/spring-util-3.0.xsd
+           http://www.springframework.org/schema/context
+           http://www.springframework.org/schema/context/spring-context-3.1.xsd">
+
+    <!--DaoCreateMethodInterceptor-->
+     <bean id="daoCreateMethodInterceptor" class="com.qs.erp.services.common.AopInterceptor.DaoCreateMethodInterceptor"></bean>
+    <bean id="daoCreateMethodAdvisor" class="org.springframework.aop.support.RegexpMethodPointcutAdvisor">
+        <property name="advice" ref="daoCreateMethodInterceptor"/>
+        <property name="patterns">
+            <list>
+                <value>.*Create</value>
+            </list>
+        </property>
+    </bean>
+
+    <bean id="daoUpdateMethodInterceptor" class="com.qs.erp.services.common.AopInterceptor.DaoUpdateMethodInterceptor"></bean>
+    <bean id="daoUpdateMethodAdvisor" class="org.springframework.aop.support.RegexpMethodPointcutAdvisor">
+        <property name="advice" ref="daoUpdateMethodInterceptor"/>
+        <property name="patterns">
+            <list>
+                <value>.*Update</value>
+            </list>
+        </property>
+    </bean>
+
+    <bean id="daoDeleteMethodInterceptor" class="com.qs.erp.services.common.AopInterceptor.DaoDeleteMethodInterceptor"></bean>
+    <bean id="daoDeleteMethodAdvisor" class="org.springframework.aop.support.RegexpMethodPointcutAdvisor">
+        <property name="advice" ref="daoDeleteMethodInterceptor"/>
+        <property name="patterns">
+            <list>
+                <value>.*Delete</value>
+            </list>
+        </property>
+    </bean>
+
+
+    <bean  id="daoGetMethodInterceptor" class="com.qs.erp.services.common.AopInterceptor.DaoGetMethodInterceptor"></bean>
+    <bean id="daoGetMethodAdvisor" class="org.springframework.aop.support.RegexpMethodPointcutAdvisor">
+        <property name="advice" ref="daoGetMethodInterceptor"/>
+        <property name="patterns">
+            <list>
+                <value>.*Get</value>
+            </list>
+        </property>
+    </bean>
+
+    <bean id="daoMethodbeanNameAutoProxyCreator" class="org.springframework.aop.framework.autoproxy.BeanNameAutoProxyCreator">
+        <property name="beanNames" ref="daoProxyList">
+        </property>
+        <property name="interceptorNames">
+            <list>
+                <value>daoCreateMethodAdvisor</value>
+                <value>daoUpdateMethodAdvisor</value>
+                <value>daoDeleteMethodAdvisor</value>
+                <value>daoGetMethodAdvisor</value>
+            </list>
+        </property>
+    </bean>
+</beans>

@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+    http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+    http://www.springframework.org/schema/context
+    http://www.springframework.org/schema/context/spring-context-3.1.xsd">
+    <context:property-placeholder location="config/scheduler.properties" ignore-unresolvable="true"/>
+    <bean id="triggerAutoAuditOrder" class="org.springframework.scheduling.quartz.CronTriggerBean">
+        <property name="jobDetail" ref="jobMethodInvokingAutoAuditOrder"/>
+        <!--每五分钟执行一次-->
+        <property name="cronExpression" value="${scheduler_AutoAuditOrder.cronExpression}"/>
+    </bean>
+    <bean id="triggerWmsApiOutWarehouse" class="org.springframework.scheduling.quartz.CronTriggerBean">
+        <property name="jobDetail" ref="jobMethodInvokingWmsApiOutWarehouse"/>
+        <!--每五分钟执行一次-->
+        <property name="cronExpression" value="${scheduler_AutoAuditOrder.cronExpression}"/>
+    </bean>
+    <bean id="triggerWmsApiInWarehouse" class="org.springframework.scheduling.quartz.CronTriggerBean">
+        <property name="jobDetail" ref="jobMethodInvokingWmsApiInWarehouse"/>
+        <!--每五分钟执行一次-->
+        <property name="cronExpression" value="${scheduler_AutoAuditOrder.cronExpression}"/>
+    </bean>
+    <bean id="triggerNoramlDispatchOrderGrap" class="org.springframework.scheduling.quartz.CronTriggerBean">
+        <property name="jobDetail" ref="jobMethodInvokingNoramlDispatchOrderGrap"/>
+        <!--每五分钟执行一次-->
+        <property name="cronExpression" value="${scheduler_NoramlDispatchOrderGrap.cronExpression}"/>
+        <property name="startDelay" value="30000"></property>
+    </bean>
+    <bean id="triggerDispatchOrder" class="org.springframework.scheduling.quartz.CronTriggerBean">
+        <property name="jobDetail" ref="jobMethodInvokingDispatchOrder"/>
+        <!--每五分钟执行一次-->
+        <property name="cronExpression" value="${scheduler_DispatchOrder.cronExpression}"/>
+        <property name="startDelay" value="30000"></property>
+    </bean>
+    <bean id="triggerAutoDownloadOrder" class="org.springframework.scheduling.quartz.CronTriggerBean">
+        <property name="jobDetail" ref="jobethodInvokingAutoDownloadOrder"/>
+        <!--每60执行一次-->
+        <property name="cronExpression" value="${scheduler_AutoDownloadOrder.cronExpression}"/>
+    </bean>
+    <!--<bean id="triggerNoramlDeliveryOrderGrap" class="org.springframework.scheduling.quartz.CronTriggerBean">-->
+        <!--<property name="jobDetail" ref="jobethodInvokingobNoramlDeliveryOrderGrap"/>-->
+        <!--&lt;!&ndash;每五分钟执行一次&ndash;&gt;-->
+        <!--<property name="cronExpression" value="${scheduler_NoramlDeliveryOrderGrap.cronExpression}"/>-->
+        <!--<property name="startDelay" value="30000"></property>-->
+    <!--</bean>-->
+    <bean id="triggerPlatFormDelivery" class="org.springframework.scheduling.quartz.CronTriggerBean">
+        <property name="jobDetail" ref="jobMethodJobPlatFormDelivery"/>
+        <!--每一分钟执行一次-->
+        <property name="cronExpression" value="${scheduler_PlatFormDelivery.cronExpression}"/>
+        <property name="startDelay" value="30000"></property>
+    </bean>
+    <bean id="triggerPlatUpdateStock" class="org.springframework.scheduling.quartz.CronTriggerBean">
+        <property name="jobDetail" ref="jobMethodJobPlatUpdateStock"/>
+        <!--每一分钟执行一次-->
+        <property name="cronExpression" value="${scheduler_PlatUpdateStock.cronExpression}"/>
+        <property name="startDelay" value="30000"></property>
+    </bean>
+    <bean id="triggerTradeUpdateMemo" class="org.springframework.scheduling.quartz.CronTriggerBean">
+        <property name="jobDetail" ref="jobMethodTradeUpdateMemo"/>
+        <!--每一分钟执行一次-->
+        <property name="cronExpression" value="${scheduler_TradeUpdateMemo.cronExpression}"/>
+        <property name="startDelay" value="30000"></property>
+    </bean>
+    <bean id="triggerQueueService" class="org.springframework.scheduling.quartz.CronTriggerBean">
+        <property name="jobDetail" ref="myJobQueueService"/>
+        <!--每一分钟执行一次-->
+        <property name="cronExpression" value="${scheduler_QueueService.cronExpression}"/>
+        <property name="startDelay" value="30000"></property>
+    </bean>
+    <bean id="triggerPushWmsOrder" class="org.springframework.scheduling.quartz.CronTriggerBean">
+        <property name="jobDetail" ref="jobMethodInvokingPushWmsOrder"/>
+        <!--每五分钟执行一次-->
+        <property name="cronExpression" value="${scheduler_PushWmsOrder.cronExpression}"/>
+    </bean>
+    <bean id="triggerPushTenantPerformance" class="org.springframework.scheduling.quartz.CronTriggerBean">
+        <property name="jobDetail" ref="jobMethodPushTenantPerformance"/>
+        <property name="cronExpression" value="${scheduler_PushTenantPerformance.cronExpression}"/>
+    </bean>
+    <!--退款单-->
+    <bean id="triggerAutoDownloadRefundOrder" class="org.springframework.scheduling.quartz.CronTriggerBean">
+        <property name="jobDetail" ref="jobMethodInvokingAutoDownloadRefundOrder"/>
+        <!--每五分钟执行一次-->
+        <property name="cronExpression" value="${scheduler_AutoDownloadRefundOrder.cronExpression}"/>
+    </bean>
+    <!--自动发短信-->
+    <bean id="triggerSendMessage" class="org.springframework.scheduling.quartz.CronTriggerBean">
+        <property name="jobDetail" ref="jobMethodInvokingSendMessage"/>
+        <!--每五分钟执行一次-->
+        <property name="cronExpression" value="${scheduler_SendMessage.cronExpression}"/>
+    </bean>
+  <!--  &lt;!&ndash;京东自动下载商品列表&ndash;&gt;
+    <bean id="triggerJingDongPlatProductDownListTask" class="org.springframework.scheduling.quartz.CronTriggerBean">
+        <property name="jobDetail" ref="jingDongPlatProductDownListTask"/>
+        &lt;!&ndash;每五分钟执行一次&ndash;&gt;
+        <property name="cronExpression" value="${scheduler_JingDongProductDownList.cronExpression}"/>
+    </bean>
+    &lt;!&ndash;京东自动下载单个商品&ndash;&gt;
+    <bean id="triggerJingDongPlatProductDownTask" class="org.springframework.scheduling.quartz.CronTriggerBean">
+        <property name="jobDetail" ref="jingDongPlatProductDownTask"/>
+        &lt;!&ndash;每五分钟执行一次&ndash;&gt;
+        <property name="cronExpression" value="${scheduler_JingDongProductDown.cronExpression}"/>
+    </bean>-->
+    <!-- 一单一货自动创建采购入库单并入库-->
+    <bean id="triggerCreatePurcharseInOrder" class="org.springframework.scheduling.quartz.CronTriggerBean">
+        <property name="jobDetail" ref="createPurcharseInOrder"/>
+        <!--每30分钟执行一次-->
+        <property name="cronExpression" value="${scheduler_CreatePurcharseInOrder.cronExpression}"/>
+    </bean>
+    <bean id="triggerOrderGetWayBillTaskService" class="org.springframework.scheduling.quartz.CronTriggerBean">
+        <property name="jobDetail" ref="orderGetWayBillTaskService"/>
+        <!--每五分钟执行一次-->
+        <property name="cronExpression" value="${scheduler_OrderGetWayBillTaskService.cronExpression}"/>
+    </bean>
+    <bean id="triggerDayReportCreateService" class="org.springframework.scheduling.quartz.CronTriggerBean">
+        <property name="jobDetail" ref="dayReportCreateService"/>
+        <!--每天2点执行一次-->
+        <property name="cronExpression" value="${scheduler_DayReportCreateService.cronExpression}"/>
+    </bean>
+    <bean id="triggerEmployeePerformanceReportCreateService" class="org.springframework.scheduling.quartz.CronTriggerBean">
+        <property name="jobDetail" ref="employeePerformanceReportCreateService"/>
+        <property name="cronExpression" value="${scheduler_EmployeePerformanceReportCreateService.cronExpression}"/>
+    </bean>
+
+      <bean id="triggerMonthReportCreateService" class="org.springframework.scheduling.quartz.CronTriggerBean">
+        <property name="jobDetail" ref="monthReportCreateService"/>
+        <!--每月1号4点执行一次-->
+        <property name="cronExpression" value="${scheduler_MonthReportCreateService.cronExpression}"/>
+    </bean>
+    <bean id="triggerOrderSpScanCreatePurcharseInOrder" class="org.springframework.scheduling.quartz.CronTriggerBean">
+        <property name="jobDetail" ref="orderSpScanCreatePurcharseInOrder"/>
+        <!--每30分钟执行一次-->
+        <property name="cronExpression" value="${scheduler_OrderSpScanCreatePurcharseInOrder.cronExpression}"/>
+    </bean>
+    <bean id="triggerRenTianDownTaskService" class="org.springframework.scheduling.quartz.CronTriggerBean">
+        <property name="jobDetail" ref="productRenTianDownTaskService"/>
+        <property name="cronExpression" value="${scheduler_RenTianSpCreateUpdateInventory.cronExpression}"/>
+    </bean>
+    <bean id="triggerRunOrderHandleReportService" class="org.springframework.scheduling.quartz.CronTriggerBean">
+        <property name="jobDetail" ref="jobRunOrderHandleReportService"/>
+        <property name="cronExpression" value="${scheduler_CreateOrderHandleReportInfo.cronExpression}"/>
+    </bean>
+    <bean id="triggerAutoDownLoadPlatOrderService" class="org.springframework.scheduling.quartz.CronTriggerBean">
+        <property name="jobDetail" ref="jobDownLoadPlatOrderService"/>
+        <!--每五分钟执行一次-->
+        <property name="cronExpression" value="${scheduler_SendMessage.cronExpression}"/>
+    </bean>
+    <bean id="triggerAutoHandleDataTask" class="org.springframework.scheduling.quartz.CronTriggerBean">
+        <property name="jobDetail" ref="jobMethodInvokingAutoHandleDataTask"/>
+        <!--早上两点半分钟执行一次-->
+        <property name="cronExpression" value="${scheduler_AutoHandleData.cronExpression}"/>
+    </bean>
+
+    <bean id="triggerAutoHandleQimenEventsProduceTask" class="org.springframework.scheduling.quartz.CronTriggerBean">
+        <property name="jobDetail" ref="jobAutoHandleQimenEventsProduceTask"/>
+        <!--每一分钟执行一次-->
+        <property name="cronExpression" value="${scheduler_AutoHandleQimenEventsProduceTask.cronExpression}"/>
+    </bean>
+
+    <bean id="triggerAutoHandleDataPerMinTask" class="org.springframework.scheduling.quartz.CronTriggerBean">
+        <property name="jobDetail" ref="jobMethodInvokingAutoHandleDataPreMinTask"/>
+        <!--自动整理数据每分钟处理版本(目前有自动解锁设置有解锁时间的订单)-->
+        <property name="cronExpression" value="${scheduler_AutoHandleDataPerMin.cronExpression}"/>
+    </bean>
+</beans>

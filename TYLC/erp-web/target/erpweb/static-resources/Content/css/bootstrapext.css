@@ -1,0 +1,345 @@
+/* ==================================================================
+ *全局设置，覆盖bootstrap的默认配置
+ * ================================================================== */
+body {
+    font-size: 12px;
+}
+
+label {
+    font-weight: normal;
+    margin-bottom: 0px;
+}
+
+* {
+    webkit-box-sizing: inherit;
+    /*box-sizing: inherit;*/
+}
+
+.panel {
+    margin-bottom: 0px;
+}
+
+.panel-body {
+    padding: 0px;
+}
+
+.form-inline .form-group {
+    margin-bottom: 3px;
+}
+
+.form-group {
+    margin-bottom: 3px;
+}
+
+.modal-body {
+    padding: 10px;
+}
+
+.modal-header {
+    padding: 5px 10px;
+}
+
+.modal-footer {
+    padding: 5px 10px;
+}
+
+.modal-header .close {
+    margin-bottom: 0px;
+}
+
+.container-fluid {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.row {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
+    padding-left: 0px;
+    padding-right: 0px;
+    /*border: 1px solid #e1e1e8;*/
+}
+
+.datagrid-row-selected {
+    background: #CCE6FF;
+    color: #000;
+}
+
+/* ==================================================================
+ *多级菜单
+ * ================================================================== */
+.dropdown-submenu {
+    font-size: 13px;
+    position: relative;
+}
+
+.dropdown-menu {
+    font-size: 13px;
+}
+
+.dropdown-submenu > .dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-top: -6px;
+    margin-left: -1px;
+    -webkit-border-radius: 0 6px 6px 6px;
+    -moz-border-radius: 0 6px 6px;
+    border-radius: 0 6px 6px 6px;
+}
+
+.dropdown-submenu:hover > .dropdown-menu {
+    display: block;
+}
+
+.dropdown-submenu > a:after {
+    display: block;
+    content: " ";
+    float: right;
+    width: 0;
+    height: 0;
+    border-color: transparent;
+    border-style: solid;
+    border-width: 5px 0 5px 5px;
+    border-left-color: #ccc;
+    margin-top: 5px;
+    margin-right: -10px;
+}
+
+.dropdown-submenu:hover > a:after {
+    border-left-color: #fff;
+}
+
+.dropdown-submenu.pull-left {
+    float: none;
+}
+
+.dropdown-submenu.pull-left > .dropdown-menu {
+    left: -100%;
+    margin-left: 10px;
+    -webkit-border-radius: 6px 0 6px 6px;
+    -moz-border-radius: 6px 0 6px 6px;
+    border-radius: 6px 0 6px 6px;
+}
+
+/*多级菜单结束*/
+
+/* ==================================================================
+ *Tabext选项卡扩展
+ * ================================================================== */
+.tab-content {
+    padding: 0 5px;
+}
+
+.nav-tabs > li .close {
+    margin: 0px -5px 0px 10px;
+    padding: 0px 2px;
+    float: right;
+    cursor: pointer;
+    font-size: 17px;
+}
+
+.nav-tabs > li a[data-toggle=tab] {
+    float: left !important;
+}
+
+.nav > li > a {
+    padding: 3px 10px;
+}
+
+/* ==================================================================
+ *系统通用css设置
+ * ================================================================== */
+/*系统按钮*/
+.btn-customer, .btn-group-customer > .btn {
+    padding: 3.5px 10px;
+    font-size: 13px;
+    line-height: 1.5;
+    border-radius: 3px;
+}
+
+/*系统按钮*/
+
+/*系统行布局相关*/
+.row-customer {
+    padding-bottom: 2px;
+    /*margin-bottom: 2px;*/
+    background-color: #f9f9f9;
+    /*float: left;
+    width: 100%;*/
+}
+
+.container-fullHeight {
+    height: 100%;
+}
+
+.row-fullHeight {
+    height: 100%;
+    width: 100%;
+}
+
+.col-fullHeight {
+    height: 100%;
+}
+
+.row-autoHeight {
+}
+
+/*系统行布局相关*/
+
+/* ==================================================================
+ *主界面css设置
+ * ================================================================== */
+/*查询条件输入框*/
+.input-search {
+    height: 24px;
+    padding: 1px 1px;
+    font-size: 12px;
+    line-height: 1.5;
+    border-radius: 3px;
+}
+
+/*查询条件输入框*/
+
+/*查询条件按钮*/
+.btn-search {
+    height: 24px;
+    width: 80px;
+    padding: 1px 5px;
+    font-size: 13px;
+    line-height: 1.5;
+    border-radius: 3px;
+}
+
+/*查询条件按钮*/
+
+/* ==================================================================
+ *编辑界面css设置
+ * ================================================================== */
+/*编辑输入框*/
+.input-edit {
+    height: 24px;
+    padding: 1px 1px;
+    font-size: 12px;
+    line-height: 1.5;
+    border-radius: 5px;
+}
+
+.form-group-edit > div > .form-control {
+    height: 24px;
+    padding: 1px 1px;
+    font-size: 12px;
+    line-height: 1.5;
+    border-radius: 3px;
+}
+
+/*编辑输入框*/
+
+/*编辑页面label*/
+.form-group-edit > div > label {
+    width: 100px;
+    text-align: right;
+}
+
+/*编辑页面label*/
+
+/*编辑输入框的按钮*/
+.btn-input {
+    padding: 1.5px 4px;
+    font-size: 12px;
+    /*line-height: 1.5;*/
+    border-radius: 3px;
+}
+
+/*编辑输入框的按钮*/
+/*弹出框的边框*/
+.jconfirm-box-container {
+    border: 0px;
+}
+
+/*弹出框的边框*/
+
+/* ==================================================================
+ *字体颜色
+ * ================================================================== */
+.fa-plus {
+    color: #5cb85c;
+}
+
+.fa-pencil-square-o {
+    color: #5cb85c;
+}
+
+.fa-check-square-o {
+    color: #5cb85c;
+}
+
+.fa-clone {
+    color: #5cb85c;
+}
+
+.fa-arrow-circle-o-down {
+    color: #5cb85c;
+}
+
+.fa-undo {
+    color: #d9534f;
+}
+
+.fa-print {
+    color: #337ab7;
+}
+
+.fa-stop-circle-o {
+    color: #d9534f;
+}
+
+.fa-save {
+    color: #5cb85c;
+}
+.fa-floppy-o {
+    color: #5cb85c;
+}
+
+.fa-remove {
+    color: #d9534f;
+}
+.fa-times{
+    color: #d9534f;
+}
+
+.fa-search {
+    color: #337ab7;
+}
+
+.fa-trash-o:before {
+    color: #d9534f;
+}
+
+.fa-tasks {
+    color: #337ab7;
+}
+
+.fa-archive {
+    color: #5bc0de;
+}
+.fa-cut {
+    color: #5bc0de;
+}
+.fa-scissors{
+    color: #5bc0de;
+}
+.fa-toggle-on{
+    color: #5cb85c;
+}
+.fa-toggle-off{
+    color: #5cb85c;
+}
+.fa-upload{
+    color: #5bc0de;
+}
+.fa-download{
+    color: #5bc0de;
+}

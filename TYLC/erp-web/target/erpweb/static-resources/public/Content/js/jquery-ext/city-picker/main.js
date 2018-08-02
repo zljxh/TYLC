@@ -1,0 +1,2 @@
+$(function(){"use strict";var c=$("#city-picker1");c.citypicker(),$("#reset").click(function(){c.citypicker("reset")}),$("#set").click(function(){c.citypicker("setText","����ʡ/������/������")}),$("#show").click(function(){var e=[];c.citypicker("getValue",e),$.each(e,function(c,e){alert(e.code+e.address)})})});
+//# sourceMappingURL=main.js.map

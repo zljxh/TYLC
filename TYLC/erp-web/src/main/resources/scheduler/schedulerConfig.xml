@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <import resource="classpath*:scheduler/job.xml"/>
+    <!--调度作业配置-->
+    <import resource="classpath*:scheduler/trigger.xml"/>
+    <!--调度触发器配置-->
+    <bean id="schedulerFactoryBean" class="org.springframework.scheduling.quartz.SchedulerFactoryBean"
+          destroy-method="destroy">
+        <property name="triggers">
+            <list>
+                <!--自动审单子-->
+                <ref bean="triggerAutoAuditOrder"/>
+                <!-- wmsapi自动出库-->
+                <ref bean="triggerWmsApiOutWarehouse"/>
+                <!-- wmsapi退货自动入库-->
+                <ref bean="triggerWmsApiInWarehouse"/>
+                <!--自动下单-->
+                <ref bean="triggerAutoDownloadOrder"></ref>
+                <!--配货服务-->
+                <ref bean="triggerDispatchOrder"/>
+                <!--自动配货抓单停掉-->
+                <ref bean="triggerNoramlDispatchOrderGrap"/>
+
+                <!--平台发货服务-->
+                <!--<ref bean="triggerNoramlDeliveryOrderGrap"/>-->
+                <ref bean="triggerPlatFormDelivery"/>
+
+                <!--上传库存服务-->
+                <ref bean="triggerPlatUpdateStock"/>
+
+                <!--更新订单备注服务-->
+                <ref bean="triggerTradeUpdateMemo"/>
+
+                <!--内存服务注服务-->
+                <ref bean="triggerQueueService"/>
+
+                <!--奇门自动推送服务-->
+                <ref bean="triggerPushWmsOrder"/>
+
+                <!--性能自动推送服务-->
+                <ref bean="triggerPushTenantPerformance"/>
+                <!--自动下载退款单-->
+                <ref bean="triggerAutoDownloadRefundOrder"/>
+                <!--自动发短信-->
+                <ref bean="triggerSendMessage"/>
+               <!-- &lt;!&ndash;京东自动下载商品列表&ndash;&gt;
+                <ref bean="triggerJingDongPlatProductDownListTask"/>
+                &lt;!&ndash;京东自动下载单个商品&ndash;&gt;
+                <ref bean="triggerJingDongPlatProductDownTask"/>-->
+                <!--一单一货自动创建采购入库单并入库-->
+                <ref bean="triggerCreatePurcharseInOrder"/>
+                <ref bean="triggerOrderGetWayBillTaskService"/>
+
+                <!--自动创建日进销存、月进销存-->
+                <ref bean="triggerDayReportCreateService"/>
+                <ref bean="triggerMonthReportCreateService"/>
+                <!--自动创建员工绩效统计-->
+                <!--<ref bean="triggerEmployeePerformanceReportCreateService"/>-->
+                <!--商品分拣自动创建采购入库单并入库-->
+                <ref bean="triggerOrderSpScanCreatePurcharseInOrder"/>
+                <!-- 人天商品自动下载 -->
+                <ref bean="triggerRenTianDownTaskService"></ref>
+                <!-- 自动创建订单处理报表 -->
+                <ref bean="triggerRunOrderHandleReportService"></ref>
+                <!-- 自动下载平台订单-->
+                <ref bean="triggerAutoDownLoadPlatOrderService"></ref>
+                <!-- 自动整理数据每天两点半-->
+                <ref bean="triggerAutoHandleDataTask"></ref>
+                <!--订单全链路监控产品接入:自动批量发送奇门事件-->
+                <ref bean="triggerAutoHandleQimenEventsProduceTask"></ref>
+                <!--自动整理数据每分钟版本-->
+                <ref bean="triggerAutoHandleDataPerMinTask"></ref>
+            </list>
+        </property>
+        <property name="globalJobListeners">
+            <list>
+                <ref bean="myJobListener"></ref>
+            </list>
+        </property>
+        <!--javamelody监控quartz-->
+        <!--<property name="exposeSchedulerInRepository" value="true" />-->
+    </bean>
+</beans>

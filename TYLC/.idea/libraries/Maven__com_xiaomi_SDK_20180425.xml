@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.xiaomi:SDK:20180425">
+    <CLASSES>
+      <root url="jar://D:/soft/maven/repository/com/xiaomi/SDK/20180425/SDK-20180425.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://D:/soft/maven/repository/com/xiaomi/SDK/20180425/SDK-20180425-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://D:/soft/maven/repository/com/xiaomi/SDK/20180425/SDK-20180425-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

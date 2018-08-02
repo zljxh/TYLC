@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.qs.erp.daos.dao.SystemResourceDao">
+    <resultMap id="ResultMap" type="SystemResource">
+
+    </resultMap>
+
+    <select id="GetList" resultMap="ResultMap">
+        select
+        *
+        from SystemResource
+    </select>
+    <select id="Get" resultMap="ResultMap">
+        select * from SystemResource where RowId=#{RowId}
+    </select>
+
+    <update id="Update">
+        update SystemResource
+        set
+        Code=#{Code}
+        ,Name=#{Name}
+        ,TypeName=#{TypeName}
+        ,PathName=#{PathName}
+        ,ParentRowId=#{ParentRowId}
+        ,ParentRowIds=#{ParentRowIds}
+        ,Permission=#{Permission}
+        ,IsEnabled=#{IsEnabled}
+        ,Pinyin=#{Pinyin}
+        ,FullCode=#{FullCode}
+        ,DisplayNum=#{DisplayNum}
+        ,DropdownType=#{DropdownType}
+        ,TypeStatus=#{TypeStatus}
+        where RowId=#{RowId}
+    </update>
+
+    <delete id="Delete">
+        delete from  SystemResource
+        where RowId=#{RowId}
+
+    </delete>
+
+    <insert id="Create">
+        INSERT INTO SystemResource
+        (
+      
+              RowId,
+              Code,
+              Name,
+              TypeName,
+              PathName,
+              ParentRowId,
+              ParentRowIds,
+              Permission,
+              IsEnabled,
+              Pinyin,
+              FullCode,
+              DisplayNum,
+              DropdownType,
+              IsCS,
+              AssemblyPath,
+              TypeStatus
+        
+        )
+        VALUES(
+              #{RowId},
+              #{Code},
+              #{Name},
+              #{TypeName},
+              #{PathName},
+              #{ParentRowId},
+              #{ParentRowIds},
+              #{Permission},
+              #{IsEnabled},
+              #{Pinyin},
+              #{FullCode},
+              #{DisplayNum},
+              #{DropdownType},
+              #{IsCS},
+              #{AssemblyPath},
+              #{TypeStatus}
+        )
+    </insert>
+
+</mapper>

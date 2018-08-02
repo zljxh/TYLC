@@ -1,0 +1,346 @@
+body {
+    font-size: 12px;
+    font-family: "Microsoft Yahei", "Segoe UI", "SimSun", "Arial Narrow", HELVETICA;
+    background-color: #D2E0F2
+}
+
+/*a{color:Black; text-decoration:none;}*/
+a {
+    color: #01a9ed;
+    text-decoration: none;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+    border-width: 0;
+}
+
+a:hover {
+    color: Red;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+input[readonly="true"] {
+    background-color: #AAAAAA;
+}
+
+input::-ms-clear {
+    display: none;
+}
+
+.datagrid-header .datagrid-cell span {
+    font-size: 13px;
+}
+
+.easyui-linkbutton .l-btn-icon-left span {
+    /*font-weight: bold;*/
+    font-size: 13px;
+}
+
+.easyui-menubutton .l-btn-icon-left span {
+    /*font-weight: bold;*/
+    font-size: 13px;
+}
+
+.tabs-selected span {
+    font-size: 13px;
+}
+
+.window {
+    border-width: 0px;
+    padding-top: 2px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.window-header {
+    margin-top: 2px;
+}
+
+.window-mask {
+    opacity: 0.5;
+}
+
+.datagrid-cell, .datagrid-cell-group, .datagrid-header-rownumber, .datagrid-cell-rownumber {
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+}
+
+.datagrid-header-row td {
+    /*background-color: #dff0d8;*/
+    background-color: rgba(223, 240, 216, 0.85);
+}
+
+.toolbar-separator {
+    cursor: default;
+    width: 4px;
+    height: 22px;
+    background: url("/Content/images/toolbar-separator.gif") center center no-repeat;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.grid-link {
+    background-position: -20px -23px;
+    width: 23px;
+    height: 20px;
+    background-color: transparent;
+    background-image: url("/Content/css/icon/icon20.png");
+    display: inline-block;
+}
+
+a[class='grid-link'] {
+    background-position: -20px -23px;
+}
+
+a[class='grid-link']:hover {
+    background-position: -21px 0px;
+}
+
+.default-checkbox:before {
+    /*display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: 17px;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    content: "\f147";*/
+    background-image: url("/Content/images/checkbox/default-checkbox.png");
+    width: 16px;
+    height: 16px;
+    cursor: default;
+    readonly: true;
+}
+
+.check-checkbox:before {
+    /*display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: 17px;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    content: "\f046";*/
+    background-image: url("/Content/images/checkbox/check-checkbox.png");
+    width: 16px;
+    height: 16px;
+    cursor: default;
+    readonly: true;
+}
+
+.unchk-checkbox:before {
+    /*display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: 17px;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    content: "\f096";*/
+    background-image: url("/Content/images/checkbox/uncheck-checkbox.png");
+    width: 16px;
+    height: 16px;
+    cursor: default;
+    readonly: true;
+}
+
+input[type=checkbox] {
+    width: 15px;
+    height: 15px;
+}
+label{
+    font-weight:normal;
+}
+*{
+    webkit-box-sizing: inherit;
+    box-sizing:inherit;
+}
+.datagrid-row-selected a{
+    color:#ffffff;
+}
+/*
+查看信息时，超出长度用...显示样式。
+（订单详情，采购订单、采购入库单查看页面等）
+.winview .fitem span:not([name=notInclude]){
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: inline-block;
+    vertical-align: middle;
+}*/
+
+
+/****************************winedit**************************/
+.winedit  {
+    margin:0;
+    padding-top:10px ;
+    padding-bottom:10px ;
+    padding-left:0px;
+    padding-right:0px;
+    margin: 0px;
+    padding: 10px,0px;
+    float:left;
+}
+.winedit .ftitle{
+    font-size:14px;
+    font-weight:bold;
+    padding:5px 0;
+    margin-bottom:10px;
+    border-bottom:1px solid #ccc;
+}
+.winedit .fitem{
+    margin-bottom:7px;
+    float:left;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.winedit .fitem label{
+    display:inline-block;
+    min-width:80px;
+    height: 100%;
+}
+.winedit .fitem input{
+    width:180px;
+}
+
+.winedit .fitem select{
+    width:180px;
+
+}
+.winedit {
+    /*font: 13px/20px Verdana, Arial, Helvetica, sans-serif;*/
+    /*color: #3a3a3a;*/
+}
+
+.c8SearchConditions label {
+    width: 60px;
+    display: inline-block;
+}
+
+.c8SearchConditions  .split2
+{
+    margin-top:2px;
+}
+/****************************wineditB**************************/
+.wineditB {
+    padding: 0px;
+    margin: 0px;
+    float: left;
+    line-height: 30px;
+
+}
+
+.wineditB .fitem{
+    float:left;
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-bottom:0px;
+    vertical-align: middle;
+    border-bottom: 1px solid #DCDCDC;
+    display:inline-block;
+    height: 30px;
+    padding-right: 3px;
+}
+.wineditB .fitem label{
+    display:inline-block;
+    min-width:80px;
+    /*background-color:#FFEBCD ;*//*; #F4F4F4*/
+    background-color:rgba(214, 233, 198, 0.2);
+    text-align: right;
+    /*padding-bottom: 10px;*/
+    /*padding-top: 10px;*/
+
+    position: relative;
+}
+.wineditB .fitem input{
+    width:180px;
+}
+
+.wineditB .fitem select{
+    width:180px;
+}
+/****************************winview**************************/
+.winview  {
+    margin:0;
+    padding-top:0px ;
+    padding-bottom:0px ;
+    padding-left:0px;
+    padding-right:0px;
+    margin: 0px;
+    padding: 10px,0px;
+    float:left;
+}
+
+.winview .fitem{
+    margin-bottom:10px;
+    float:left;
+
+    /*改进*/
+    margin-bottom:0px;
+    vertical-align: middle;
+    border-bottom: 1px solid #DCDCDC;
+    width:250px;
+}
+.winview .fitem label{
+    display:inline-block;
+    min-width:80px;
+
+    /*改进*/
+    /*border-top: 1px solid #93ACDB;*/
+    /*background-color: #FFEBCD;*/
+    background-color:rgba(214, 233, 198, 0.2);
+    text-align: right;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    position: relative;
+    /*top:-1px;*/
+    /*height: 105%;*/
+}
+.winview {
+    /*font: 13px/20px Verdana, Arial, Helvetica, sans-serif;*/
+    /*color: #3a3a3a;*/
+}
+/****************************easyuiext**************************/
+.l-btn-plain
+{
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+.easyui-linkbutton .l-btn .l-btn-small .l-btn-plain{
+    border:1px;
+}
+.l-btn-plain:hover
+{
+    margin:0px;
+
+}
+.dialog-button{
+    padding: 2px 5px;
+}
+.menu-text-linkbutton span{
+    float: left;
+    margin:0px;
+}
+.window .window-header .panel-tool {
+    right: 5px;
+}
+.link-span{
+    position: relative;
+    top: -5px;
+}
+.datagrid-editable{
+    color: #000000;
+}
+.easyui-linkbutton .l-btn-icon-left .l-btn-icon{
+    font-size :16px;
+}
+.easyui-menubutton .l-btn-icon-left .l-btn-icon{
+    font-size :16px;
+}
+div[class*="panel-icon fa"]{
+    font-size :17px;
+}
+.easyui-splitbutton .l-btn-icon-left .l-btn-icon{
+    font-size :16px;
+}

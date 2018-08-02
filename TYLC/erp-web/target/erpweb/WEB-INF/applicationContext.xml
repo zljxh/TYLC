@@ -1,0 +1,135 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:util="http://www.springframework.org/schema/util"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+	http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+	http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util-2.0.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.1.xsd">
+
+    <!--<context:component-scan base-package="com.springapp"/>-->
+    <!-- 扫描注解Bean -->
+    <context:component-scan base-package="com.qs.erp.services,com.qs.erp.web,com.qs.erp.webservices">
+        <context:exclude-filter type="annotation" expression="org.springframework.stereotype.Controller"/>
+    </context:component-scan>
+    <context:annotation-config/>
+
+    <!-- 缓存管理器 -->
+    <bean id="cacheManager" class="com.qs.erp.web.spring.SpringCacheManagerWrapper">
+        <property name="cacheManager" ref="springCacheManager"/>
+    </bean>
+
+    <!-- 凭证匹配器 -->
+    <bean id="credentialsMatcher"
+          class="com.qs.erp.services.common.shiro.credentials.RetryLimitHashedCredentialsMatcher">
+        <constructor-arg ref="cacheManager"/>
+        <property name="hashAlgorithmName" value="md5"/>
+        <property name="hashIterations" value="2"/>
+        <property name="storedCredentialsHexEncoded" value="true"/>
+    </bean>
+    <!-- 基于Form表单的身份验证过滤器 -->
+    <!--<bean id="formAuthenticationFilter" class="org.apache.shiro.web.filter.authc.PassThruAuthenticationFilter">-->
+    <!--&lt;!&ndash;<property name="usernameParam" value="username"/>&ndash;&gt;-->
+    <!--&lt;!&ndash;<property name="passwordParam" value="password"/>&ndash;&gt;-->
+    <!--&lt;!&ndash;<property name="rememberMeParam" value="rememberMe"/>&ndash;&gt;-->
+    <!--<property name="loginUrl" value="/login"/>-->
+    <!--</bean>-->
+    <bean id="jCaptchaValidateFilter" class="com.qs.erp.web.jcaptcha.JCaptchaValidateFilter">
+        <property name="jcaptchaEbabled" value="true"/>
+        <property name="jcaptchaParam" value="jcaptchaCode"/>
+        <property name="failureKeyAttribute" value="shiroLoginFailure"/>
+    </bean>
+    <bean id="shiroFilter" class="org.apache.shiro.spring.web.ShiroFilterFactoryBean">
+        <property name="securityManager" ref="securityManager"/>
+        <property name="loginUrl" value="/login"/>
+        <property name="successUrl" value="/"/>
+        <property name="unauthorizedUrl" value="/unauthorized"/>
+        <property name="filters">
+            <util:map>
+                <entry key="jCaptchaValidate" value-ref="jCaptchaValidateFilter"/>
+                <entry key="anon">
+                    <bean class="org.apache.shiro.web.filter.authc.AnonymousFilter"/>
+                </entry>
+                <entry key="authc">
+                    <bean class="com.qs.erp.services.common.shiro.CPassThruAuthenticationFilter"/>
+                </entry>
+                <entry key="perms">
+                    <bean class="com.qs.erp.services.common.shiro.CPermissionsAuthorizationFilter"></bean>
+                </entry>
+            </util:map>
+        </property>
+        <property name="filterChainDefinitions">
+            <value>
+                /**.config=anon
+                /**.zip=anon
+                /showLogin=authc
+                /ClientCheck**=anon
+                /LingClientCheck**=anon
+                /FlowChart/express**=anon
+                /jcaptcha** = anon
+                /RouterCheck**=anon
+                /Init**=anon
+                /Routerlogin**=anon
+                /OpenApi/**=anon
+                /version**=anon
+                /SystemConfig/**=anon
+                /QiMenApi/**=anon
+                /PDAApi/**=anon
+                /Content/**=anon
+                /ViewJSModels/login/**=anon
+                /favicon.ico**=anon
+                /login**=anon
+                /DeliveryOrder/DeliveryOrderConfirm**=anon
+                /= authc,user
+                /test/**=anon
+                /NC/**=anon
+                <!--/**=authc-->
+            </value>
+        </property>
+    </bean>
+    <bean id="securityManager" class="org.apache.shiro.web.mgt.DefaultWebSecurityManager">
+        <property name="realm" ref="myRealm"/>
+        <property name="cacheManager" ref="cacheManager"/>
+        <property name="sessionManager" ref="mysessionManager"/>
+    </bean>
+    <bean id="mysessionManager" class="org.apache.shiro.web.session.mgt.DefaultWebSessionManager">
+        <property name="sessionIdCookie" ref="myCookie"/>
+        <property name="sessionDAO" ref="mysessionDao"/>
+        <property name="deleteInvalidSessions" value="true"/>
+        <!--1000*60*100-->
+        <property name="globalSessionTimeout" value="6000000"/>
+    </bean>
+    <bean id="myCookie" class="org.apache.shiro.web.servlet.SimpleCookie">
+        <property name="name" value="sid"/>
+    </bean>
+    <bean id="mysessionDao" class="com.qs.erp.services.common.shiro.MySessionDAO"></bean>
+
+    <bean id="myRealm" class="com.qs.erp.services.common.shiro.MyRealm">
+        <property name="credentialsMatcher" ref="credentialsMatcher"/>
+        <property name="cachingEnabled" value="true"/>
+        <property name="authenticationCachingEnabled" value="true"/>
+        <property name="authenticationCacheName" value="authenticationCache"/>
+        <property name="authorizationCachingEnabled" value="true"/>
+        <property name="authorizationCacheName" value="authorizationCache"/>
+    </bean>
+    <bean id="filterChainManager" class="com.qs.erp.services.common.shiro.CustomDefaultFilterChainManager">
+
+    </bean>
+    <!--<bean id="filterChainResolver" class="com.springapp.shiro.CustomPathMatchingFilterChainResolver">-->
+    <!--<property name="customDefaultFilterChainManager" ref="filterChainManager"/>-->
+    <!--</bean>-->
+
+    <!--<bean class="org.springframework.beans.factory.config.MethodInvokingFactoryBean">-->
+    <!--<property name="targetObject" ref="shiroFilter"/>-->
+    <!--<property name="targetMethod" value="setFilterChainResolver"/>-->
+    <!--<property name="arguments" ref="filterChainResolver"/>-->
+    <!--</bean>-->
+    <!-- Shiro生命周期处理器-->
+    <bean id="lifecycleBeanPostProcessor" class="org.apache.shiro.spring.LifecycleBeanPostProcessor"/>
+
+    <bean id="exceptionHandler" class="com.qs.erp.web.spring.MyExceptionHandler">
+        <property name="order" value="-1"/>
+    </bean>
+    <import resource="classpath*:spring.xml"/>
+    <import resource="spring-config-cache.xml"/>
+
+</beans>

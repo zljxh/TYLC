@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.qs.erp.daos.dao.TenantLoginDao">
+    <resultMap id="ResultMap" type="TenantLogin">
+
+    </resultMap>
+    <select id="GetPageByPageQueryParameters" resultType="TenantLogin">
+        SELECT TenantLogin.* FROM TenantLogin inner join (select RowId from TenantLogin
+        <where>
+            <if test="1==1">TenantRowId=#{TenantRowId}</if>
+            <if test="CreateBeginDate!=null">
+                AND CreateDate>=#{CreateBeginDate}
+            </if>
+            <if test="CreateEndDate!=null">
+                AND CreateDate&lt;=#{CreateEndDate}
+            </if>
+            <if test="1==1">
+                AND 1=1
+            </if>
+        </where>
+        order by #{OrderByColumn} limit #{BeginRowIndex},#{EndRowCount}) as a on a.RowId=TenantLogin.RowId
+    </select>
+    <select id="GetCountByPageQueryParameters" resultType="Long">
+        select count(*) from TenantLogin
+        <where>
+            <if test="1==1">
+                TenantRowId=#{TenantRowId};
+            </if>
+            <if test="CreateBeginDate!=null">
+                AND CreateDate>=#{CreateBeginDate}
+            </if>
+            <if test="CreateEndDate!=null">
+                AND CreateDate&lt;=#{CreateEndDate}
+            </if>
+            <if test="1==1">
+                AND 1=1
+            </if>
+        </where>
+    </select>
+
+    <select id="GetList" resultMap="ResultMap">
+        select
+        *
+        from TenantLogin WHERE TenantRowId=#{TenantRowId};
+    </select>
+    <select id="Get" resultMap="ResultMap">
+        select * from TenantLogin where RowId=#{RowId} AND TenantRowId=#{TenantRowId};
+    </select>
+    <select id="GetTenantId" resultType="String">
+       SELECT TenantRowId  FROM `tenantlogin` WHERE TenantRowId=#{TenantRowId}  ORDER  BY RowId DESC  LIMIT 1
+    </select>
+
+    <update id="Update">
+        update TenantLogin
+        set
+            TenantCode=#{TenantCode}
+            ,TenantIdentity=#{TenantIdentity}
+            ,LoginDate=#{LoginDate}
+            ,IsJiFei=#{IsJiFei}
+            ,JiFeiStartDate=#{JiFeiStartDate}
+         where RowId=#{RowId}   AND  TenantRowId=#{TenantRowId};
+   </update>
+
+    <update id="UpdateEncryptEd">
+        update TenantLogin
+        set
+        EncryptEd=#{EncryptEd}
+        where RowId=#{RowId}   AND  TenantRowId=#{TenantRowId};
+    </update>
+
+    <delete id="Delete">
+        delete from  TenantLogin
+        where RowId=#{RowId}  AND  TenantRowId=#{TenantRowId};
+
+    </delete>
+
+    <insert id="Create">
+        INSERT INTO TenantLogin
+        (
+      
+              RowId,
+              TenantCode,
+              TenantIdentity,
+              CreateDate,
+              Creater,
+              LoginDate,
+              TenantRowId
+        
+        )
+        VALUES(
+              #{RowId},
+              #{TenantCode},
+              #{TenantIdentity},
+              #{CreateDate},
+              #{Creater},
+              #{LoginDate},
+              #{TenantRowId}
+        )
+    </insert>
+
+    <select id="GetTenant" resultType="TenantLogin">
+         select * from TenantLogin where TenantRowId=#{TenantRowId}
+    </select>
+
+</mapper>

@@ -1,0 +1,2 @@
+1.如果需要用到baseservice中的getOperatorRowId和getUserName方法
+  需要自己继承CurrentContext接口实现，并注入到spring中，别名为currentContext

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.qs.erp.daos.dao.OperatorLoginLogDao">
+    <resultMap id="ResultMap" type="OperatorLoginLog">
+
+    </resultMap>
+    <select id="GetPageByPageQueryParameters" resultType="java.util.HashMap">
+        SELECT OperatorLoginLog.* FROM OperatorLoginLog inner join (select RowId from OperatorLoginLog
+        <where>
+            <if test="1==1">
+                TenantRowId=#{TenantRowId}
+            </if>
+            <if test="map.CreateBeginDate!=null">
+                AND CreateDate>=#{map.CreateBeginDate}
+            </if>
+            <if test="map.CreateEndDate!=null">
+                AND CreateDate&lt;=#{map.CreateEndDate}
+            </if>
+            <if test="map.OperatorRowId!=null  and map.OperatorRowId!=''">
+                AND OperatorRowId=#{map.OperatorRowId}
+            </if>
+
+            <if test="map.TypeName!=null">
+                    and  LoginTypeName like CONCAT(#{map.TypeName})
+            </if>
+            <if test="1==1">
+                AND 1=1
+            </if>
+        </where>
+        order by CreateDate DESC limit #{map.offset},#{map.PageRowCount}) as a on a.RowId=OperatorLoginLog.RowId
+    </select>
+    <select id="GetCountByPageQueryParameters" resultType="Long">
+        select count(*) from OperatorLoginLog
+        <where>
+            <if test="1==1">
+                TenantRowId=#{TenantRowId}
+            </if>
+            <if test="map.CreateBeginDate!=null">
+                AND CreateDate>=#{map.CreateBeginDate}
+            </if>
+            <if test="map.CreateEndDate!=null">
+                AND CreateDate&lt;=#{map.CreateEndDate}
+            </if>
+            <if test="map.OperatorRowId!=null and map.OperatorRowId!=''">
+                AND OperatorRowId=#{map.OperatorRowId}
+            </if>
+            <if test="1==1">
+                AND 1=1
+            </if>
+        </where>
+    </select>
+
+    <select id="GetList" resultMap="ResultMap">
+        select
+        *
+        from OperatorLoginLog WHERE    TenantRowId=#{TenantRowId}
+    </select>
+    <select id="Get" resultMap="ResultMap">
+        select * from OperatorLoginLog where RowId=#{RowId} AND  TenantRowId=#{TenantRowId}
+    </select>
+
+    <update id="Update">
+        update OperatorLoginLog
+        set
+
+            LoginTypeName=#{LoginTypeName}
+            ,OperatorRowId=#{OperatorRowId}
+            ,Ip=#{Ip}
+            ,ComputerName=#{ComputerName}
+            ,NetworkCard=#{NetworkCard}
+         where RowId=#{RowId}   AND  TenantRowId=#{TenantRowId}
+   </update>
+
+    <delete id="Delete">
+        delete from  OperatorLoginLog
+        where RowId=#{RowId} AND  TenantRowId=#{TenantRowId}
+
+    </delete>
+
+    <insert id="Create">
+        INSERT INTO OperatorLoginLog
+        (
+      
+              RowId,
+              CreateDate,
+              LoginTypeName,
+              OperatorRowId,
+              Ip,
+              ComputerName,
+              NetworkCard,
+              TenantRowId
+        
+        )
+        VALUES(
+              #{RowId},
+              #{CreateDate},
+              #{LoginTypeName},
+              #{OperatorRowId},
+              #{Ip},
+              #{ComputerName},
+              #{NetworkCard},
+              #{TenantRowId}
+        )
+    </insert>
+
+</mapper>

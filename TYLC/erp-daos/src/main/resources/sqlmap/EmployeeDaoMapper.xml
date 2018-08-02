@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.qs.erp.daos.dao.EmployeeDao">
+    <resultMap id="ResultMap" type="Employee">
+
+    </resultMap>
+    <select id="GetPageByPageQueryParameters" resultType="Employee">
+        SELECT Employee.* FROM Employee inner join (select RowId from Employee
+        <where>
+            <if test="1==1">
+                TenantRowId=#{TenantRowId}
+            </if>
+            <if test="map.CreateBeginDate!=null">
+                AND CreateDate>=#{map.CreateBeginDate}
+            </if>
+            <if test="map.CreateEndDate!=null">
+                AND CreateDate&lt;=#{map.CreateEndDate}
+            </if>
+
+        </where>
+        order by #{map.OrderByColumn} limit #{map.BeginRowIndex},#{map.EndRowCount}) as a on a.RowId=Employee.RowId
+    </select>
+    <select id="GetCountByPageQueryParameters" resultType="Long">
+        select count(*) from Employee
+        <where>
+            <if test="1==1">
+                TenantRowId=#{TenantRowId}
+            </if>
+            <if test="CreateBeginDate!=null">
+                AND CreateDate>=#{CreateBeginDate}
+            </if>
+            <if test="CreateEndDate!=null">
+                AND CreateDate&lt;=#{CreateEndDate}
+            </if>
+
+        </where>
+    </select>
+
+    <select id="GetList" resultMap="ResultMap">
+        select
+        *
+        from Employee WHERE   TenantRowId=#{TenantRowId}
+    </select>
+    <select id="Get" resultMap="ResultMap">
+        select * from Employee where RowId=#{RowId} AND   TenantRowId=#{TenantRowId}
+    </select>
+    <select id="getByName" resultMap="ResultMap">
+        select * from Employee where Employee.Name=#{Name} AND  TenantRowId=#{TenantRowId} limit 1
+    </select>
+
+    <update id="Update">
+        update Employee
+        set
+            Name=#{Name}
+            ,Sex=#{Sex}
+            ,DepartmentRowId=#{DepartmentRowId}
+            ,Leader=#{Leader}
+            ,EmployeDate=#{EmployeDate}
+            ,IsleaveOffice=#{IsleaveOffice}
+            ,Mobile=#{Mobile}
+            ,Phone=#{Phone}
+            ,Remark=#{Remark}
+            ,PinYin=#{PinYin}
+            ,IsGuest=#{IsGuest}
+            ,IsEnabled=#{IsEnabled}
+            ,RoleRowId=#{RoleRowId}
+
+            ,SupplierRowId=#{SupplierRowId}
+         where RowId=#{RowId}   AND   TenantRowId=#{TenantRowId}
+   </update>
+
+    <delete id="Delete">
+        delete from  Employee
+        where RowId=#{RowId} AND   TenantRowId=#{TenantRowId}
+
+    </delete>
+
+    <insert id="Create">
+        INSERT INTO Employee
+        (
+      
+              RowId,
+              Code,
+              Name,
+              Sex,
+              DepartmentRowId,
+              Leader,
+              EmployeDate,
+              IsleaveOffice,
+              Mobile,
+              Phone,
+              IsGuest,
+              CreateDate,
+              Creater,
+              Remark,
+              PinYin,
+              TenantRowId,
+              IsEnabled,
+              RoleRowId
+
+              ,SupplierRowId
+
+        )
+        VALUES(
+              #{RowId},
+              #{Code},
+              #{Name},
+              #{Sex},
+              #{DepartmentRowId},
+              #{Leader},
+              #{EmployeDate},
+              #{IsleaveOffice},
+              #{Mobile},
+              #{Phone},
+              #{IsGuest},
+              #{CreateDate},
+              #{Creater},
+              #{Remark},
+              #{PinYin},
+              #{TenantRowId},
+              #{IsEnabled},
+              #{RoleRowId}
+
+              ,#{SupplierRowId}
+
+        )
+    </insert>
+
+    <select id="GetEmployeeNameByRowId" resultType="String">
+        select Name from employee where TenantRowId=#{TenantRowId} and RowId =#{RowId}
+    </select>
+
+</mapper>

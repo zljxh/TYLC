@@ -1,0 +1,113 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:mvc="http://www.springframework.org/schema/mvc"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc.xsd">
+
+    <!-- 扫描controller -->
+    <context:component-scan base-package="com.qs.erp.web.controller" use-default-filters="false">
+        <context:include-filter type="annotation"
+                                expression="org.springframework.stereotype.Controller"/>
+
+        <context:include-filter type="annotation"
+                                expression="org.springframework.web.bind.annotation.ControllerAdvice"/>
+    </context:component-scan>
+
+    <!--开启注解-->
+    <context:annotation-config/>
+    <mvc:annotation-driven conversion-service="conversionService">
+        <mvc:message-converters register-defaults="true">
+            <ref bean="jsonHttpMessageConverter"></ref>
+            <ref bean="stringHttpMessageConverter"></ref>
+        </mvc:message-converters>
+    </mvc:annotation-driven>
+    <mvc:interceptors>
+        <mvc:interceptor>
+            <mvc:mapping path="/**"/>
+            <mvc:exclude-mapping path="/login**"/>
+            <bean class="com.qs.erp.web.interceptor.MonitorInterceptor"/>
+        </mvc:interceptor>
+    </mvc:interceptors>
+    <mvc:resources mapping="/update.config" location="/"/>
+    <mvc:resources mapping="/ERPClient.zip" location="/"/>
+    <mvc:resources mapping="/**.html" location="/WEB-INF/pages/"/>
+    <mvc:resources mapping="/**" location="/static-resources/" />
+    <mvc:default-servlet-handler/>
+    <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+        <property name="prefix" value="/WEB-INF/pages/"/>
+        <property name="suffix" value=".jsp"/>
+    </bean>
+
+    <bean id="multipartResolver" class="org.springframework.web.multipart.commons.CommonsMultipartResolver">
+        <property name="defaultEncoding" value="UTF-8"/>
+        <!-- 指定所上传文件的总大小不能超过20000KB。注意maxUploadSize属性的限制不是针对单个文件，而是所有文件的容量之和 -->
+        <property name="maxUploadSize" value="20000000000"/>
+    </bean>
+    <bean id="cDefaultPropertyNamingStrategy" class="com.qs.erp.utils.util.CDefaultPropertyNamingStrategy"></bean>
+    <bean id="cMappingJacksonObjectMapper" class="com.qs.erp.utils.util.CMappingJacksonObjectMapper">
+        <!--   <property name="propertyNamingStrategy" ref="cDefaultPropertyNamingStrategy"></property>-->
+    </bean>
+
+    <bean id="jsonHttpMessageConverter"
+          class="org.springframework.http.converter.json.MappingJacksonHttpMessageConverter">
+        <property name="objectMapper" ref="cMappingJacksonObjectMapper"></property>
+    </bean>
+    <bean id="stringHttpMessageConverter"
+          class="org.springframework.http.converter.StringHttpMessageConverter">
+        <property name="supportedMediaTypes">
+            <list>
+                <value>text/plain;charset=UTF-8</value>
+                <value>text/html;charset=UTF-8</value>
+            </list>
+        </property>
+    </bean>
+    <bean id="exceptionResolver" class="com.qs.erp.web.spring.CustomSimpleMappingExceptionResolver">
+        <property name="exceptionMappings">
+            <props>
+                <prop key="org.springframework.jdbc.BadSqlGrammarException">error/sqlException</prop>
+                <prop key="com.jason.exception.SystemException">error/500</prop>
+                <prop key="java.lang.Exception">error/500</prop>
+                <!-- 该异常是SpringMVC在检查上传的文件信息时抛出来的，而且此时还没有进入到Controller方法中 -->
+                <!-- 遇到MaxUploadSizeExceededException异常时，自动跳转到error/500页面 -->
+                <prop key="org.springframework.web.multipart.MaxUploadSizeExceededException">error/500</prop>
+            </props>
+        </property>
+    </bean>
+    <!--&lt;!&ndash;<bean class="org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter">&ndash;&gt;-->
+       <!--<bean class="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter">-->
+        <!--<property name="messageConverters">-->
+
+            <!--<list>-->
+                <!--&lt;!&ndash; Support JSON &ndash;&gt;-->
+                <!--<ref bean="jsonHttpMessageConverter"/>-->
+                <!--<ref bean="stringHttpMessageConverter"/>-->
+            <!--</list>-->
+        <!--</property>-->
+    <!--</bean>-->
+    <!--<bean id="exceptionMessageAdapter" class="org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver">-->
+          <!--&lt;!&ndash;class="org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerExceptionResolver">&ndash;&gt;-->
+        <!--<property name="messageConverters">-->
+            <!--<list>-->
+                <!--&lt;!&ndash; Support JSON &ndash;&gt;-->
+                <!--<ref bean="jsonHttpMessageConverter"/>-->
+
+            <!--</list>-->
+        <!--</property>-->
+    <!--</bean>-->
+
+
+    <bean id="conversionService" class="org.springframework.format.support.FormattingConversionServiceFactoryBean">
+
+    </bean>
+    <!--<bean name="handlerMapping" class="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping">-->
+        <!--<property name="interceptors">-->
+            <!--<list>-->
+                <!--<bean class="com.springapp.interceptor.DemoInterceptor"/>-->
+            <!--</list>-->
+        <!--</property>-->
+    <!--</bean>-->
+
+</beans>

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ehcache name="es">
+
+    <diskStore path="java.io.tmpdir"/>
+
+    <!-- 登录记录缓存 锁定10分钟 -->
+    <cache name="passwordRetryCache"
+           maxEntriesLocalHeap="2000"
+           eternal="false"
+           timeToIdleSeconds="3600"
+           timeToLiveSeconds="3600"
+           overflowToDisk="false"
+           statistics="true">
+    </cache>
+
+    <cache name="authorizationCache"
+           maxEntriesLocalHeap="2000"
+           eternal="false"
+           timeToIdleSeconds="7200"
+           timeToLiveSeconds="7200"
+           overflowToDisk="false"
+           statistics="true">
+    </cache>
+
+    <cache name="authenticationCache"
+           maxEntriesLocalHeap="2000"
+           eternal="false"
+           timeToIdleSeconds="7200"
+           timeToLiveSeconds="7200"
+           overflowToDisk="false"
+           statistics="true">
+    </cache>
+
+    <!--session缓存-->
+    <cache name="shiro-activeSessionCache"
+           maxEntriesLocalHeap="2000"
+           eternal="false"
+           timeToIdleSeconds="7200"
+           timeToLiveSeconds="7200"
+           overflowToDisk="false"
+           statistics="true">
+    </cache>
+
+    <cache name="printQueueCache"
+           maxEntriesLocalHeap="5000"
+           eternal="false"
+           timeToIdleSeconds="7200"
+           timeToLiveSeconds="7200"
+           overflowToDisk="false"
+           statistics="true">
+    </cache>
+
+    <cache name="postponePrintCache"
+           maxEntriesLocalHeap="10000"
+           eternal="false"
+           timeToIdleSeconds="7200"
+           timeToLiveSeconds="7200"
+           overflowToDisk="false"
+           statistics="true">
+    </cache>
+
+    <cache name="commonCache"
+           maxEntriesLocalHeap="5000"
+           eternal="false"
+           timeToIdleSeconds="18000"
+           timeToLiveSeconds="18000"
+           overflowToDisk="false"
+           statistics="true">
+    </cache>
+    <!-- 前端页面数据刷新缓存 -->
+    <cache name="pageDataCache"
+           maxEntriesLocalHeap="200"
+           eternal="false"
+           timeToIdleSeconds="300"
+           timeToLiveSeconds="300"
+           overflowToDisk="false"
+           statistics="true">
+    </cache>
+    <cache name="productSortingCache"
+           maxEntriesLocalHeap="10000"
+           eternal="false"
+           timeToIdleSeconds="7200"
+           timeToLiveSeconds="7200"
+           overflowToDisk="false"
+           statistics="true">
+    </cache>
+    <cache name="purchaseCodeScanOutWarehouseCache"
+           maxEntriesLocalHeap="10000"
+           eternal="false"
+           timeToIdleSeconds="7200"
+           timeToLiveSeconds="7200"
+           overflowToDisk="false"
+           statistics="true">
+    </cache>
+
+    <cache name="sortOutWallCache"
+           maxEntriesLocalHeap="10000"
+           eternal="false"
+           timeToIdleSeconds="0"
+           timeToLiveSeconds="0"
+           overflowToDisk="false"
+           statistics="true">
+    </cache>
+    <cache name="FastToExamineOutStorageCache"
+           maxEntriesLocalHeap="10000"
+           eternal="false"
+           timeToIdleSeconds="7200"
+           timeToLiveSeconds="7200"
+           overflowToDisk="false"
+           statistics="true">
+    </cache>
+    <cache name="ReturnChangedRegisterCache"
+           maxEntriesLocalHeap="10000"
+           eternal="false"
+           timeToIdleSeconds="7200"
+           timeToLiveSeconds="7200"
+           overflowToDisk="false"
+           statistics="true">
+    </cache>
+    <cache name="purchaseInOrderCache"
+           maxEntriesLocalHeap="10000"
+           eternal="false"
+           timeToIdleSeconds="7200"
+           timeToLiveSeconds="7200"
+           overflowToDisk="false"
+           statistics="true">
+    </cache>
+    <!-- 订单手工下载任务缓存 -->
+    <cache name="OrderDownCache"
+           maxEntriesLocalHeap="200"
+           eternal="false"
+           timeToIdleSeconds="3600"
+           timeToLiveSeconds="3600"
+           overflowToDisk="false"
+           statistics="true">
+    </cache>
+</ehcache>

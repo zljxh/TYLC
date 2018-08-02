@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.qs.erp.daos.dao.RegionDao">
+    <resultMap id="ResultMap" type="Region">
+
+    </resultMap>
+
+    <select id="GetLikesLists" resultMap="ResultMap">
+        SELECT RowId,Code,Name FROM region WHERE`RegionTypeRowId`=2 AND `ParentRowId`=1 NAME LIKE CONCAT(#{RegionName},'%')
+    </select>
+
+    <select id="GetList" resultMap="ResultMap">
+        select
+        *
+        from Region
+    </select>
+    <select id="Get" resultMap="ResultMap">
+        select * from Region where RowId=#{RowId}
+    </select>
+
+    <update id="Update">
+        update Region
+        set
+
+            Code=#{Code}
+            ,Name=#{Name}
+            ,ParentRowId=#{ParentRowId}
+            ,IsDirectCity=#{IsDirectCity}
+            ,IsChildNode=#{IsChildNode}
+            ,FullName=#{FullName}
+            ,AiasName1=#{AiasName1}
+            ,AiasName2=#{AiasName2}
+            ,AiasName3=#{AiasName3}
+            ,AiasName4=#{AiasName4}
+            ,AiasName5=#{AiasName5}
+            ,Pinyin=#{Pinyin}
+            ,RegionTypeRowId=#{RegionTypeRowId}
+            ,Zip=#{Zip}
+            ,RegionShortName=#{RegionShortName}
+            ,IsStop=#{IsStop}
+            ,CreateDate=#{CreateDate}
+         where RowId=#{RowId}   
+   </update>
+
+    <delete id="Delete">
+        delete from  Region
+        where RowId=#{RowId}
+
+    </delete>
+
+    <insert id="Create">
+        INSERT INTO Region
+        (
+      
+              RowId,
+              Code,
+              Name,
+              ParentRowId,
+              IsDirectCity,
+              IsChildNode,
+              FullName,
+              CreateDate,
+              Creater,
+              AiasName1,
+              AiasName2,
+              AiasName3,
+              AiasName4,
+              AiasName5,
+              Pinyin,
+              RegionTypeRowId,
+              Zip,
+              RegionShortName,
+              IsStop
+        )
+        VALUES(
+              #{RowId},
+              #{Code},
+              #{Name},
+              #{ParentRowId},
+              #{IsDirectCity},
+              #{IsChildNode},
+              #{FullName},
+              #{CreateDate},
+              #{Creater},
+              #{AiasName1},
+              #{AiasName2},
+              #{AiasName3},
+              #{AiasName4},
+              #{AiasName5},
+              #{Pinyin},
+              #{RegionTypeRowId},
+              #{Zip},
+              #{RegionShortName},
+              #{IsStop}
+        )
+    </insert>
+
+</mapper>

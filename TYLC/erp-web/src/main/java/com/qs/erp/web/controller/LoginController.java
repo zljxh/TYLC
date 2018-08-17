@@ -64,76 +64,76 @@ public class LoginController {
     @Autowired
     private OperatorService service;
 
-    @RequestMapping(value = "/login")
-    public String login(HttpServletRequest req, HttpServletResponse resp, Model model) throws UnsupportedEncodingException {
-        String error = null;
-        req.setCharacterEncoding("UTF-8");
-        String usercode = req.getParameter("usercode");
-        String password = req.getParameter("password");
-        String tenantcode = req.getParameter("tenantcode");
-        if (!StringHelp.IsNullOrEmpty(usercode))
-            usercode = usercode.trim();
-        if (!StringHelp.IsNullOrEmpty(password))
-            password = password.trim();
-        if (!StringHelp.IsNullOrEmpty(tenantcode))
-            tenantcode = tenantcode.trim();
-        Subject subject = SecurityUtils.getSubject();
-        if (subject.getPrincipal() != null) {
-            //return "redirect:/";
-            try {
-                WebUtils.redirectToSavedRequest(req, resp, "/");
-            } catch (Exception ex) {
-                MyLogger.logger.error("登陆1异常:"+ ExceptionHelp.getExceptionMsg(ex));
-                error = ex.getMessage();
-            }
-        }
-//        String exceptionClassName = (String) req.getAttribute("shiroLoginFailure");
-//        if ("jCaptcha.error".equals(exceptionClassName)) {
-//            error = "验证码错误";
+//    @RequestMapping(value = "/login")
+//    public String login(HttpServletRequest req, HttpServletResponse resp, Model model) throws UnsupportedEncodingException {
+//        String error = null;
+//        req.setCharacterEncoding("UTF-8");
+//        String usercode = req.getParameter("usercode");
+//        String password = req.getParameter("password");
+//        String tenantcode = req.getParameter("tenantcode");
+//        if (!StringHelp.IsNullOrEmpty(usercode))
+//            usercode = usercode.trim();
+//        if (!StringHelp.IsNullOrEmpty(password))
+//            password = password.trim();
+//        if (!StringHelp.IsNullOrEmpty(tenantcode))
+//            tenantcode = tenantcode.trim();
+//        Subject subject = SecurityUtils.getSubject();
+//        if (subject.getPrincipal() != null) {
+//            //return "redirect:/";
+//            try {
+//                WebUtils.redirectToSavedRequest(req, resp, "/");
+//            } catch (Exception ex) {
+//                MyLogger.logger.error("登陆1异常:"+ ExceptionHelp.getExceptionMsg(ex));
+//                error = ex.getMessage();
+//            }
 //        }
-//        if (!jCaptchaValidateFilter.Validate(req)) {
-//            error = "验证码错误";
+////        String exceptionClassName = (String) req.getAttribute("shiroLoginFailure");
+////        if ("jCaptcha.error".equals(exceptionClassName)) {
+////            error = "验证码错误";
+////        }
+////        if (!jCaptchaValidateFilter.Validate(req)) {
+////            error = "验证码错误";
+////        }
+//        if (usercode != null && error == null && tenantcode != null) {
+//            TenantLogin tenantLogin = tenantLoginDaoExt.getTenantLogin(tenantcode);
+//            if (tenantLogin == null) {
+//                error = "未绑定租户,请联系管理员";
+//            } else {
+//                MyTenantToken token = new MyTenantToken(usercode, password);
+//                token.setTenantRowId(tenantLogin.getTenantRowId());
+//                try {
+//                    subject.login(token);
+//                    AddLoginLog(req, "登入");
+//                    //  MyLogger.error("成功 sessionid=" + session.getId());
+//                } catch (UnknownAccountException e) {
+//                    error = "用户名/密码错误";
+//                } catch (IncorrectCredentialsException e) {
+//                    error = "用户名/密码错误";
+//                } catch (ExcessiveAttemptsException e) {
+//                    error = "尝试登陆次数太多";
+//                } catch (Exception e) {
+//                    MyLogger.logger.error("登陆2异常:"+ ExceptionHelp.getExceptionMsg(e));
+//                    //其他错误，比如锁定，如果想单独处理请单独catch处理
+//                    error = "其他错误：" + e.getMessage();
+//                }
+//            }
+//            if (error == null) {
+//                String fallbackUrl = "/";
+//                try {
+//                    WebUtils.redirectToSavedRequest(req, resp, fallbackUrl);
+//                } catch (Exception ex) {
+//                    MyLogger.logger.error("登陆3异常:"+ ExceptionHelp.getExceptionMsg(ex));
+//                    error = ex.getMessage();
+//                }
+//            }
 //        }
-        if (usercode != null && error == null && tenantcode != null) {
-            TenantLogin tenantLogin = tenantLoginDaoExt.getTenantLogin(tenantcode);
-            if (tenantLogin == null) {
-                error = "未绑定租户,请联系管理员";
-            } else {
-                MyTenantToken token = new MyTenantToken(usercode, password);
-                token.setTenantRowId(tenantLogin.getTenantRowId());
-                try {
-                    subject.login(token);
-                    AddLoginLog(req, "登入");
-                    //  MyLogger.error("成功 sessionid=" + session.getId());
-                } catch (UnknownAccountException e) {
-                    error = "用户名/密码错误";
-                } catch (IncorrectCredentialsException e) {
-                    error = "用户名/密码错误";
-                } catch (ExcessiveAttemptsException e) {
-                    error = "尝试登陆次数太多";
-                } catch (Exception e) {
-                    MyLogger.logger.error("登陆2异常:"+ ExceptionHelp.getExceptionMsg(e));
-                    //其他错误，比如锁定，如果想单独处理请单独catch处理
-                    error = "其他错误：" + e.getMessage();
-                }
-            }
-            if (error == null) {
-                String fallbackUrl = "/Routerlogin";
-                try {
-                    WebUtils.redirectToSavedRequest(req, resp, fallbackUrl);
-                } catch (Exception ex) {
-                    MyLogger.logger.error("登陆3异常:"+ ExceptionHelp.getExceptionMsg(ex));
-                    error = ex.getMessage();
-                }
-            }
-        }
-        req.setAttribute("error", error);
-        model.addAttribute("error", error);
-        model.addAttribute("usercode", usercode);
-        //  req.getRequestedSessionId()
-        ControllerHelper.logoutCookie(resp);
-        return "Login/login";
-    }
+//        req.setAttribute("error", error);
+//        model.addAttribute("error", error);
+//        model.addAttribute("usercode", usercode);
+//        //  req.getRequestedSessionId()
+//        ControllerHelper.logoutCookie(resp);
+//        return "Login/login";
+//    }
 
     @RequestMapping(value = "/login/logout")
     public String Logout(HttpServletRequest req, HttpServletResponse resp, Model model) {

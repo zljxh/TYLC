@@ -7,6 +7,7 @@ public class ClientLoginBusiness {
     public ClientLoginBusiness(){
         setGROUPCODE("-1");
         setTENANTID(-1);
+        setMessage("");
     }
     private String GROUPCODE;
     private String JSESSIONID;
@@ -72,5 +73,4 @@ public class ClientLoginBusiness {
     public void setMessage(String message) {
         this.message = message;
     }
-
 }

@@ -70,7 +70,7 @@
           <element id="library" level="project" name="Maven: org.slf4j:slf4j-log4j12:1.7.5" />
           <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.7.5" />
           <element id="library" level="project" name="Maven: net.spy:spymemcached:2.11.4" />
-          <element id="file-copy" path="D:/soft/maven/repository/com/qs/platforms/1.0-SNAPSHOT/platforms-1.0-20180731.071448-103.jar" output-file-name="platforms-1.0-SNAPSHOT.jar" />
+          <element id="file-copy" path="D:/soft/maven/repository/com/qs/platforms/1.0-SNAPSHOT/platforms-1.0-20180804.085341-117.jar" output-file-name="platforms-1.0-SNAPSHOT.jar" />
           <element id="library" level="project" name="Maven: com.suning.api:suning_sdk:20160128" />
           <element id="library" level="project" name="Maven: com.fapiao:SADK:3.1.0.6" />
           <element id="library" level="project" name="Maven: com.fapiao:svs-api-web:1.0" />
@@ -107,7 +107,7 @@
           <element id="library" level="project" name="Maven: com.weidian:open_sdk_java:1.0.1" />
           <element id="library" level="project" name="Maven: com.jdwl:open-sdk:1.0.0.0" />
           <element id="library" level="project" name="Maven: org.aspectj:aspectjrt:1.8.4" />
-          <element id="file-copy" path="D:/soft/maven/repository/com/qs/PlatUtils/1.0-SNAPSHOT/PlatUtils-1.0-20180730.054910-69.jar" output-file-name="PlatUtils-1.0-SNAPSHOT.jar" />
+          <element id="file-copy" path="D:/soft/maven/repository/com/qs/PlatUtils/1.0-SNAPSHOT/PlatUtils-1.0-20180802.025658-70.jar" output-file-name="PlatUtils-1.0-SNAPSHOT.jar" />
           <element id="library" level="project" name="Maven: javax.servlet:javax.servlet-api:3.1.0" />
           <element id="library" level="project" name="Maven: org.quartz-scheduler:quartz:1.8.6" />
           <element id="library" level="project" name="Maven: org.apache.commons:commons-lang3:3.3.2" />

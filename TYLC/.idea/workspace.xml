@@ -24,127 +24,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="LoginController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/erp-web/src/main/java/com/qs/erp/web/controller/LoginController.java">
+      <file leaf-file-name="jdbc.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/erp-web/src/main/webapp/config/jdbc.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3404">
-              <caret line="327" column="0" lean-forward="false" selection-start-line="327" selection-start-column="0" selection-end-line="327" selection-end-column="0" />
-              <folding>
-                <element signature="method#getIpAddr#0;class#LoginController#0" expanded="false" />
-                <element signature="e#7470#7483#0" expanded="false" />
-                <element signature="method#check#0;class#LoginController#0" expanded="false" />
-                <element signature="e#8872#8959#0" expanded="false" />
-                <element signature="e#9170#9183#0" expanded="false" />
-                <element signature="method#RouterCheck#0;class#LoginController#0" expanded="false" />
-                <element signature="e#17656#17699#0" expanded="false" />
-                <element signature="e#17743#17756#0" expanded="false" />
-                <element signature="method#ClientCheck#0;class#LoginController#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CookiesService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/erp-services/src/main/java/com/qs/erp/services/common/CookiesService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="15" column="33" lean-forward="false" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="InvocableHandlerMethod.java" pinned="false" current-in-tab="false">
-        <entry file="jar://D:/soft/maven/repository/org/springframework/spring-web/4.0.0.RELEASE/spring-web-4.0.0.RELEASE-sources.jar!/org/springframework/web/method/support/InvocableHandlerMethod.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4186">
-              <caret line="213" column="0" lean-forward="false" selection-start-line="213" selection-start-column="0" selection-end-line="213" selection-end-column="0" />
+            <state relative-caret-position="414">
+              <caret line="18" column="32" lean-forward="true" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LoginCenterController.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/erp-web/src/main/java/com/qs/erp/web/controller/LoginCenterController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="411">
-              <caret line="114" column="0" lean-forward="true" selection-start-line="114" selection-start-column="0" selection-end-line="114" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#login#0;class#LoginCenterController#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SystemCache.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/erp-services/src/main/java/com/qs/erp/services/common/cache/SystemCache.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="21" column="29" lean-forward="false" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EntityCacheService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/erp-services/src/main/java/com/qs/erp/services/common/cache/EntityCacheService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="16" column="31" lean-forward="false" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
-              <folding>
-                <element signature="e#482#483#0" expanded="true" />
-                <element signature="e#536#537#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ICustomerCache.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/erp-services/src/main/java/com/qs/erp/services/common/cache/ICustomerCache.java">
+      <file leaf-file-name="globalConfig.properties" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/erp-web/src/main/webapp/config/globalConfig.properties">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="230">
-              <caret line="10" column="11" lean-forward="false" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
+              <caret line="10" column="23" lean-forward="true" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TenantDao.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/erp-daos/src/main/java/com/qs/erp/daos/dao/TenantDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TenantDaoMapper.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/erp-daos/src/main/resources/sqlmap/TenantDaoMapper.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="11" column="9" lean-forward="false" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
-              <folding>
-                <marker date="1533458948967" expanded="true" signature="279:644" ph="SELECT tenan... tenant" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TenantLoginDaoExtMapper.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/erp-daos/src/main/resources/sqlmapext/TenantLoginDaoExtMapper.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="14" column="49" lean-forward="false" selection-start-line="14" selection-start-column="49" selection-end-line="14" selection-end-column="49" />
-              <folding>
-                <marker date="1521604527618" expanded="true" signature="335:407" ph="SELECT Tenan... tenantlogin" />
-                <marker date="1521604527618" expanded="true" signature="488:546" ph="SELECT * FRO... tenantlogin" />
-                <marker date="1521604527618" expanded="true" signature="620:645" ph="select * fro... tenantlogin" />
-                <marker date="1521604527618" expanded="true" signature="726:785" ph="SELECT * FRO... tenantlogin" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -285,11 +180,11 @@
         <option value="$PROJECT_DIR$/erp-daos/src/main/java/com/qs/erp/daos/dao/TenantDao.java" />
         <option value="$PROJECT_DIR$/erp-entitys/src/main/java/com/qs/erp/entitys/businessmodel/ClientLoginBusiness.java" />
         <option value="$PROJECT_DIR$/erp-web/src/main/webapp/config/jdbc.properties" />
-        <option value="$PROJECT_DIR$/erp-web/src/main/webapp/config/globalConfig.properties" />
         <option value="$PROJECT_DIR$/erp-web/src/main/webapp/config/spymemcached.properties" />
         <option value="$PROJECT_DIR$/erp-services/src/main/java/com/qs/erp/services/common/CookiesService.java" />
         <option value="$PROJECT_DIR$/erp-daos/src/main/resources/sqlmap/TenantDaoMapper.xml" />
         <option value="$PROJECT_DIR$/erp-web/src/main/java/com/qs/erp/web/controller/LoginCenterController.java" />
+        <option value="$PROJECT_DIR$/erp-web/src/main/webapp/config/globalConfig.properties" />
       </list>
     </option>
   </component>
@@ -356,214 +251,28 @@
             <path>
               <item name="TYLC" type="b2602c69:ProjectViewProjectNode" />
               <item name="TYLC" type="462c0819:PsiDirectoryNode" />
-              <item name="erp-common" type="462c0819:PsiDirectoryNode" />
+              <item name="erp-web" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="TYLC" type="b2602c69:ProjectViewProjectNode" />
               <item name="TYLC" type="462c0819:PsiDirectoryNode" />
-              <item name="erp-daos" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TYLC" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TYLC" type="462c0819:PsiDirectoryNode" />
-              <item name="erp-daos" type="462c0819:PsiDirectoryNode" />
+              <item name="erp-web" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="TYLC" type="b2602c69:ProjectViewProjectNode" />
               <item name="TYLC" type="462c0819:PsiDirectoryNode" />
-              <item name="erp-daos" type="462c0819:PsiDirectoryNode" />
+              <item name="erp-web" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="TYLC" type="b2602c69:ProjectViewProjectNode" />
               <item name="TYLC" type="462c0819:PsiDirectoryNode" />
-              <item name="erp-daos" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TYLC" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TYLC" type="462c0819:PsiDirectoryNode" />
-              <item name="erp-daos" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="daos" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TYLC" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TYLC" type="462c0819:PsiDirectoryNode" />
-              <item name="erp-daos" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="daos" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TYLC" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TYLC" type="462c0819:PsiDirectoryNode" />
-              <item name="erp-daos" type="462c0819:PsiDirectoryNode" />
+              <item name="erp-web" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TYLC" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TYLC" type="462c0819:PsiDirectoryNode" />
-              <item name="erp-daos" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="sqlmap" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TYLC" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TYLC" type="462c0819:PsiDirectoryNode" />
-              <item name="erp-entitys" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TYLC" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TYLC" type="462c0819:PsiDirectoryNode" />
-              <item name="erp-entitys" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TYLC" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TYLC" type="462c0819:PsiDirectoryNode" />
-              <item name="erp-entitys" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TYLC" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TYLC" type="462c0819:PsiDirectoryNode" />
-              <item name="erp-entitys" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TYLC" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TYLC" type="462c0819:PsiDirectoryNode" />
-              <item name="erp-entitys" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="entitys" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TYLC" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TYLC" type="462c0819:PsiDirectoryNode" />
-              <item name="erp-entitys" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="entitys" type="462c0819:PsiDirectoryNode" />
-              <item name="businessmodel" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TYLC" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TYLC" type="462c0819:PsiDirectoryNode" />
-              <item name="erp-services" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TYLC" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TYLC" type="462c0819:PsiDirectoryNode" />
-              <item name="erp-services" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TYLC" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TYLC" type="462c0819:PsiDirectoryNode" />
-              <item name="erp-services" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TYLC" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TYLC" type="462c0819:PsiDirectoryNode" />
-              <item name="erp-services" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TYLC" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TYLC" type="462c0819:PsiDirectoryNode" />
-              <item name="erp-services" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="services" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TYLC" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TYLC" type="462c0819:PsiDirectoryNode" />
-              <item name="erp-services" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="services" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TYLC" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TYLC" type="462c0819:PsiDirectoryNode" />
-              <item name="erp-services" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="services" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TYLC" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TYLC" type="462c0819:PsiDirectoryNode" />
-              <item name="erp-web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TYLC" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TYLC" type="462c0819:PsiDirectoryNode" />
-              <item name="erp-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TYLC" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TYLC" type="462c0819:PsiDirectoryNode" />
-              <item name="erp-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TYLC" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TYLC" type="462c0819:PsiDirectoryNode" />
-              <item name="erp-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TYLC" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TYLC" type="462c0819:PsiDirectoryNode" />
-              <item name="erp-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TYLC" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TYLC" type="462c0819:PsiDirectoryNode" />
-              <item name="erp-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="TYLC" type="b2602c69:ProjectViewProjectNode" />
@@ -597,7 +306,7 @@
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="SearchEverywhereHistoryKey" value="MyConstant&#9;FILE&#9;file://E:/zl/TYLC/springmvc/TYLC/erp-services/src/main/java/com/qs/erp/services/common/MyConstant.java&#10;jdbc&#9;FILE&#9;file://E:/zl/TYLC/springmvc/TYLC/erp-web/src/main/webapp/config/jdbc.properties&#10;Jdbc&#9;FILE&#9;file://E:/zl/TYLC/springmvc/TYLC/erp-web/src/main/webapp/config/jdbc.properties&#10;Cons&#9;FILE&#9;file://E:/zl/TYLC/springmvc/TYLC/erp-services/src/main/java/com/qs/erp/services/common/MyConstant.java&#10;Login&#9;PSI&#9;JAVA://com.qs.erp.web.controller.LoginController&#10;GlobalParameter&#9;FILE&#9;file://E:/zl/TYLC/springmvc/TYLC/erp-services/src/main/java/com/qs/erp/services/common/GlobalParameter.java&#10;LOgin&#9;PSI&#9;JAVA://com.qs.erp.web.controller.LoginController&#10;PdaApicon&#9;FILE&#9;file://D:/qiansheng/biaozhun2 - 副本/springmvc/NewWeb/erp-web/src/main/java/com/qs/erp/web/controller/PDAApiController.java&#10;SellOrder/&#9;FILE&#9;file://D:/qiansheng/biaozhun2 - 副本/springmvc/NewWeb/erp-web/src/main/webapp/WEB-INF/pages/SellOrder&#10;JcJmScanOrder/OutStorage&#9;null&#9;null&#10;Sellorder/&#9;FILE&#9;file://D:/qiansheng/biaozhun2 - 副本/springmvc/NewWeb/erp-web/src/main/webapp/WEB-INF/pages/SellOrder&#10;PurchaseReturnOutOrder&#9;FILE&#9;file://D:/qiansheng/biaozhun2 - 副本/springmvc/NewWeb/erp-web/src/main/webapp/static-resources/ViewJSModels/PurchaseReturnOutOrder/vm.PurchaseReturnOutOrder.edit.js&#10;JcJmScanOutWarehouse/&#9;FILE&#9;file://D:/qiansheng/biaozhun2 - 副本/springmvc/NewWeb/erp-web/src/main/webapp/static-resources/ViewJSModels/JcJmScanOutWarehouse&#10;PurchaseReturnOutOrder/&#9;FILE&#9;file://D:/qiansheng/biaozhun2 - 副本/springmvc/NewWeb/erp-web/src/main/webapp/static-resources/ViewJSModels/PurchaseReturnOutOrder&#10;JcJmScanOutWarehouse&#9;PSI&#9;JAVA://com.qs.erp.web.controller.JcJmScanOutWarehouseController&#10;PostPrintOrder2&#9;PSI&#9;JAVA://com.qs.erp.web.controller.PostPrintOrder2Controller&#10;InventoryReport/&#9;FILE&#9;file://D:/qiansheng/biaozhun2 - 副本/springmvc/NewWeb/erp-web/src/main/webapp/static-resources/ViewJSModels/InventoryReport&#10;SortingWall/getProductOrderInfoBySortingWall&#9;null&#9;null&#10;ProductSorting/&#9;FILE&#9;file://D:/qiansheng/biaozhun2 - 副本/springmvc/NewWeb/erp-web/src/main/webapp/static-resources/ViewJSModels/ProductSorting&#10;JDExpressCheckBillService&#9;FILE&#9;file://D:/qiansheng/biaozhun2 - 副本/springmvc/NewWeb/erp-services/src/main/java/com/qs/erp/services/service/JDExpressCheckBillService.java&#10;PDAApi/PurchaseCodePick&#9;null&#9;null&#10;PDAApi/getRFPermission&#9;null&#9;null&#10;WaybillI/getListBySellOrder&#9;null&#9;null&#10;TaobaoFenXiaoPlatProductMatchService&#9;PSI&#9;JAVA://com.qs.erp.services.service.PlatProductDown.TaobaoFenXiao.TaobaoFenXiaoPlatProductMatchService&#10;Shop&#9;FILE&#9;file://D:/qiansheng/biaozhun2 - 副本/springmvc/NewWeb/erp-services/src/main/java/com/qs/erp/services/service/ShopService.java&#10;pda&#9;FILE&#9;file://D:/qiansheng/biaozhun2 - 副本/springmvc/NewWeb/erp-web/src/main/java/com/qs/erp/web/controller/PDAApiController.java&#10;InvTakingOrder/au&#9;FILE&#9;file://D:/qiansheng/biaozhun2 - 副本/springmvc/NewWeb/erp-web/src/main/java/com/qs/erp/web/controller/InvTakingOrderController.java&#10;DeliveryOrder/&#9;FILE&#9;file://D:/qiansheng/biaozhun2 - 副本/springmvc/NewWeb/erp-web/src/main/webapp/WEB-INF/pages/DeliveryOrder&#10;PDAApi/GetInvTakingHaveOrder&#9;null&#9;null&#10;InvTakingOrder&#9;PSI&#9;JAVA://com.qs.erp.entitys.entity.InvTakingOrder&#10;invAdjustOrder&#9;PSI&#9;JAVA://com.qs.erp.entitys.entity.InvAdjustOrder&#10;InvTakingOrder/Audit&#9;null&#9;null&#10;InvTakingOrder/&#9;FILE&#9;file://D:/qiansheng/biaozhun2 - 副本/springmvc/NewWeb/erp-web/src/main/webapp/static-resources/ViewJSModels/InvTakingOrder&#10;InvTakingOrder/index.jsp&#9;FILE&#9;file://D:/qiansheng/biaozhun2 - 副本/springmvc/NewWeb/erp-web/src/main/webapp/WEB-INF/pages/InvTakingOrder/index.jsp&#10;/PurchaseCodeComparison/getPrintPUnionCodeModel&#9;null&#9;null&#10;PurchaseCodeComparison/getPrintPUnionCodeModel&#9;null&#9;null&#10;SystemConfig/&#9;FILE&#9;file://D:/qiansheng/biaozhun2 - 副本/springmvc/NewWeb/erp-web/src/main/webapp/WEB-INF/pages/SystemConfig&#10;SystemConfig&#9;PSI&#9;JAVA://com.qs.erp.entitys.entity.SystemConfig&#10;Open&#9;PSI&#9;JAVA://com.qs.erp.web.controller.OpenApiController&#10;OPena&#9;RUN_CONFIGURATION&#9;OpenApiControllerTest.getOrder&#10;Sellor&#9;PSI&#9;JAVA://com.qs.erp.entitys.entity.SellOrder&#10;PrintTemplate/&#9;FILE&#9;file://D:/qiansheng/biaozhun2 - 副本/springmvc/NewWeb/erp-web/src/main/webapp/static-resources/ViewJSModels/PrintTemplate&#10;InvAdjustOrder/&#9;FILE&#9;file://D:/qiansheng/biaozhun2 - 副本/springmvc/NewWeb/erp-web/src/main/webapp/static-resources/ViewJSModels/InvAdjustOrder&#10;/CommonMethod/getPrintPUnionCodeModelList&#9;null&#9;null&#10;InvAllocateOrder/&#9;FILE&#9;file://D:/qiansheng/biaozhun2 - 副本/springmvc/NewWeb/erp-web/src/main/webapp/WEB-INF/pages/InvAllocateOrder&#10;purchasecodecomparison&#9;PSI&#9;JAVA://com.qs.erp.entitys.entity.PurchaseCodeComparison&#10;CommonMethod/getPrintPUnionCodeModelList&#9;null&#9;null&#10;PurchaseInOrder/getPrintPUnionCodeModel&#9;null&#9;null&#10;PurchaseInOrder/&#9;FILE&#9;file://D:/qiansheng/biaozhun2 - 副本/springmvc/NewWeb/erp-web/src/main/webapp/WEB-INF/pages/PurchaseInOrder&#10;PurchaseInOrder/GetPrintBarCodeByPurchaseInOrder&#9;null&#9;null" />
+    <property name="SearchEverywhereHistoryKey" value="jdbc&#9;FILE&#9;file://E:/zl/TYLC/springmvc/TYLC/erp-web/src/main/webapp/config/jdbc.properties&#10;MyConstant&#9;FILE&#9;file://E:/zl/TYLC/springmvc/TYLC/erp-services/src/main/java/com/qs/erp/services/common/MyConstant.java&#10;Jdbc&#9;FILE&#9;file://E:/zl/TYLC/springmvc/TYLC/erp-web/src/main/webapp/config/jdbc.properties&#10;Cons&#9;FILE&#9;file://E:/zl/TYLC/springmvc/TYLC/erp-services/src/main/java/com/qs/erp/services/common/MyConstant.java&#10;Login&#9;PSI&#9;JAVA://com.qs.erp.web.controller.LoginController&#10;GlobalParameter&#9;FILE&#9;file://E:/zl/TYLC/springmvc/TYLC/erp-services/src/main/java/com/qs/erp/services/common/GlobalParameter.java&#10;LOgin&#9;PSI&#9;JAVA://com.qs.erp.web.controller.LoginController&#10;PdaApicon&#9;FILE&#9;file://D:/qiansheng/biaozhun2 - 副本/springmvc/NewWeb/erp-web/src/main/java/com/qs/erp/web/controller/PDAApiController.java&#10;SellOrder/&#9;FILE&#9;file://D:/qiansheng/biaozhun2 - 副本/springmvc/NewWeb/erp-web/src/main/webapp/WEB-INF/pages/SellOrder&#10;JcJmScanOrder/OutStorage&#9;null&#9;null&#10;Sellorder/&#9;FILE&#9;file://D:/qiansheng/biaozhun2 - 副本/springmvc/NewWeb/erp-web/src/main/webapp/WEB-INF/pages/SellOrder&#10;PurchaseReturnOutOrder&#9;FILE&#9;file://D:/qiansheng/biaozhun2 - 副本/springmvc/NewWeb/erp-web/src/main/webapp/static-resources/ViewJSModels/PurchaseReturnOutOrder/vm.PurchaseReturnOutOrder.edit.js&#10;JcJmScanOutWarehouse/&#9;FILE&#9;file://D:/qiansheng/biaozhun2 - 副本/springmvc/NewWeb/erp-web/src/main/webapp/static-resources/ViewJSModels/JcJmScanOutWarehouse&#10;PurchaseReturnOutOrder/&#9;FILE&#9;file://D:/qiansheng/biaozhun2 - 副本/springmvc/NewWeb/erp-web/src/main/webapp/static-resources/ViewJSModels/PurchaseReturnOutOrder&#10;JcJmScanOutWarehouse&#9;PSI&#9;JAVA://com.qs.erp.web.controller.JcJmScanOutWarehouseController&#10;PostPrintOrder2&#9;PSI&#9;JAVA://com.qs.erp.web.controller.PostPrintOrder2Controller&#10;InventoryReport/&#9;FILE&#9;file://D:/qiansheng/biaozhun2 - 副本/springmvc/NewWeb/erp-web/src/main/webapp/static-resources/ViewJSModels/InventoryReport&#10;SortingWall/getProductOrderInfoBySortingWall&#9;null&#9;null&#10;ProductSorting/&#9;FILE&#9;file://D:/qiansheng/biaozhun2 - 副本/springmvc/NewWeb/erp-web/src/main/webapp/static-resources/ViewJSModels/ProductSorting&#10;JDExpressCheckBillService&#9;FILE&#9;file://D:/qiansheng/biaozhun2 - 副本/springmvc/NewWeb/erp-services/src/main/java/com/qs/erp/services/service/JDExpressCheckBillService.java&#10;PDAApi/PurchaseCodePick&#9;null&#9;null&#10;PDAApi/getRFPermission&#9;null&#9;null&#10;WaybillI/getListBySellOrder&#9;null&#9;null&#10;TaobaoFenXiaoPlatProductMatchService&#9;PSI&#9;JAVA://com.qs.erp.services.service.PlatProductDown.TaobaoFenXiao.TaobaoFenXiaoPlatProductMatchService&#10;Shop&#9;FILE&#9;file://D:/qiansheng/biaozhun2 - 副本/springmvc/NewWeb/erp-services/src/main/java/com/qs/erp/services/service/ShopService.java&#10;pda&#9;FILE&#9;file://D:/qiansheng/biaozhun2 - 副本/springmvc/NewWeb/erp-web/src/main/java/com/qs/erp/web/controller/PDAApiController.java&#10;InvTakingOrder/au&#9;FILE&#9;file://D:/qiansheng/biaozhun2 - 副本/springmvc/NewWeb/erp-web/src/main/java/com/qs/erp/web/controller/InvTakingOrderController.java&#10;DeliveryOrder/&#9;FILE&#9;file://D:/qiansheng/biaozhun2 - 副本/springmvc/NewWeb/erp-web/src/main/webapp/WEB-INF/pages/DeliveryOrder&#10;PDAApi/GetInvTakingHaveOrder&#9;null&#9;null&#10;InvTakingOrder&#9;PSI&#9;JAVA://com.qs.erp.entitys.entity.InvTakingOrder&#10;invAdjustOrder&#9;PSI&#9;JAVA://com.qs.erp.entitys.entity.InvAdjustOrder&#10;InvTakingOrder/Audit&#9;null&#9;null&#10;InvTakingOrder/&#9;FILE&#9;file://D:/qiansheng/biaozhun2 - 副本/springmvc/NewWeb/erp-web/src/main/webapp/static-resources/ViewJSModels/InvTakingOrder&#10;InvTakingOrder/index.jsp&#9;FILE&#9;file://D:/qiansheng/biaozhun2 - 副本/springmvc/NewWeb/erp-web/src/main/webapp/WEB-INF/pages/InvTakingOrder/index.jsp&#10;/PurchaseCodeComparison/getPrintPUnionCodeModel&#9;null&#9;null&#10;PurchaseCodeComparison/getPrintPUnionCodeModel&#9;null&#9;null&#10;SystemConfig/&#9;FILE&#9;file://D:/qiansheng/biaozhun2 - 副本/springmvc/NewWeb/erp-web/src/main/webapp/WEB-INF/pages/SystemConfig&#10;SystemConfig&#9;PSI&#9;JAVA://com.qs.erp.entitys.entity.SystemConfig&#10;Open&#9;PSI&#9;JAVA://com.qs.erp.web.controller.OpenApiController&#10;OPena&#9;RUN_CONFIGURATION&#9;OpenApiControllerTest.getOrder&#10;Sellor&#9;PSI&#9;JAVA://com.qs.erp.entitys.entity.SellOrder&#10;PrintTemplate/&#9;FILE&#9;file://D:/qiansheng/biaozhun2 - 副本/springmvc/NewWeb/erp-web/src/main/webapp/static-resources/ViewJSModels/PrintTemplate&#10;InvAdjustOrder/&#9;FILE&#9;file://D:/qiansheng/biaozhun2 - 副本/springmvc/NewWeb/erp-web/src/main/webapp/static-resources/ViewJSModels/InvAdjustOrder&#10;/CommonMethod/getPrintPUnionCodeModelList&#9;null&#9;null&#10;InvAllocateOrder/&#9;FILE&#9;file://D:/qiansheng/biaozhun2 - 副本/springmvc/NewWeb/erp-web/src/main/webapp/WEB-INF/pages/InvAllocateOrder&#10;purchasecodecomparison&#9;PSI&#9;JAVA://com.qs.erp.entitys.entity.PurchaseCodeComparison&#10;CommonMethod/getPrintPUnionCodeModelList&#9;null&#9;null&#10;PurchaseInOrder/getPrintPUnionCodeModel&#9;null&#9;null&#10;PurchaseInOrder/&#9;FILE&#9;file://D:/qiansheng/biaozhun2 - 副本/springmvc/NewWeb/erp-web/src/main/webapp/WEB-INF/pages/PurchaseInOrder&#10;PurchaseInOrder/GetPrintBarCodeByPurchaseInOrder&#9;null&#9;null" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/erp-utils/src/main/java/com/qs/erp/utils/util" />
   </component>
   <component name="RecentsManager">
@@ -908,7 +617,7 @@
       <workItem from="1533520647094" duration="42000" />
       <workItem from="1533638493459" duration="1069000" />
       <workItem from="1533692229617" duration="27000" />
-      <workItem from="1534494757819" duration="108000" />
+      <workItem from="1534494757819" duration="1837000" />
     </task>
     <servers />
   </component>
@@ -945,7 +654,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="792619000" />
+    <option name="totallyTimeSpent" value="794348000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1310,13 +1019,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/erp-utils/src/main/java/com/qs/erp/utils/util/ThreadPool/MyThreadPoolExecutor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/erp-utils/src/main/java/com/qs/erp/utils/util/ThreadPool/PriorityEnum.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1550,20 +1252,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/erp-web/src/main/webapp/config/jdbc.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="16" column="39" lean-forward="false" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/erp-web/src/main/webapp/config/globalConfig.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="43" lean-forward="false" selection-start-line="2" selection-start-column="43" selection-end-line="2" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/erp-web/src/main/webapp/config/spymemcached.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="46">
@@ -1652,7 +1340,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/erp-services/src/main/java/com/qs/erp/services/common/cache/EntityCacheService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
+        <state relative-caret-position="276">
           <caret line="16" column="31" lean-forward="false" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
           <folding>
             <element signature="e#482#483#0" expanded="true" />
@@ -1702,12 +1390,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/erp-web/src/main/java/com/qs/erp/web/controller/LoginCenterController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="411">
-          <caret line="114" column="0" lean-forward="true" selection-start-line="114" selection-start-column="0" selection-end-line="114" selection-end-column="0" />
+        <state relative-caret-position="297">
+          <caret line="50" column="34" lean-forward="true" selection-start-line="50" selection-start-column="34" selection-end-line="50" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#login#0;class#LoginCenterController#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/erp-web/src/main/resources/spring.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="17" column="36" lean-forward="true" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/erp-web/src/main/webapp/config/jdbc.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="18" column="32" lean-forward="true" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/erp-web/src/main/webapp/config/globalConfig.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="23" lean-forward="true" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+          <folding />
         </state>
       </provider>
     </entry>

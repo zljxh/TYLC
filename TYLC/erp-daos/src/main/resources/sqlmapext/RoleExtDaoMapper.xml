@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.qs.erp.daos.daoext.RoleExtDao">
+    <select id="GetPageByPageQueryParameters" resultType="ProductOwner">
+        SELECT * FROM Role
+        <where>
+            <if test="1==1">
+                TenantRowId=#{TenantRowId}
+            </if>
+            <if test="map.BeginDate!=null">AND CreateDate>=#{map.BeginDate}</if>
+            <if test="map.EndDate!=null">AND CreateDate&lt;=#{map.EndDate}</if>
+            <if test="map.IsEnabled!=null">AND IsEnabled=#{map.IsEnabled}</if>
+            <if test="map.Name!=null and map.Name!=''">AND Name LIKE CONCAT(#{map.Name},'%' )</if>
+        </where>
+        order by DisplayNum ASC limit #{map.BeginRowIndex},#{map.PageRowCount}
+    </select>
+    <select id="GetCountByPageQueryParameters" resultType="Long">
+        select count(*) from Role
+        <where>
+            <if test="1==1">
+                TenantRowId=#{TenantRowId}
+            </if>
+            <if test="map.BeginDate!=null">AND CreateDate>=#{map.BeginDate}</if>
+            <if test="map.EndDate!=null">AND CreateDate&lt;=#{map.EndDate}</if>
+            <if test="map.IsEnabled!=null">AND IsEnabled=#{map.IsEnabled}</if>
+            <if test="map.Name!=null and map.Name!=''">AND Name LIKE CONCAT(#{map.Name},'%' )</if>
+        </where>
+    </select>
+    <update id="ChangeEnabled">
+        update Role set isenabled=(case when isenabled=1 then 0 else 1 end) where rowid=#{RowId} AND TenantRowId=#{TenantRowId};
+    </update>
+
+    <select id="getComboList" resultType="Map">
+        select RowId,Code,Name,PinYin from Role where IsEnabled=1 AND TenantRowId=#{TenantRowId}
+    </select>
+
+    <select id="getOperatorbyRole" resultType="Long">
+        select RowId from employee WHERE RoleRowId=#{RowId} and TenantRowId=#{TenantRowId}
+    </select>
+
+    <select id="getRoleSystemResource" resultType="SystemResource">
+        SELECT
+         SystemResource.*,
+         CASE
+           WHEN RoleSystemResource.`RoleRowId` IS NULL
+           THEN FALSE
+           ELSE TRUE
+         END AS Checked
+         FROM
+         SystemResource
+         INNER JOIN employee ON employee.rowid=#{OperatorRowId}
+         INNER JOIN RoleSystemResource
+           ON RoleSystemResource.`RoleRowId` = employee.rolerowid
+           AND SystemResource.`RowId` = RoleSystemResource.`SystemResourceRowId`
+           WHERE SystemResource.code=#{permission} and RoleSystemResource.TenantRowId=#{TenantRowId}
+    </select>
+</mapper>

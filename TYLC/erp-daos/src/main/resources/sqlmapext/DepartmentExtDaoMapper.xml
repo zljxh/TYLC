@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.qs.erp.daos.daoext.DepartmentExtDao">
+    <select id="GetPageByPageQueryParameters" resultType="Map">
+        SELECT * FROM Department
+        <where>
+            <if test="1==1">
+                TenantRowId=#{TenantRowId}
+            </if>
+
+        </where>
+        order by DisplayNum ASC limit #{map.BeginRowIndex},#{map.PageRowCount}
+    </select>
+    <select id="GetCountByPageQueryParameters" resultType="Long">
+        select count(*) from Department
+        <where>
+            <if test="1==1">
+                TenantRowId=#{TenantRowId}
+            </if>
+
+        </where>
+    </select>
+    <select id="GetFirst" resultType="Department">
+        select * from Department
+        <where>
+            TenantRowId=#{TenantRowId}
+            <if test="map.Name!=null">and Name=#{map.Name}</if>
+        </where>
+        limit 0,1
+    </select>
+    <update id="ChangeEnabled">
+        update Department set isenabled=(case when isenabled=1 then 0 else 1 end) where rowid=#{RowId} and TenantRowId=#{TenantRowId}
+    </update>
+    <select id="getComboList" resultType="Map">
+        select RowId,Code,Name,PinYin from Department WHERE  TenantRowId=#{TenantRowId}
+    </select>
+</mapper>

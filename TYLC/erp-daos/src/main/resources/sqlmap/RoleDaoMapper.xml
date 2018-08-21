@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.qs.erp.daos.dao.RoleDao">
+    <resultMap id="ResultMap" type="Role">
+
+    </resultMap>
+    <select id="GetPageByPageQueryParameters" resultType="Role">
+        SELECT Role.* FROM Role inner join (select RowId from Role
+        <where>
+            <if test="1==1">
+                TenantRowId=#{TenantRowId}
+            </if>
+            <if test="map.CreateBeginDate!=null">
+                AND CreateDate>=#{map.CreateBeginDate}
+            </if>
+            <if test="map.CreateEndDate!=null">
+                AND CreateDate&lt;=#{map.CreateEndDate}
+            </if>
+
+        </where>
+        order by #{map.OrderByColumn} limit #{map.BeginRowIndex},#{map.EndRowCount}) as a on a.RowId=Role.RowId
+    </select>
+    <select id="GetCountByPageQueryParameters" resultType="Long">
+        select count(*) from Role
+        <where>
+            <if test="1==1">
+                TenantRowId=#{TenantRowId}
+            </if>
+            <if test="map.CreateBeginDate!=null">
+                CreateDate>=#{map.CreateBeginDate}
+            </if>
+            <if test="map.CreateEndDate!=null">
+                AND CreateDate&lt;=#{map.CreateEndDate}
+            </if>
+
+        </where>
+    </select>
+
+    <select id="GetList" resultMap="ResultMap">
+        select
+        *
+        from Role WHERE   TenantRowId=#{TenantRowId}
+    </select>
+    <select id="Get" resultMap="ResultMap">
+        select * from Role where RowId=#{RowId} AND   TenantRowId=#{TenantRowId}
+    </select>
+
+    <update id="Update">
+        update Role
+        set
+
+            Code=#{Code}
+            ,Name=#{Name}
+         ,DisplayNum=#{DisplayNum}
+            ,Remark=#{Remark}
+            ,Pinyin=#{Pinyin}
+         where RowId=#{RowId}   AND   TenantRowId=#{TenantRowId}
+   </update>
+
+    <delete id="Delete">
+        delete from  Role
+        where RowId=#{RowId} AND   TenantRowId=#{TenantRowId}
+
+    </delete>
+
+    <insert id="Create">
+        INSERT INTO Role
+        (
+      
+              RowId,
+              Code,
+              Name,
+              IsEnabled,
+              CreateDate,
+              Creater,
+              DisplayNum,
+              Remark,
+              Pinyin,
+              TenantRowId
+        
+        )
+        VALUES(
+              #{RowId},
+              #{Code},
+              #{Name},
+              #{IsEnabled},
+              #{CreateDate},
+              #{Creater},
+              #{DisplayNum},
+              #{Remark},
+              #{Pinyin},
+              #{TenantRowId}
+        )
+    </insert>
+
+</mapper>

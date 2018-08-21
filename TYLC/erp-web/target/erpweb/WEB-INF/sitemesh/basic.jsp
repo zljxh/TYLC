@@ -141,7 +141,6 @@
 <script src="/ViewJSModels/base/c8Control/vm.Control.SelectPostPrintOrderWaveModel.js?vfr2we"></script>
 <script src="/ViewJSModels/base/c8Control/vm.Control.SelectPostPrintOrder2WaveModel.js?vfr2we"></script>
 <script src="/ViewJSModels/base/c8Control/vm.Control.SelectExpectDeliveryDate.js?vfr2we"></script>
-<script src="/ViewJSModels/PostPrintOrder2/vm.PostPrintOrder2.PickProductsPrint.js?vfr2we"></script>
 <script src="/ViewJSModels/base/c8Control/vm.Control.ShowPostPrintOrder2RemainProducts.js?vf35678453333r2we"></script>
 <script src="/ViewJSModels/base/c8Control/vm.Control.SelectInvoiceOrder.js?vf333333"></script>
 <script src="/ViewJSModels/base/c8Control/vm.Control.SelectOperatorModel.js?1x"></script>

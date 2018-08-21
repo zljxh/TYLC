@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.qs.erp.daos.dao.DepartmentDao">
+    <resultMap id="ResultMap" type="Department">
+
+    </resultMap>
+    <select id="GetList" resultMap="ResultMap">
+        select
+        *
+        from Department  WHERE   TenantRowId=#{TenantRowId}
+    </select>
+    <select id="Get" resultMap="ResultMap">
+        select * from Department where RowId=#{RowId} AND     TenantRowId=#{TenantRowId}
+    </select>
+
+    <update id="Update">
+        update Department
+        set
+
+            Code=#{Code},
+            Name=#{Name},
+            CompanyRowId=#{CompanyRowId},
+            Remark=#{Remark},
+            DisplayNum=#{DisplayNum},
+            Leader=#{Leader},
+            Pinyin=#{Pinyin}
+         where RowId=#{RowId}   AND   TenantRowId=#{TenantRowId}
+   </update>
+
+    <delete id="Delete">
+        delete from  Department
+        where RowId=#{RowId}   AND   TenantRowId=#{TenantRowId}
+
+    </delete>
+
+    <insert id="Create">
+        INSERT INTO Department
+        (
+      
+              RowId,
+              Code,
+              Name,
+              Remark,
+              IsEnabled,
+              DisplayNum,
+              CreateDate,
+              Creater,
+              Leader,
+              Pinyin,
+              TenantRowId
+        
+        )
+        VALUES(
+              #{RowId},
+              #{Code},
+              #{Name},
+              #{Remark},
+              #{IsEnabled},
+              #{DisplayNum},
+              #{CreateDate},
+              #{Creater},
+              #{Leader},
+              #{Pinyin},
+              #{TenantRowId}
+        )
+    </insert>
+
+</mapper>

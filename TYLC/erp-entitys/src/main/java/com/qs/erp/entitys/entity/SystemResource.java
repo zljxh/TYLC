@@ -353,5 +353,14 @@ public class SystemResource implements BaseEntity, Serializable {
 
     private int TypeStatus;
 
+    private boolean Checked;
+
+    public boolean isChecked() {
+        return Checked;
+    }
+
+    public void setChecked(boolean checked) {
+        Checked = checked;
+    }
 
 }

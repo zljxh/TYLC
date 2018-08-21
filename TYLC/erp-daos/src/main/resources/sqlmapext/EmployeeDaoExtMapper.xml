@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.qs.erp.daos.daoext.EmployeeDaoExt">
+    <resultMap id="ResultMap" type="Employee">
+
+    </resultMap>
+    <select id="GetPageByPageQueryParameters" resultType="Map">
+        SELECT Employee.* FROM Employee
+        <where>
+            <if test="1==1">
+                TenantRowId=#{TenantRowId}
+            </if>
+            <if test="map.Name!=null">
+                AND Name LIKE CONCAT(#{map.Name},'%' )
+            </if>
+            <if test="map.IsleaveOffice!=null">
+                AND IsleaveOffice=#{map.IsleaveOffice}
+            </if>
+            <if test="map.IsEnabled!=null">
+                AND IsEnabled=#{map.IsEnabled}
+            </if>
+        </where>
+        order by CreateDate desc limit #{map.BeginRowIndex},#{map.PageRowCount}
+    </select>
+    <select id="GetCountByPageQueryParameters" resultType="Long">
+        select count(*) from Employee
+        <where>
+            <if test="1==1">
+                TenantRowId=#{TenantRowId}
+            </if>
+            <if test="map.Name!=null">
+                AND Name LIKE CONCAT(#{map.Name},'%' )
+            </if>
+            <if test="map.IsleaveOffice!=null">
+                AND IsleaveOffice=#{map.IsleaveOffice}
+            </if>
+            <if test="map.IsEnabled!=null">
+                AND IsEnabled=#{map.IsEnabled}
+            </if>
+        </where>
+    </select>
+    <select id="getNameByCode" resultType="Employee">
+        select * from Employee where Code=#{Code} and TenantRowId=#{TenantRowId} limit 1
+    </select>
+
+    <select id="GetFirst" resultType="Employee">
+        select * from Employee
+        <where>
+            TenantRowId=#{TenantRowId}
+            <if test="map.Code!=null">and Code=#{map.Code}</if>
+        </where>
+        limit 0,1
+    </select>
+
+    <select id="getPageList" resultType="Map">
+        select * from Employee
+        <where>
+            TenantRowId=#{TenantRowId} and IsleaveOffice=0
+            <if test="map.Code!=null and map.Code!=''">
+                AND Code LIKE CONCAT(#{map.Code},'%' )
+            </if>
+        </where>
+        ORDER BY Code
+    </select>
+    <select id="getPageCount" resultType="int">
+        select COUNT(1) from Employee
+        <where>
+            TenantRowId=#{TenantRowId} and IsleaveOffice=0
+            <if test="map.Code!=null and map.Code!=''">
+                AND Code LIKE CONCAT(#{map.Code},'%' )
+            </if>
+        </where>
+    </select>
+    <select id="getComboList" resultType="Map">
+        SELECT RowId,Code,Name,PinYin FROM Employee WHERE `IsleaveOffice`=0 AND   TenantRowId=#{TenantRowId};
+    </select>
+    <select id="getComboNotOperatorList" resultType="Map">
+    SELECT RowId,Code,Name,PinYin FROM Employee WHERE `IsleaveOffice`=0 AND   TenantRowId=#{TenantRowId}
+    AND rowId  NOT IN  (SELECT RowId FROM Operator WHERE   TenantRowId=#{TenantRowId})
+    </select>
+    <update id="ChangeEnabled">
+        update Employee set isenabled=(case when isenabled=1 then 0 else 1 end) where rowid=#{RowId} and TenantRowId=#{TenantRowId}
+    </update>
+    <select id="GetFirstByName" resultType="Employee">
+        select * from Employee where
+        TenantRowId=#{TenantRowId} and Name=#{Name}
+        limit 1
+    </select>
+
+    <select id="getCurrentOperatorName" resultType="String">
+        SELECT NAME FROM Employee WHERE TenantRowId =#{TenantRowId} AND CODE= #{Code}
+    </select>
+
+</mapper>

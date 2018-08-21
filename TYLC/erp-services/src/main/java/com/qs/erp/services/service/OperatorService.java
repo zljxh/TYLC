@@ -1,12 +1,17 @@
 package com.qs.erp.services.service;
 
 import com.qs.erp.common.ServiceContext;
+import com.qs.erp.daos.dao.OperatorDao;
+import com.qs.erp.daos.daoext.OperatorConfigDao;
 import com.qs.erp.daos.daoext.OperatorDaoExt;
+import com.qs.erp.entitys.businessmodel.CallResult;
 import com.qs.erp.entitys.entity.Operator;
+import com.qs.erp.entitys.entity.OperatorConfig;
 import com.qs.erp.services.common.BaseService;
 import com.qs.erp.services.common.CurrentContextFactory;
 import com.qs.erp.services.common.GlobalParameter;
 import com.qs.erp.services.common.TreeObjectHelp;
+import com.qs.erp.services.common.shiro.PasswordHelper;
 import com.qs.erp.utils.util.ConvertHelp;
 import com.qs.erp.utils.util.ListEquals;
 import com.qs.erp.utils.util.ListGetTReturn;
@@ -23,7 +28,12 @@ import java.util.*;
 public class OperatorService extends BaseService {
     @Autowired
     OperatorDaoExt daoExt;
-
+    @Autowired
+    PasswordHelper passwordHelper;
+    @Autowired
+    private OperatorDao dao;
+    @Autowired
+    private OperatorConfigDao operatorConfigDao;
 
     public Object GetMenuTree(ServiceContext serviceContext) {//"state":"closed",
 
@@ -319,6 +329,35 @@ public class OperatorService extends BaseService {
             RoleList.add(mapObject.get("Code").toString());
         }
         return RoleList;
+    }
+
+    public CallResult Save(ServiceContext serviceContext, Operator entity) {
+        CallResult result = new CallResult();
+        Operator old = dao.Get(serviceContext.getTenantRowId(), entity.getRowId());
+        if (entity.getRowId() == 0) {
+            result.setResult(false);
+            result.setMessage("请选择员工");
+            return result;
+        }
+        if (old != null) {
+            result.setResult(false);
+            result.setMessage("该员工已设置登陆账号");
+            return result;
+        }else {
+            entity.setCreateDate(this.getDate());
+            entity.setCreater(this.getUserName());
+            passwordHelper.encryptPassword(entity);
+            dao.Create(entity);
+            OperatorConfig operatorConfig = new OperatorConfig();
+            operatorConfig.setCreateDate(this.getDate());
+            operatorConfig.setCreater(this.getUserName());
+            operatorConfig.setTenantRowId(serviceContext.getTenantRowId());
+            operatorConfig.setCellCount(20);
+            operatorConfig.setRowId(entity.getRowId());
+            operatorConfigDao.Create(operatorConfig);
+
+        }
+        return result;
     }
 
 }

@@ -1,0 +1,9 @@
+TYLC/.idea
+TYLC/erp-web/target/*
+TYLC/erp-common/target
+TYLC/erp-daos/target
+TYLC/erp-entitys/target
+TYLC/erp-services/target
+TYLC/erp-utils/target
+TYLC/erp-webservices/target
+

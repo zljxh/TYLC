@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.qs.erp.daos.dao.CartoonDao">
+
+
+    <insert id="Create">
+        INSERT INTO Department
+        (
+              RowId,
+              Title,
+              Describe,
+              CreateTime,
+              UpdateTime,
+              Creater,
+              Pic,
+              Author
+        )
+        VALUES(
+              #{RowId},
+              #{Title},
+              #{Describe},
+              #{CreateTime},
+              #{UpdateTime},
+              #{Creater},
+              #{Pic},
+              #{Author}
+        )
+    </insert>
+
+</mapper>

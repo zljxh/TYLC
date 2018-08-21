@@ -275,32 +275,7 @@
         <pattern>/SetSortingWallParameter</pattern>
         <pattern>/SetPdaPrint</pattern>
         <pattern>/SellReport</pattern>
-        <pattern>/SortOutWall</pattern>
-        <pattern>/NewSellOrder</pattern>
-        <pattern>/PrintCertificate2</pattern>
-        <pattern>/DeliveryOrderNewEdition</pattern>
-        <pattern>/WaveNewEdition</pattern>
-        <pattern>/FastOutStorage</pattern>
-        <pattern>/PlatDeliveryLog</pattern>
-        <pattern>/TaskDownloadLog</pattern>
-        <pattern>/TimeOutOrderReport</pattern>
-        <pattern>/SupplierDeffectRateReport</pattern>
-        <pattern>/CellLocation</pattern>
-        <pattern>/ReturnChangedRegister</pattern>
-        <pattern>/InvAllocateOrderReport</pattern>
-        <pattern>/PresellActivity</pattern>
-        <pattern>/OtherInStorageOrder</pattern>
-        <pattern>/OtherOutStorageOrder</pattern>
-        <pattern>/CellNumberGroup</pattern>
-        <pattern>/PurchaseDefectReturnOrder</pattern>
-        <pattern>/PurchaseOrderInstorageReport</pattern>
-        <pattern>/PurchaseOrderInstorageSumReport</pattern>
-        <pattern>/RenTianProductFile</pattern>
-        <pattern>/EmployeePerformance</pattern>
-        <pattern>/OrderHandleReport</pattern>
-        <pattern>/DelayDeliveryStrategy</pattern>
-        <pattern>/DeliveryOrderBatchDetailReport</pattern>
-        <pattern>/JDExpressCheckBill</pattern>
+        <pattern>/Cartoon</pattern>
     </decorator>
 
 </decorators>

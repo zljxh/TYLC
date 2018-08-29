@@ -37,9 +37,38 @@
       <file leaf-file-name="FileController.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/erp-web/src/main/java/com/qs/erp/web/controller/FileController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="222">
-              <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+            <state relative-caret-position="406">
+              <caret line="42" column="26" lean-forward="true" selection-start-line="42" selection-start-column="26" selection-end-line="42" selection-end-column="26" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CallResult.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/erp-entitys/src/main/java/com/qs/erp/entitys/businessmodel/CallResult.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="115">
+              <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FileResult.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/erp-entitys/src/main/java/com/qs/erp/entitys/businessmodel/FileResult.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="5" column="23" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="23" />
+              <folding>
+                <element signature="e#240#241#0" expanded="true" />
+                <element signature="e#270#271#0" expanded="true" />
+                <element signature="e#316#317#0" expanded="true" />
+                <element signature="e#354#355#0" expanded="true" />
+                <element signature="e#388#389#0" expanded="true" />
+                <element signature="e#417#418#0" expanded="true" />
+                <element signature="e#462#463#0" expanded="true" />
+                <element signature="e#498#499#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -192,7 +221,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/erp-web/src/main/webapp/config/jdbc.properties" />
         <option value="$PROJECT_DIR$/erp-entitys/src/main/java/com/qs/erp/entitys/entity/CartoonDetail.java" />
         <option value="$PROJECT_DIR$/erp-entitys/src/main/java/com/qs/erp/entitys/entity/CartoonDetailChapter.java" />
         <option value="$PROJECT_DIR$/erp-web/src/main/webapp/static-resources/ViewJSModels/base/c8Control/vm.Control.GridLayout.js" />
@@ -242,6 +270,7 @@
         <option value="$PROJECT_DIR$/erp-web/src/main/webapp/config/globalConfig.properties" />
         <option value="$PROJECT_DIR$/erp-services/src/main/java/com/qs/erp/services/common/GlobalTenant.java" />
         <option value="$PROJECT_DIR$/erp-utils/src/main/java/com/qs/erp/utils/util/FileUtil.java" />
+        <option value="$PROJECT_DIR$/erp-entitys/src/main/java/com/qs/erp/entitys/businessmodel/FileResult.java" />
         <option value="$PROJECT_DIR$/erp-web/src/main/java/com/qs/erp/web/controller/FileController.java" />
       </list>
     </option>
@@ -312,6 +341,51 @@
             <path>
               <item name="TYLC" type="b2602c69:ProjectViewProjectNode" />
               <item name="TYLC" type="462c0819:PsiDirectoryNode" />
+              <item name="erp-entitys" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TYLC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TYLC" type="462c0819:PsiDirectoryNode" />
+              <item name="erp-entitys" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TYLC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TYLC" type="462c0819:PsiDirectoryNode" />
+              <item name="erp-entitys" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TYLC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TYLC" type="462c0819:PsiDirectoryNode" />
+              <item name="erp-entitys" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TYLC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TYLC" type="462c0819:PsiDirectoryNode" />
+              <item name="erp-entitys" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="entitys" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TYLC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TYLC" type="462c0819:PsiDirectoryNode" />
+              <item name="erp-entitys" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="entitys" type="462c0819:PsiDirectoryNode" />
+              <item name="businessmodel" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TYLC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TYLC" type="462c0819:PsiDirectoryNode" />
               <item name="erp-utils" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -366,8 +440,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.qs.erp.entitys.common" />
       <recent name="com.qs.erp.entitys.businessmodel" />
+      <recent name="com.qs.erp.entitys.common" />
       <recent name="com.qs.erp.services.common.excel" />
       <recent name="com.qs.erp.daos.dao" />
       <recent name="com.qs.erp.daos.daoext" />
@@ -684,7 +758,7 @@
       <workItem from="1535195453839" duration="525000" />
       <workItem from="1535271617801" duration="6800000" />
       <workItem from="1535334194807" duration="10821000" />
-      <workItem from="1535502448075" duration="13040000" />
+      <workItem from="1535502448075" duration="15478000" />
     </task>
     <servers />
   </component>
@@ -721,7 +795,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="864249000" />
+    <option name="totallyTimeSpent" value="866687000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -758,7 +832,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295325" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295325" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12446352" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.12446352" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295325" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -778,7 +852,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32839224" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.094420604" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.094420604" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -786,9 +860,9 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25214592" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31813" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4127708" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32839224" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3340935" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3899658" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295325" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -798,7 +872,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295325" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295325" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20600858" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12446352" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295325" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1003,21 +1077,27 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/erp-web/src/main/java/com/qs/erp/web/controller/FileController.java</url>
-          <line>32</line>
+          <line>42</line>
           <properties />
-          <option name="timeStamp" value="416" />
+          <option name="timeStamp" value="419" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/erp-web/src/main/java/com/qs/erp/web/controller/FileController.java</url>
-          <line>33</line>
+          <line>38</line>
           <properties />
-          <option name="timeStamp" value="417" />
+          <option name="timeStamp" value="420" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/erp-web/src/main/java/com/qs/erp/web/controller/FileController.java</url>
+          <line>36</line>
+          <properties />
+          <option name="timeStamp" value="421" />
         </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="418" />
+      <option name="time" value="422" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1056,12 +1136,22 @@
     </expressions>
     <expressions id="evaluateExpression">
       <expression>
-        <expression-string>file.toURI()</expression-string>
+        <expression-string>HttpClientUtil.postFileMultiPart(globalTenant.getFileUrl(&quot;/file/cartoon&quot;), maps, FileResult.class)</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
         <expression-string>HttpClientUtil.postFileMultiPart(globalTenant.getFileUrl(&quot;/file/cartoon&quot;), maps, Object.class)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>HttpClientUtil.postFileMultiPart(globalTenant.getFileUrl(&quot;/file/cartoon&quot;), maps, CallResult.class)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>file.toURI()</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
@@ -1090,35 +1180,9 @@
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
-      <expression>
-        <expression-string>((DiskFileItem) ((CommonsMultipartFile) ImportExcelFile).getFileItem()).getTempFile()</expression-string>
-        <language-id>JAVA</language-id>
-        <custom-info>org.springframework.web.multipart.commons.CommonsMultipartFile,org.apache.commons.fileupload.disk.DiskFileItem</custom-info>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>((CommonsMultipartFile) ImportExcelFile).getFileItem()</expression-string>
-        <language-id>JAVA</language-id>
-        <custom-info>org.springframework.web.multipart.commons.CommonsMultipartFile</custom-info>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/erp-daos/src/main/resources/sqlmap/CartoonTypeDaoMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="713">
-          <caret line="31" column="35" lean-forward="false" selection-start-line="31" selection-start-column="35" selection-end-line="31" selection-end-column="35" />
-          <folding>
-            <marker date="1535008244611" expanded="true" signature="236:400" ph="INSERT INTO CartoonType... " />
-            <marker date="1535008244611" expanded="true" signature="477:502" ph="SELECT * fro... Cartoon" />
-            <marker date="1535008244611" expanded="true" signature="551:595" ph="DELETE from CartoonType... " />
-            <marker date="1535008244611" expanded="true" signature="645:740" ph="update CartoonType... " />
-            <marker date="1535008244611" expanded="true" signature="813:859" ph="SELECT * fro... CartoonType" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/erp-web/src/main/webapp/WEB-INF/pages/CartoonType/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="46">
@@ -1241,17 +1305,6 @@
             <element signature="e#2263#2264#0" expanded="false" />
             <element signature="e#2333#2334#0" expanded="false" />
             <element signature="e#2372#2373#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/erp-entitys/src/main/java/com/qs/erp/entitys/businessmodel/CallResult.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" column="19" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="19" />
-          <folding>
-            <element signature="e#476#477#0" expanded="false" />
-            <element signature="e#509#510#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1691,10 +1744,35 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/erp-entitys/src/main/java/com/qs/erp/entitys/businessmodel/CallResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/erp-entitys/src/main/java/com/qs/erp/entitys/businessmodel/FileResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="5" column="23" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="23" />
+          <folding>
+            <element signature="e#240#241#0" expanded="true" />
+            <element signature="e#270#271#0" expanded="true" />
+            <element signature="e#316#317#0" expanded="true" />
+            <element signature="e#354#355#0" expanded="true" />
+            <element signature="e#388#389#0" expanded="true" />
+            <element signature="e#417#418#0" expanded="true" />
+            <element signature="e#462#463#0" expanded="true" />
+            <element signature="e#498#499#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/erp-web/src/main/java/com/qs/erp/web/controller/FileController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+        <state relative-caret-position="406">
+          <caret line="42" column="26" lean-forward="true" selection-start-line="42" selection-start-column="26" selection-end-line="42" selection-end-column="26" />
           <folding />
         </state>
       </provider>

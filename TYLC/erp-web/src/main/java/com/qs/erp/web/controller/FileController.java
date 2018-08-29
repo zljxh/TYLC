@@ -1,6 +1,7 @@
 package com.qs.erp.web.controller;
 
 import com.qs.erp.entitys.businessmodel.CallResult;
+import com.qs.erp.entitys.businessmodel.FileResult;
 import com.qs.erp.services.common.GlobalTenant;
 import com.qs.erp.services.common.excel.ExcelResult;
 import com.qs.erp.utils.util.HttpClientUtil;
@@ -33,12 +34,12 @@ public class FileController {
         CallResult callResult = new CallResult();
         File file=a(ImportExcelFile);
         Map<String, ContentBody> maps = HttpClientUtil.getReqParamToFileCenter("2", "", "", "",file );
-        Object object = HttpClientUtil.postFileMultiPart(globalTenant.getFileUrl("/file/cartoon"), maps, Object.class);
-        callResult.seto("zl");
-        callResult.setMessage("zl");
+        FileResult object = HttpClientUtil.postFileMultiPart(globalTenant.getFileUrl("/file/cartoon"), maps, FileResult.class);
 
         File del = new File(file.toURI());
         del.delete();
+        callResult.setResult(object.getresult());
+        callResult.setMessage(object.getmessage());
         return callResult;
     }
 

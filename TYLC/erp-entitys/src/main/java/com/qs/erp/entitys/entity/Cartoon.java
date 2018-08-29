@@ -13,6 +13,15 @@ public class Cartoon {
     private String Pic;
     private String Author;
     private List<Long> TypeRowId;
+    private int Enable;
+
+    public int getEnable() {
+        return Enable;
+    }
+
+    public void setEnable(int enable) {
+        Enable = enable;
+    }
 
     public long getRowId() {
         return RowId;

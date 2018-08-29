@@ -499,7 +499,7 @@
         modeWin.setWin(win);
 
         var dataoptions = {
-            prompt: '请选择会员',
+            prompt: '请添加图片',
             iconWidth: 18, icons: [{
                 iconCls: 'icon-line_edit',
                 handler: function (e) {

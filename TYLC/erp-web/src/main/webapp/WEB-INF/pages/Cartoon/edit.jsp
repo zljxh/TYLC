@@ -11,18 +11,18 @@
                         <input c8name="RowId" type="hidden">
                         <div class="fitem">
                             <label>标题:</label>
-                            <input c8name="Title" id="Title" style="width:160px" class="easyui-textbox">
+                            <input c8name="Title" id="Title" style="width:160px" class="easyui-textbox" required="true">
                         </div>
 
                         <div class="fitem">
                             <label>作者:</label>
-                            <input c8name="Author" style="width:160px" data-options="min:0,precision:2"
-                                   class="easyui-numberbox">
+                            <input c8name="Author" style="width:160px" data-options="min:0,precision:2" required="true"
+                                   class="easyui-textbox">
                         </div>
 
                         <div class="fitem">
                             <label>类型:</label>
-                            <input c8name="TypeRowId"
+                            <input c8name="TypeRowId" required="true"
                                    c8data-option="multiple:true"
                                    c8ControlName="typeRowIdGrid"
                                    style="width:160px"
@@ -40,7 +40,7 @@
 
                         <div class="fitem">
                             <label>描述:</label>
-                            <input c8name="Describe" data-options="multiline:true" class="easyui-textbox"
+                            <input c8name="Des" data-options="multiline:true" class="easyui-textbox" required="true"
                                    style="height: 50px;width: 250px;">
                         </div>
 

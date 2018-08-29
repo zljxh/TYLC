@@ -21,6 +21,9 @@ public class GlobalTenant {
     public String getFileUrl() {
         return FileUrl;
     }
+    public String getFileUrl(String path) {
+        return "http://"+FileUrl+"/"+path;
+    }
 
     public void setFileUrl(String fileUrl) {
         FileUrl = fileUrl;

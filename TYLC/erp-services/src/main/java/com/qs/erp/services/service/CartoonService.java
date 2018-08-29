@@ -42,14 +42,20 @@ public class CartoonService {
             cartoon.setCreater(currentContext.getUserName());
             cartoon.setCreateTime(new Date());
             cartoon.setUpdateTime(new Date());
+            cartoon.setEnable(1);
             dao.Create(cartoon);
             saveCartoontypesDao(cartoon.getRowId(),cartoon.getTypeRowId());
         } else {
+            slave.getSellOrder().setEnable(1);
             dao.Update(slave.getSellOrder());
             saveCartoontypesDao(slave.getSellOrder().getRowId(),slave.getSellOrder().getTypeRowId());
         }
 
         return callResult;
+    }
+
+    public void changeEnable(long rowid){
+     dao.changeEnable(rowid);
     }
 
 

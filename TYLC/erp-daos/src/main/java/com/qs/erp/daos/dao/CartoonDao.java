@@ -2,6 +2,7 @@ package com.qs.erp.daos.dao;
 
 import com.qs.erp.daos.MyBatisRepository;
 import com.qs.erp.entitys.entity.Cartoon;
+import org.apache.ibatis.annotations.Param;
 
 import java.util.List;
 
@@ -14,4 +15,6 @@ public interface CartoonDao {
     public List<Cartoon> getList();
 
     public long getcount();
+
+    public void changeEnable(@Param("RowId") long rowid);
 }

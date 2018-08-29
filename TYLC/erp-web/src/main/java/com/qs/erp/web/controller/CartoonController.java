@@ -7,10 +7,7 @@ import com.qs.erp.services.service.CartoonService;
 import com.qs.erp.web.spring.ControllerContext;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.bind.annotation.*;
 
 @Controller
 public class CartoonController {
@@ -45,6 +42,14 @@ public class CartoonController {
     public CallResult Save(@RequestBody CartoonMasterSlave slave) {
         CallResult callResult = new CallResult();
         service.Save(ControllerContext.getCurrentContext(),slave);
+        return callResult;
+    }
+
+    @RequestMapping(value = "/Cartoon/changeEnable",method = RequestMethod.POST)
+    @ResponseBody
+    public CallResult changeEnable(@RequestParam(value = "rowid")long rowid){
+        CallResult callResult = new CallResult();
+        service.changeEnable(rowid);
         return callResult;
     }
 }

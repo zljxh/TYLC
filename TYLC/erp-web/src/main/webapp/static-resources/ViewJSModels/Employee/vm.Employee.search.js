@@ -605,20 +605,6 @@ vm.Employee.search = function (dataParameter) {
     };
 
 
-    var addSupplier = function (data) {
-        base.modelInfo = ediWinForm.c8GetFormModel({model: base.modelInfo});
-        base.modelInfo.SupplierRowId = data[0].RowId;
-        base.modelInfo.SupplierName = data[0].Name;
-        ediWinForm.c8SetFormModel({model: base.modelInfo});
-
-        base.modelInfo = addWinForm.c8GetFormModel({model: base.modelInfo});
-        base.modelInfo.SupplierRowId = data[0].RowId;
-        base.modelInfo.SupplierName = data[0].Name;
-        addWinForm.c8SetFormModel({model: base.modelInfo});
-
-    }
-
-    this.c8SelectVipTextOption = {callback: addSupplier};
 
 };
 var opModel = new vm.Employee.search();

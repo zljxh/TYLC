@@ -13,7 +13,7 @@
             include: ['jquery-1.11.3.min', 'jquery.easyui.min', 'easyui-lang-zh_CN', 'knockout','knockout.mapping-latest',
             'bootstrap.min','datagrid-detailview','String','Array','Date','c8formatter','c8help','reconnecting-websocket.min',
             'knockoutExt','bootstrap-hover-dropdown.min','uploadPreview.min','FileSaver.min','ajaxfileUpAndDown.min',
-            'jquery-confirm.min','jquery.poshytip.min','city-picker','select2.full.min','select2.zh-CN','jquery.slimscroll-1.3.7',
+            'jquery-confirm.min','jquery.poshytip.min','select2.full.min','select2.zh-CN','jquery.slimscroll-1.3.7',
             'hotkeys.min','JqueryExt','EasyuiExt','c8GridPaginationModel','c8Grid', 'c8TreeGrid','c8Window','com.qiansheng.control',
             'vm.Control.GridLayout','select2.control']
         },
@@ -64,7 +64,6 @@
         "ajaxfileUpAndDown.min":"./Content/js/jquery-ext/ajaxfileUpAndDown.min",
         "jquery-confirm.min":"./Content/js/jquery-ext/confirm/jquery-confirm.min",
         "jquery.poshytip.min":"./Content/js/jquery-ext/poshytip/jquery.poshytip.min",
-        "city-picker":"./Content/js/jquery-ext/city-picker/city-picker",
         "select2.full.min":"./Content/js/jquery-ext/select2/4.0.2/select2.full.min",
         "select2.zh-CN":"./Content/js/jquery-ext/select2/4.0.2/i18n/zh-CN",
         "jquery.slimscroll-1.3.7":"./Content/js/jquery-ext/jquery.slimscroll-1.3.7.min",

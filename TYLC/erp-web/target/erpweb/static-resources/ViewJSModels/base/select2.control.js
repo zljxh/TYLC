@@ -1319,5 +1319,26 @@ com.select2.control = function () {
             }
         }
     };
+
+
+    controlList["typeRowIdGrid"] = {
+        type: "select2", option: {
+            allowClear: true,
+            placeholder: '请选择',
+            //tags: "true",
+            minimumResultsForSearch: Infinity,//隐藏过滤框
+            ajax: {
+                url: '/CartoonTypeController/TypeRowIdGrid',
+                processResults: function (data) {
+                    var ret = [];
+                    for (var i = 0; i < data.length; i++) {
+                        ret.push({id: data[i].RowId, text: data[i].Name});
+                    }
+                    return ret;
+                }
+            }
+        }
+    };
+
 };
 

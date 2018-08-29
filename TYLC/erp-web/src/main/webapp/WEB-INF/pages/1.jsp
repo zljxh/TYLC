@@ -30,7 +30,7 @@
     <script src="/ViewJSModels/base/com.qiansheng.control.js?33557676454554345594344434345587878778458944derred222w6654443hh8998983434434399444w96699444455888rr4444dd6556ee59971"></script>
     <script src="/ViewJSModels/base/easyuiValidateboxExtend.js?33769985dr87ered665244443hhoioooddd5543244885554432w444w96699444455888rr4444dd6556ee59971"></script>
     <script src="/ViewJSModels/base/c8Control/vm.Control.MultiSelectProductModel.js?4343455443873323444334"></script>
-    <script src="/ViewJSModels/base/c8ControlExt.js?434332"></script>
+    <script src="/ViewJSModels/base/c8ControlExt.js?1234"></script>
     <script src="/Content/js/main.js?44466644999966669544376548759996666"></script>
     <link href="/Content/css/MainPage/index.css" rel="stylesheet"/>
     <link href="/Content/css/icon/icon.css" rel="stylesheet"/>

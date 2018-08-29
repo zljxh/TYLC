@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.qs.erp.daos.dao.BSGridLayoutDao">
+    <insert id="create">
+        insert into bsgridlayout (RowId,OpeaterRowId,FormName,FrozenColumn,ComColumn,TenantRowId)
+        values(#{RowId},#{OpeaterRowId},#{FormName},#{FrozenColumn},#{ComColumn},#{TenantRowId})
+        </insert>
+    <update id="update">
+        update bsgridlayout set OpeaterRowId=#{OpeaterRowId},FormName=#{FormName},FrozenColumn=#{FrozenColumn},
+        ComColumn=#{ComColumn} where RowId=#{RowId} AND  TenantRowId=#{TenantRowId}
+    </update>
+</mapper>

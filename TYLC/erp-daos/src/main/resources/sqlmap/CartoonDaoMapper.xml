@@ -4,11 +4,11 @@
 
 
     <insert id="Create">
-        INSERT INTO Department
+        INSERT INTO Cartoon
         (
               RowId,
               Title,
-              Describe,
+              Des,
               CreateTime,
               UpdateTime,
               Creater,
@@ -18,7 +18,7 @@
         VALUES(
               #{RowId},
               #{Title},
-              #{Describe},
+              #{Des},
               #{CreateTime},
               #{UpdateTime},
               #{Creater},
@@ -26,5 +26,24 @@
               #{Author}
         )
     </insert>
+
+    <insert id="Update">
+        UPDATE Cartoon SET
+        UpdateTime=now(),
+        Describe=#{Describe},
+        Title=#{Title},
+        Pic=#{Pic},
+        Author=#{Author}
+        where RowId=#{Rowid}
+
+    </insert>
+
+    <select id="getList" resultType="Cartoon">
+        SELECT * from Cartoon
+    </select>
+
+    <select id="getcount" resultType="long">
+        SELECT COUNT(*) from Cartoon
+    </select>
 
 </mapper>

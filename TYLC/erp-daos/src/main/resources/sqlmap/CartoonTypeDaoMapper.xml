@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.qs.erp.daos.dao.CartoonTypeDao">
+
+    <insert id="Save">
+        INSERT INTO CartoonType
+        (
+        RowId,
+        Name,
+        IsEnabled
+        )VALUES (
+        #{RowId},
+        #{Name},
+        #{IsEnabled}
+        )
+    </insert>
+
+
+    <select id="getLists" resultType="CartoonType">
+        SELECT * from CartoonType
+    </select>
+
+    <delete id="delete">
+        DELETE from CartoonType where RowId=#{RowId}
+    </delete>
+
+    <update id="update">
+         update CartoonType set isenabled=(case when isenabled=1 then 0 else 1 end) where rowid=#{RowId}
+    </update>
+
+    <select id="Get" resultType="CartoonType">
+          SELECT * from CartoonType where RowId=#{RowId}
+    </select>
+
+
+</mapper>

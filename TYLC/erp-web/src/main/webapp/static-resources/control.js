@@ -17,6 +17,7 @@ document.write('<script src="/ViewJSModels/base/c8Control/vm.Control.SelectActiv
 document.write('<script src="/ViewJSModels/base/c8Control/vm.Control.SelectUnApprovedSellOrderModel.js"></script>');
 document.write('<script src="/ViewJSModels/base/c8Control/vm.Control.SelectAccountModel.js"></script>');
 document.write('<script src="/ViewJSModels/base/c8Control/vm.Control.SelectVipModel.js"></script>');
+document.write('<script src="/ViewJSModels/base/c8Control/vm.Control.AddPic.js"></script>');
 document.write('<script src="/ViewJSModels/base/c8Control/vm.Control.SelectExpressModel.js"></script>');
 document.write('<script src="/ViewJSModels/base/c8Control/vm.Control.SelectReturnChangedOrder.js"></script>');
 document.write('<script src="/ViewJSModels/base/c8Control/vm.Control.SelectWarehouseModel.js"></script>');
@@ -36,6 +37,6 @@ document.write('<script src="/ViewJSModels/base/c8Control/vm.Control.SelectExpec
 document.write('<script src="/ViewJSModels/PostPrintOrder2/vm.PostPrintOrder2.PickProductsPrint.js"></script>');
 document.write('<script src="/ViewJSModels/base/c8Control/vm.Control.ShowPostPrintOrder2RemainProducts.js"></script>');
 document.write('<script src="/ViewJSModels/base/c8Control/vm.Control.SelectInvoiceOrder.js"></script>');
-document.write('<script src="/ViewJSModels/base/c8ControlExt.js"></script>');
+document.write('<script src="/ViewJSModels/base/c8ControlExt.js?12312"></script>');
 document.write('<script src="/Content/js/CaiNiaoPrintFuncs.js"></script>');
 

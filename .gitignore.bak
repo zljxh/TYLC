@@ -1,5 +1,5 @@
 TYLC/.idea
-TYLC/erp-web/target
+TYLC/erp-web/target/*
 TYLC/erp-common/target
 TYLC/erp-daos/target
 TYLC/erp-entitys/target

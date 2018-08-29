@@ -10,8 +10,9 @@
           <element id="archive" name="erp-utils-1.0-SNAPSHOT.jar">
             <element id="module-output" name="erp-utils" />
           </element>
-          <element id="library" level="project" name="Maven: org.apache.httpcomponents:httpclient:4.1.3" />
-          <element id="library" level="project" name="Maven: org.apache.httpcomponents:httpcore:4.1.4" />
+          <element id="library" level="project" name="Maven: org.apache.httpcomponents:httpclient:4.5.6" />
+          <element id="library" level="project" name="Maven: org.apache.httpcomponents:httpcore:4.4.10" />
+          <element id="library" level="project" name="Maven: org.apache.httpcomponents:httpmime:4.5.6" />
           <element id="archive" name="erp-entitys-1.0-SNAPSHOT.jar">
             <element id="module-output" name="erp-entitys" />
           </element>
@@ -70,7 +71,7 @@
           <element id="library" level="project" name="Maven: org.slf4j:slf4j-log4j12:1.7.5" />
           <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.7.5" />
           <element id="library" level="project" name="Maven: net.spy:spymemcached:2.11.4" />
-          <element id="file-copy" path="D:/soft/maven/repository/com/qs/platforms/1.0-SNAPSHOT/platforms-1.0-20180804.085341-117.jar" output-file-name="platforms-1.0-SNAPSHOT.jar" />
+          <element id="library" level="project" name="Maven: com.qs:platforms:1.0-SNAPSHOT" />
           <element id="library" level="project" name="Maven: com.suning.api:suning_sdk:20160128" />
           <element id="library" level="project" name="Maven: com.fapiao:SADK:3.1.0.6" />
           <element id="library" level="project" name="Maven: com.fapiao:svs-api-web:1.0" />
@@ -97,7 +98,6 @@
           <element id="library" level="project" name="Maven: gmos:gmos-open-sdk:20170417" />
           <element id="library" level="project" name="Maven: com.feiniu.open.api:open-api-sdk:1.3.7" />
           <element id="library" level="project" name="Maven: com.feiniu.open.api:fnGson:1.2" />
-          <element id="library" level="project" name="Maven: org.apache.httpcomponents:httpmime:4.2.5" />
           <element id="library" level="project" name="Maven: com.xiaomi:SDK:20180425" />
           <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.7.0" />
           <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-core:2.7.0" />
@@ -106,8 +106,9 @@
           <element id="library" level="project" name="Maven: commons-httpclient:commons-httpclient:3.1" />
           <element id="library" level="project" name="Maven: com.weidian:open_sdk_java:1.0.1" />
           <element id="library" level="project" name="Maven: com.jdwl:open-sdk:1.0.0.0" />
+          <element id="library" level="project" name="Maven: com.jd:open-api-sdk:20180823" />
           <element id="library" level="project" name="Maven: org.aspectj:aspectjrt:1.8.4" />
-          <element id="file-copy" path="D:/soft/maven/repository/com/qs/PlatUtils/1.0-SNAPSHOT/PlatUtils-1.0-20180802.025658-70.jar" output-file-name="PlatUtils-1.0-SNAPSHOT.jar" />
+          <element id="file-copy" path="D:/soft/maven/repository/com/qs/PlatUtils/1.0-SNAPSHOT/PlatUtils-1.0-20180827.024727-85.jar" output-file-name="PlatUtils-1.0-SNAPSHOT.jar" />
           <element id="library" level="project" name="Maven: javax.servlet:javax.servlet-api:3.1.0" />
           <element id="library" level="project" name="Maven: org.quartz-scheduler:quartz:1.8.6" />
           <element id="library" level="project" name="Maven: org.apache.commons:commons-lang3:3.3.2" />

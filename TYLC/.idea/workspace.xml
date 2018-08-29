@@ -24,22 +24,37 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="vm.Cartoon.search.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/erp-web/src/main/webapp/static-resources/ViewJSModels/Cartoon/vm.Cartoon.search.js">
+      <file leaf-file-name="CartoonService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/erp-services/src/main/java/com/qs/erp/services/service/CartoonService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="10" lean-forward="false" selection-start-line="0" selection-start-column="3" selection-end-line="0" selection-end-column="10" />
+            <state relative-caret-position="149">
+              <caret line="44" column="20" lean-forward="false" selection-start-line="44" selection-start-column="20" selection-end-line="44" selection-end-column="20" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EmployeeController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/erp-web/src/main/java/com/qs/erp/web/controller/EmployeeController.java">
+      <file leaf-file-name="CartoonDao.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/erp-daos/src/main/java/com/qs/erp/daos/dao/CartoonDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="25" column="33" lean-forward="false" selection-start-line="25" selection-start-column="33" selection-end-line="25" selection-end-column="33" />
+            <state relative-caret-position="134">
+              <caret line="9" column="27" lean-forward="false" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CartoonDaoMapper.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/erp-daos/src/main/resources/sqlmap/CartoonDaoMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="20" column="19" lean-forward="false" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
+              <folding>
+                <marker date="1535515423730" expanded="true" signature="235:676" ph="INSERT INTO Department... " />
+                <marker date="1535515423730" expanded="true" signature="725:897" ph="UPDATE Cartoon... " />
+                <marker date="1535515423730" expanded="true" signature="969:990" ph="SELECT * fro... CartoonDao" />
+                <marker date="1535515423730" expanded="true" signature="1059:1087" ph="SELECT COUNT... CartoonDao" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -47,63 +62,49 @@
       <file leaf-file-name="CartoonController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/erp-web/src/main/java/com/qs/erp/web/controller/CartoonController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="8" column="36" lean-forward="false" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
+            <state relative-caret-position="173">
+              <caret line="46" column="0" lean-forward="false" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CartoonTypeDao.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/erp-daos/src/main/java/com/qs/erp/daos/dao/CartoonTypeDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="115">
+              <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CartoontypesDao.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/erp-daos/src/main/java/com/qs/erp/daos/dao/CartoontypesDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="230">
+              <caret line="10" column="12" lean-forward="false" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#260#261#0" expanded="true" />
-                <element signature="e#298#299#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/erp-web/src/main/webapp/WEB-INF/pages/Cartoon/index.jsp">
+      <file leaf-file-name="Cartoon.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/erp-entitys/src/main/java/com/qs/erp/entitys/entity/Cartoon.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
-              <caret line="4" column="6" lean-forward="true" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/erp-web/src/main/webapp/WEB-INF/pages/main.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-828">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="basic.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/erp-web/src/main/webapp/WEB-INF/sitemesh/basic.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-3210">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="decorators.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/erp-web/src/main/webapp/WEB-INF/decorators.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="258">
-              <caret line="277" column="35" lean-forward="true" selection-start-line="277" selection-start-column="35" selection-end-line="277" selection-end-column="35" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="vm.Employee.search.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/erp-web/src/main/webapp/static-resources/ViewJSModels/Employee/vm.Employee.search.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="552">
-              <caret line="63" column="6" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="63" selection-end-column="6" />
-              <folding />
+            <state relative-caret-position="161">
+              <caret line="37" column="17" lean-forward="false" selection-start-line="37" selection-start-column="17" selection-end-line="37" selection-end-column="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#447#448#0" expanded="true" />
+                <element signature="e#476#477#0" expanded="true" />
+                <element signature="e#1479#1480#0" expanded="true" />
+                <element signature="e#1511#1512#0" expanded="true" />
+                <element signature="e#1565#1566#0" expanded="true" />
+                <element signature="e#1602#1603#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -115,50 +116,50 @@
       <list>
         <option value="jsf" />
         <option value="Jsp File" />
-        <option value="Class" />
         <option value="JavaScript File" />
+        <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>采购</find>
-      <find>IsPurchaseCodePurchase</find>
-      <find>扫描退货出</find>
-      <find>PDAApi/noOrderMoving</find>
-      <find>login</find>
-      <find>glob</find>
-      <find>GlobalParameter</find>
-      <find>schedulerFactoryBean</find>
-      <find>StringHelp</find>
-      <find>MyReportDemo</find>
-      <find>filter</find>
-      <find>GROUPCODE</find>
-      <find>Routerlogin</find>
-      <find>tenantLoginDaoExt</find>
-      <find>AddLoginLog</find>
-      <find>WebUtils</find>
-      <find>获取租户中心性能时间失败</find>
-      <find>vm.PostPrintOrder2.PickProductsPrint.js</find>
-      <find>OperatorProxy.js</find>
-      <find>city-picker.data.js</find>
-      <find>winSetWarehouseRole</find>
-      <find>winSetShopRole</find>
-      <find>ProductOwner</find>
-      <find>region</find>
-      <find>departmentDao</find>
-      <find>SetTakeGoodRoadRole</find>
-      <find>openImport</find>
-      <find>setOperatorConfig</find>
-      <find>company</find>
-      <find>setFormValidate</find>
+      <find>CartoonType/GetGridRow</find>
+      <find>ProductYear/NotEXISTSName</find>
+      <find>addUrl</find>
+      <find>save</find>
+      <find>typeRowIdGrid</find>
+      <find>com.qiansheng.control</find>
+      <find>productDis</find>
+      <find>addProduct</find>
+      <find>addDetail</find>
+      <find>SelectProductSkuModel</find>
+      <find>OpenWinProductSku</find>
+      <find>closeDialog</find>
+      <find>c8win</find>
+      <find>c8SelectVipText</find>
+      <find>vm.Control.SelectVipModel</find>
+      <find>control.js</find>
+      <find>core.js</find>
+      <find>c8ControlExt.js</find>
+      <find>AddProduct</find>
+      <find>callBackAddProduct</find>
+      <find>c8SelectVipTextOption</find>
+      <find>addSupplier</find>
+      <find>c8SelectAddPicTextOption</find>
+      <find>c8SelectPicText</find>
+      <find>c8MultiSelectProductOption</find>
+      <find>saveDetailModel</find>
+      <find>fm</find>
+      <find>productgridModel</find>
+      <find>mainmodel</find>
+      <find>Rowid</find>
     </findStrings>
     <replaceStrings>
       <replace />
       <replace>8</replace>
     </replaceStrings>
     <dirStrings>
-      <dir>D:\qiansheng\biaozhun2 - 副本\springmvc\NewWeb\erp-web\src\main\webapp\WEB-INF\pages\PurchaseOrder</dir>
       <dir>D:\qiansheng\biaozhun2 - 副本\springmvc\NewWeb\erp-web\src\main\webapp\static-resources\ViewJSModels\Product</dir>
       <dir>D:\qiansheng\biaozhun2 - 副本\springmvc\NewWeb\erp-web\src\main\webapp\static-resources\ViewJSModels\PurchaseInOrder</dir>
       <dir>D:\qiansheng\biaozhun2 - 副本\springmvc\NewWeb\erp-web\src\main\webapp\static-resources\ViewJSModels\PurchaseOrder</dir>
@@ -187,6 +188,7 @@
       <dir>D:\qiansheng\biaozhun2 - 副本\springmvc\NewWeb\erp-web\src\main\webapp\static-resources\ViewJSModels</dir>
       <dir>D:\qiansheng\biaozhun2 - 副本\springmvc\NewWeb</dir>
       <dir>E:\zl\TYLC\springmvc\TYLC\erp-web\src\main\webapp</dir>
+      <dir>E:\zl\TYLC\springmvc\TYLC\erp-web\src\main\webapp\static-resources\ViewJSModels\Cartoon</dir>
       <dir>E:\zl\TYLC\springmvc\TYLC</dir>
     </dirStrings>
   </component>
@@ -198,57 +200,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/erp-entitys/src/main/java/com/qs/erp/entitys/businessmodel/LoginCenterBusiness.java" />
-        <option value="$PROJECT_DIR$/erp-daos/src/main/java/com/qs/erp/daos/dao/TenantDao.java" />
-        <option value="$PROJECT_DIR$/erp-entitys/src/main/java/com/qs/erp/entitys/businessmodel/ClientLoginBusiness.java" />
-        <option value="$PROJECT_DIR$/erp-web/src/main/webapp/config/spymemcached.properties" />
-        <option value="$PROJECT_DIR$/erp-services/src/main/java/com/qs/erp/services/common/CookiesService.java" />
-        <option value="$PROJECT_DIR$/erp-daos/src/main/resources/sqlmap/TenantDaoMapper.xml" />
-        <option value="$PROJECT_DIR$/erp-web/src/main/webapp/config/globalConfig.properties" />
-        <option value="$PROJECT_DIR$/erp-web/src/main/java/com/qs/erp/web/controller/LoginCenterController.java" />
-        <option value="$PROJECT_DIR$/erp-web/src/main/java/com/qs/erp/web/controller/LoginController.java" />
-        <option value="$PROJECT_DIR$/erp-web/src/main/webapp/WEB-INF/sitemesh/basic.jsp" />
-        <option value="$PROJECT_DIR$/erp-daos/src/main/java/com/qs/erp/daos/dao/RoleDao.java" />
-        <option value="$PROJECT_DIR$/erp-entitys/src/main/java/com/qs/erp/entitys/entity/Role.java" />
-        <option value="$PROJECT_DIR$/erp-daos/src/main/java/com/qs/erp/daos/dao/RoleSystemResourceDao.java" />
-        <option value="$PROJECT_DIR$/erp-entitys/src/main/java/com/qs/erp/entitys/entity/RoleSystemResource.java" />
-        <option value="$PROJECT_DIR$/erp-entitys/src/main/java/com/qs/erp/entitys/entity/SystemResource.java" />
-        <option value="$PROJECT_DIR$/erp-web/src/main/java/com/qs/erp/web/controller/RoleController.java" />
-        <option value="$PROJECT_DIR$/erp-entitys/src/main/java/com/qs/erp/entitys/businessmodel/ComboTreeObjectCheck.java" />
-        <option value="$PROJECT_DIR$/erp-services/src/main/java/com/qs/erp/services/common/TreeObjectCheckHelp.java" />
-        <option value="$PROJECT_DIR$/erp-web/src/main/webapp/WEB-INF/pages/Role/index.jsp" />
-        <option value="$PROJECT_DIR$/erp-web/src/main/webapp/static-resources/ViewJSModels/Role/vm.Role.search.js" />
-        <option value="$PROJECT_DIR$/erp-services/src/main/java/com/qs/erp/services/service/RoleService.java" />
-        <option value="$PROJECT_DIR$/erp-daos/src/main/resources/sqlmapext/RoleExtDaoMapper.xml" />
-        <option value="$PROJECT_DIR$/erp-daos/src/main/java/com/qs/erp/daos/daoext/RoleExtDao.java" />
-        <option value="$PROJECT_DIR$/erp-entitys/src/main/java/com/qs/erp/entitys/entity/ProductOwner.java" />
-        <option value="$PROJECT_DIR$/erp-services/src/main/java/com/qs/erp/services/service/CacheService.java" />
-        <option value="$PROJECT_DIR$/erp-web/src/main/java/com/qs/erp/web/controller/EmployeeController.java" />
-        <option value="$PROJECT_DIR$/erp-services/src/main/java/com/qs/erp/services/common/shiro/PasswordHelper.java" />
-        <option value="$PROJECT_DIR$/erp-entitys/src/main/java/com/qs/erp/entitys/entity/OperatorConfig.java" />
-        <option value="$PROJECT_DIR$/erp-daos/src/main/java/com/qs/erp/daos/dao/OperatorDao.java" />
-        <option value="$PROJECT_DIR$/erp-daos/src/main/java/com/qs/erp/daos/daoext/OperatorConfigDao.java" />
-        <option value="$PROJECT_DIR$/erp-services/src/main/java/com/qs/erp/services/service/OperatorService.java" />
-        <option value="$PROJECT_DIR$/erp-daos/src/main/java/com/qs/erp/daos/daoext/EmployeeDaoExt.java" />
-        <option value="$PROJECT_DIR$/erp-daos/src/main/java/com/qs/erp/daos/daoext/DepartmentExtDao.java" />
-        <option value="$PROJECT_DIR$/erp-entitys/src/main/java/com/qs/erp/entitys/entity/Department.java" />
-        <option value="$PROJECT_DIR$/erp-daos/src/main/java/com/qs/erp/daos/dao/DepartmentDao.java" />
-        <option value="$PROJECT_DIR$/erp-services/src/main/java/com/qs/erp/services/service/EmployeeService.java" />
-        <option value="$PROJECT_DIR$/erp-web/src/main/webapp/static-resources/ViewJSModels/Employee/vm.Employee.search.js" />
-        <option value="$PROJECT_DIR$/erp-web/src/main/webapp/WEB-INF/pages/Employee/index.jsp" />
-        <option value="$PROJECT_DIR$/erp-web/src/main/java/com/qs/erp/web/controller/DepartmentController.java" />
-        <option value="$PROJECT_DIR$/erp-daos/src/main/resources/sqlmap/DepartmentDaoMapper.xml" />
         <option value="$PROJECT_DIR$/erp-services/src/main/java/com/qs/erp/services/service/DepartmentService.java" />
         <option value="$PROJECT_DIR$/erp-web/src/main/webapp/config/jdbc.properties" />
-        <option value="$PROJECT_DIR$/erp-entitys/src/main/java/com/qs/erp/entitys/entity/Cartoon.java" />
         <option value="$PROJECT_DIR$/erp-entitys/src/main/java/com/qs/erp/entitys/entity/CartoonDetail.java" />
         <option value="$PROJECT_DIR$/erp-entitys/src/main/java/com/qs/erp/entitys/entity/CartoonDetailChapter.java" />
-        <option value="$PROJECT_DIR$/erp-daos/src/main/java/com/qs/erp/daos/dao/CartoonDao.java" />
-        <option value="$PROJECT_DIR$/erp-daos/src/main/resources/sqlmap/CartoonDaoMapper.xml" />
+        <option value="$PROJECT_DIR$/erp-web/src/main/webapp/static-resources/ViewJSModels/base/c8Control/vm.Control.GridLayout.js" />
+        <option value="$PROJECT_DIR$/erp-web/src/main/webapp/static-resources/core.js" />
+        <option value="$PROJECT_DIR$/erp-services/src/main/java/com/qs/erp/services/service/BSGridLayoutService.java" />
+        <option value="$PROJECT_DIR$/erp-daos/src/main/java/com/qs/erp/daos/daoext/BSGridLayoutExtDao.java" />
+        <option value="$PROJECT_DIR$/erp-daos/src/main/java/com/qs/erp/daos/dao/BSGridLayoutDao.java" />
         <option value="$PROJECT_DIR$/erp-web/src/main/webapp/static-resources/ViewJSModels/Cartoon/vm.Cartoon.search.js" />
-        <option value="$PROJECT_DIR$/erp-web/src/main/java/com/qs/erp/web/controller/CartoonController.java" />
-        <option value="$PROJECT_DIR$/erp-web/src/main/webapp/WEB-INF/pages/Cartoon/index.jsp" />
+        <option value="$PROJECT_DIR$/erp-services/src/main/java/com/qs/erp/services/common/GlobalTenant.java" />
+        <option value="$PROJECT_DIR$/erp-web/src/main/webapp/config/globalConfig.properties" />
+        <option value="$PROJECT_DIR$/erp-services/src/main/resources/service-bean.xml" />
+        <option value="$PROJECT_DIR$/erp-services/src/main/java/com/qs/erp/services/service/TenantLoginService.java" />
+        <option value="$PROJECT_DIR$/erp-utils/src/main/java/com/qs/erp/utils/util/WebUtils.java" />
+        <option value="$PROJECT_DIR$/erp-utils/pom.xml" />
+        <option value="$PROJECT_DIR$/erp-web/src/main/java/com/qs/erp/web/controller/IndexController.java" />
+        <option value="$PROJECT_DIR$/erp-utils/src/main/java/com/qs/erp/utils/util/HttpClientUtil.java" />
+        <option value="$PROJECT_DIR$/erp-web/src/main/webapp/WEB-INF/sitemesh/basic.jsp" />
+        <option value="$PROJECT_DIR$/erp-web/src/main/webapp/static-resources/ViewJSModels/base/select2.control.js" />
+        <option value="$PROJECT_DIR$/erp-web/src/main/webapp/static-resources/ViewJSModels/CartoonType/vm.ProductYear.search.js" />
+        <option value="$PROJECT_DIR$/erp-web/src/main/webapp/WEB-INF/pages/CartoonType/index.jsp" />
+        <option value="$PROJECT_DIR$/erp-web/src/main/webapp/static-resources/ViewJSModels/CartoonType/vm.CartoonType.search.js" />
+        <option value="$PROJECT_DIR$/erp-daos/src/main/java/com/qs/erp/daos/dao/CartoonTypeDao.java" />
         <option value="$PROJECT_DIR$/erp-web/src/main/webapp/WEB-INF/decorators.xml" />
+        <option value="$PROJECT_DIR$/erp-services/src/main/java/com/qs/erp/services/service/CartoonTypeService.java" />
+        <option value="$PROJECT_DIR$/erp-web/src/main/webapp/WEB-INF/pages/CartoonType/edit.jsp" />
+        <option value="$PROJECT_DIR$/erp-entitys/src/main/java/com/qs/erp/entitys/entity/CartoonType.java" />
+        <option value="$PROJECT_DIR$/erp-daos/src/main/resources/sqlmap/CartoonTypeDaoMapper.xml" />
+        <option value="$PROJECT_DIR$/erp-web/src/main/webapp/static-resources/ViewJSModels/base/com.qiansheng.control.js" />
+        <option value="$PROJECT_DIR$/erp-web/src/main/java/com/qs/erp/web/controller/CartoonTypeController.java" />
+        <option value="$PROJECT_DIR$/erp-web/src/main/java/com/qs/erp/web/controller/BusinessControlController.java" />
+        <option value="$PROJECT_DIR$/erp-web/src/main/webapp/WEB-INF/pages/BusinessControl/AddPic.jsp" />
+        <option value="$PROJECT_DIR$/erp-web/src/main/java/com/qs/erp/web/controller/FileController.java" />
+        <option value="$PROJECT_DIR$/erp-web/src/main/webapp/static-resources/ViewJSModels/base/c8Control/vm.Control.AddPic.js" />
+        <option value="$PROJECT_DIR$/erp-web/src/main/java/com/qs/erp/web/controller/LoginCenterController.java" />
+        <option value="$PROJECT_DIR$/erp-web/src/main/webapp/static-resources/control.js" />
+        <option value="$PROJECT_DIR$/erp-web/src/main/webapp/static-resources/ViewJSModels/base/c8ControlExt.js" />
+        <option value="$PROJECT_DIR$/erp-web/src/main/webapp/static-resources/ViewJSModels/Employee/vm.Employee.search.js" />
+        <option value="$PROJECT_DIR$/erp-web/src/main/webapp/WEB-INF/pages/Cartoon/index.jsp" />
+        <option value="$PROJECT_DIR$/erp-web/src/main/webapp/static-resources/ViewJSModels/Cartoon/vm.Cartoon.edit.js" />
+        <option value="$PROJECT_DIR$/erp-entitys/src/main/java/com/qs/erp/entitys/businessmodel/Role/CartoonMasterSlave.java" />
+        <option value="$PROJECT_DIR$/erp-web/src/main/webapp/WEB-INF/pages/Cartoon/edit.jsp" />
+        <option value="$PROJECT_DIR$/erp-web/src/main/java/com/qs/erp/web/controller/CartoonController.java" />
+        <option value="$PROJECT_DIR$/erp-daos/src/main/java/com/qs/erp/daos/dao/CartoonDao.java" />
+        <option value="$PROJECT_DIR$/erp-entitys/src/main/java/com/qs/erp/entitys/entity/Cartoontypes.java" />
+        <option value="$PROJECT_DIR$/erp-daos/src/main/resources/sqlmap/CartoontypesDaoMapper.xml" />
+        <option value="$PROJECT_DIR$/erp-daos/src/main/java/com/qs/erp/daos/dao/CartoontypesDao.java" />
+        <option value="$PROJECT_DIR$/erp-services/src/main/java/com/qs/erp/services/service/CartoonService.java" />
+        <option value="$PROJECT_DIR$/erp-daos/src/main/resources/sqlmap/CartoonDaoMapper.xml" />
+        <option value="$PROJECT_DIR$/erp-entitys/src/main/java/com/qs/erp/entitys/entity/Cartoon.java" />
       </list>
     </option>
   </component>
@@ -272,6 +274,11 @@
         <option name="mavenHome" value="D:/soft/maven/apache-maven-3.5.3" />
         <option name="userSettingsFile" value="D:\soft\maven\apache-maven-3.5.3\settings.xml" />
       </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
     </option>
   </component>
   <component name="MavenProjectNavigator">
@@ -301,6 +308,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -408,6 +417,137 @@
             <path>
               <item name="TYLC" type="b2602c69:ProjectViewProjectNode" />
               <item name="TYLC" type="462c0819:PsiDirectoryNode" />
+              <item name="erp-entitys" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="entitys" type="462c0819:PsiDirectoryNode" />
+              <item name="businessmodel" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TYLC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TYLC" type="462c0819:PsiDirectoryNode" />
+              <item name="erp-entitys" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="entitys" type="462c0819:PsiDirectoryNode" />
+              <item name="businessmodel" type="462c0819:PsiDirectoryNode" />
+              <item name="Role" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TYLC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TYLC" type="462c0819:PsiDirectoryNode" />
+              <item name="erp-entitys" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="entitys" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TYLC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TYLC" type="462c0819:PsiDirectoryNode" />
+              <item name="erp-entitys" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="entitys" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TYLC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TYLC" type="462c0819:PsiDirectoryNode" />
+              <item name="erp-services" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TYLC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TYLC" type="462c0819:PsiDirectoryNode" />
+              <item name="erp-services" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TYLC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TYLC" type="462c0819:PsiDirectoryNode" />
+              <item name="erp-services" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TYLC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TYLC" type="462c0819:PsiDirectoryNode" />
+              <item name="erp-services" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TYLC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TYLC" type="462c0819:PsiDirectoryNode" />
+              <item name="erp-services" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TYLC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TYLC" type="462c0819:PsiDirectoryNode" />
+              <item name="erp-services" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TYLC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TYLC" type="462c0819:PsiDirectoryNode" />
+              <item name="erp-services" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TYLC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TYLC" type="462c0819:PsiDirectoryNode" />
+              <item name="erp-utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TYLC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TYLC" type="462c0819:PsiDirectoryNode" />
+              <item name="erp-utils" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TYLC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TYLC" type="462c0819:PsiDirectoryNode" />
+              <item name="erp-utils" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TYLC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TYLC" type="462c0819:PsiDirectoryNode" />
+              <item name="erp-utils" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TYLC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TYLC" type="462c0819:PsiDirectoryNode" />
+              <item name="erp-utils" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TYLC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TYLC" type="462c0819:PsiDirectoryNode" />
               <item name="erp-web" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -456,6 +596,16 @@
               <item name="erp-web" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="springconfig" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TYLC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TYLC" type="462c0819:PsiDirectoryNode" />
+              <item name="erp-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -466,38 +616,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
               <item name="static-resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TYLC" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TYLC" type="462c0819:PsiDirectoryNode" />
-              <item name="erp-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="static-resources" type="462c0819:PsiDirectoryNode" />
-              <item name="ViewJSModels" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TYLC" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TYLC" type="462c0819:PsiDirectoryNode" />
-              <item name="erp-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="static-resources" type="462c0819:PsiDirectoryNode" />
-              <item name="ViewJSModels" type="462c0819:PsiDirectoryNode" />
-              <item name="Department" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TYLC" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TYLC" type="462c0819:PsiDirectoryNode" />
-              <item name="erp-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="static-resources" type="462c0819:PsiDirectoryNode" />
-              <item name="ViewJSModels" type="462c0819:PsiDirectoryNode" />
-              <item name="Employee" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="TYLC" type="b2602c69:ProjectViewProjectNode" />
@@ -529,63 +647,40 @@
               <item name="pages" type="462c0819:PsiDirectoryNode" />
               <item name="Cartoon" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="TYLC" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TYLC" type="462c0819:PsiDirectoryNode" />
-              <item name="erp-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="Department" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TYLC" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TYLC" type="462c0819:PsiDirectoryNode" />
-              <item name="erp-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="sitemesh" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="AndroidView" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../mail_web" />
+    <property name="last_opened_file_path" value="D:/qiansheng/biaozhun2 - 副本/springmvc/NewWeb" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="SearchEverywhereHistoryKey" value="jdbc&#9;FILE&#9;file://E:/zl/TYLC/springmvc/TYLC/erp-web/src/main/webapp/config/jdbc.properties&#10;Department&#9;FILE&#9;file://E:/zl/TYLC/springmvc/TYLC/erp-daos/src/main/java/com/qs/erp/daos/dao/DepartmentDao.java&#10;Employee/&#9;FILE&#9;file://E:/zl/TYLC/springmvc/TYLC/erp-web/src/main/webapp/WEB-INF/pages/Employee&#10;RegionDaoMapper&#9;FILE&#9;file://E:/zl/TYLC/springmvc/TYLC/erp-daos/src/main/resources/sqlmapext/RegionExtDaoMapper.xml&#10;Role/&#9;FILE&#9;file://E:/zl/TYLC/springmvc/TYLC/erp-web/src/main/webapp/static-resources/ViewJSModels/Role&#10;city-picker.data.js&#9;FILE&#9;file://E:/zl/TYLC/springmvc/TYLC/erp-web/src/main/webapp/static-resources/Content/js/jquery-ext/city-picker/city-picker.data.js&#10;MyConstant&#9;FILE&#9;file://E:/zl/TYLC/springmvc/TYLC/erp-services/src/main/java/com/qs/erp/services/common/MyConstant.java&#10;Jdbc&#9;FILE&#9;file://E:/zl/TYLC/springmvc/TYLC/erp-web/src/main/webapp/config/jdbc.properties&#10;Cons&#9;FILE&#9;file://E:/zl/TYLC/springmvc/TYLC/erp-services/src/main/java/com/qs/erp/services/common/MyConstant.java&#10;Login&#9;PSI&#9;JAVA://com.qs.erp.web.controller.LoginController&#10;GlobalParameter&#9;FILE&#9;file://E:/zl/TYLC/springmvc/TYLC/erp-services/src/main/java/com/qs/erp/services/common/GlobalParameter.java&#10;LOgin&#9;PSI&#9;JAVA://com.qs.erp.web.controller.LoginController&#10;PdaApicon&#9;FILE&#9;file://D:/qiansheng/biaozhun2 - 副本/springmvc/NewWeb/erp-web/src/main/java/com/qs/erp/web/controller/PDAApiController.java&#10;SellOrder/&#9;FILE&#9;file://D:/qiansheng/biaozhun2 - 副本/springmvc/NewWeb/erp-web/src/main/webapp/WEB-INF/pages/SellOrder&#10;JcJmScanOrder/OutStorage&#9;null&#9;null&#10;Sellorder/&#9;FILE&#9;file://D:/qiansheng/biaozhun2 - 副本/springmvc/NewWeb/erp-web/src/main/webapp/WEB-INF/pages/SellOrder&#10;PurchaseReturnOutOrder&#9;FILE&#9;file://D:/qiansheng/biaozhun2 - 副本/springmvc/NewWeb/erp-web/src/main/webapp/static-resources/ViewJSModels/PurchaseReturnOutOrder/vm.PurchaseReturnOutOrder.edit.js&#10;JcJmScanOutWarehouse/&#9;FILE&#9;file://D:/qiansheng/biaozhun2 - 副本/springmvc/NewWeb/erp-web/src/main/webapp/static-resources/ViewJSModels/JcJmScanOutWarehouse&#10;PurchaseReturnOutOrder/&#9;FILE&#9;file://D:/qiansheng/biaozhun2 - 副本/springmvc/NewWeb/erp-web/src/main/webapp/static-resources/ViewJSModels/PurchaseReturnOutOrder&#10;JcJmScanOutWarehouse&#9;PSI&#9;JAVA://com.qs.erp.web.controller.JcJmScanOutWarehouseController&#10;PostPrintOrder2&#9;PSI&#9;JAVA://com.qs.erp.web.controller.PostPrintOrder2Controller&#10;InventoryReport/&#9;FILE&#9;file://D:/qiansheng/biaozhun2 - 副本/springmvc/NewWeb/erp-web/src/main/webapp/static-resources/ViewJSModels/InventoryReport&#10;SortingWall/getProductOrderInfoBySortingWall&#9;null&#9;null&#10;ProductSorting/&#9;FILE&#9;file://D:/qiansheng/biaozhun2 - 副本/springmvc/NewWeb/erp-web/src/main/webapp/static-resources/ViewJSModels/ProductSorting&#10;JDExpressCheckBillService&#9;FILE&#9;file://D:/qiansheng/biaozhun2 - 副本/springmvc/NewWeb/erp-services/src/main/java/com/qs/erp/services/service/JDExpressCheckBillService.java&#10;PDAApi/PurchaseCodePick&#9;null&#9;null&#10;PDAApi/getRFPermission&#9;null&#9;null&#10;WaybillI/getListBySellOrder&#9;null&#9;null&#10;TaobaoFenXiaoPlatProductMatchService&#9;PSI&#9;JAVA://com.qs.erp.services.service.PlatProductDown.TaobaoFenXiao.TaobaoFenXiaoPlatProductMatchService&#10;Shop&#9;FILE&#9;file://D:/qiansheng/biaozhun2 - 副本/springmvc/NewWeb/erp-services/src/main/java/com/qs/erp/services/service/ShopService.java&#10;pda&#9;FILE&#9;file://D:/qiansheng/biaozhun2 - 副本/springmvc/NewWeb/erp-web/src/main/java/com/qs/erp/web/controller/PDAApiController.java&#10;InvTakingOrder/au&#9;FILE&#9;file://D:/qiansheng/biaozhun2 - 副本/springmvc/NewWeb/erp-web/src/main/java/com/qs/erp/web/controller/InvTakingOrderController.java&#10;DeliveryOrder/&#9;FILE&#9;file://D:/qiansheng/biaozhun2 - 副本/springmvc/NewWeb/erp-web/src/main/webapp/WEB-INF/pages/DeliveryOrder&#10;PDAApi/GetInvTakingHaveOrder&#9;null&#9;null&#10;InvTakingOrder&#9;PSI&#9;JAVA://com.qs.erp.entitys.entity.InvTakingOrder&#10;invAdjustOrder&#9;PSI&#9;JAVA://com.qs.erp.entitys.entity.InvAdjustOrder&#10;InvTakingOrder/Audit&#9;null&#9;null&#10;InvTakingOrder/&#9;FILE&#9;file://D:/qiansheng/biaozhun2 - 副本/springmvc/NewWeb/erp-web/src/main/webapp/static-resources/ViewJSModels/InvTakingOrder&#10;InvTakingOrder/index.jsp&#9;FILE&#9;file://D:/qiansheng/biaozhun2 - 副本/springmvc/NewWeb/erp-web/src/main/webapp/WEB-INF/pages/InvTakingOrder/index.jsp&#10;/PurchaseCodeComparison/getPrintPUnionCodeModel&#9;null&#9;null&#10;PurchaseCodeComparison/getPrintPUnionCodeModel&#9;null&#9;null&#10;SystemConfig/&#9;FILE&#9;file://D:/qiansheng/biaozhun2 - 副本/springmvc/NewWeb/erp-web/src/main/webapp/WEB-INF/pages/SystemConfig&#10;SystemConfig&#9;PSI&#9;JAVA://com.qs.erp.entitys.entity.SystemConfig&#10;Open&#9;PSI&#9;JAVA://com.qs.erp.web.controller.OpenApiController&#10;OPena&#9;RUN_CONFIGURATION&#9;OpenApiControllerTest.getOrder&#10;Sellor&#9;PSI&#9;JAVA://com.qs.erp.entitys.entity.SellOrder&#10;PrintTemplate/&#9;FILE&#9;file://D:/qiansheng/biaozhun2 - 副本/springmvc/NewWeb/erp-web/src/main/webapp/static-resources/ViewJSModels/PrintTemplate&#10;InvAdjustOrder/&#9;FILE&#9;file://D:/qiansheng/biaozhun2 - 副本/springmvc/NewWeb/erp-web/src/main/webapp/static-resources/ViewJSModels/InvAdjustOrder&#10;/CommonMethod/getPrintPUnionCodeModelList&#9;null&#9;null&#10;InvAllocateOrder/&#9;FILE&#9;file://D:/qiansheng/biaozhun2 - 副本/springmvc/NewWeb/erp-web/src/main/webapp/WEB-INF/pages/InvAllocateOrder" />
+    <property name="SearchEverywhereHistoryKey" value="com.qiansheng.control.js&#9;FILE&#9;file://E:/zl/TYLC/springmvc/TYLC/erp-web/src/main/webapp/static-resources/ViewJSModels/base/com.qiansheng.control.js&#10;select2.control.js&#9;FILE&#9;file://E:/zl/TYLC/springmvc/TYLC/erp-web/src/main/webapp/static-resources/ViewJSModels/base/select2.control.js&#10;jdbc&#9;FILE&#9;file://E:/zl/TYLC/springmvc/TYLC/erp-web/src/main/webapp/config/jdbc.properties&#10;CartoonDao&#9;FILE&#9;file://E:/zl/TYLC/springmvc/TYLC/erp-daos/src/main/java/com/qs/erp/daos/dao/CartoonDao.java&#10;BSGridLayout&#9;FILE&#9;file://E:/zl/TYLC/springmvc/TYLC/erp-entitys/src/main/java/com/qs/erp/entitys/entity/BSGridLayout.java&#10;Department&#9;FILE&#9;file://E:/zl/TYLC/springmvc/TYLC/erp-daos/src/main/java/com/qs/erp/daos/dao/DepartmentDao.java&#10;Employee/&#9;FILE&#9;file://E:/zl/TYLC/springmvc/TYLC/erp-web/src/main/webapp/WEB-INF/pages/Employee&#10;RegionDaoMapper&#9;FILE&#9;file://E:/zl/TYLC/springmvc/TYLC/erp-daos/src/main/resources/sqlmapext/RegionExtDaoMapper.xml&#10;Role/&#9;FILE&#9;file://E:/zl/TYLC/springmvc/TYLC/erp-web/src/main/webapp/static-resources/ViewJSModels/Role&#10;city-picker.data.js&#9;FILE&#9;file://E:/zl/TYLC/springmvc/TYLC/erp-web/src/main/webapp/static-resources/Content/js/jquery-ext/city-picker/city-picker.data.js&#10;MyConstant&#9;FILE&#9;file://E:/zl/TYLC/springmvc/TYLC/erp-services/src/main/java/com/qs/erp/services/common/MyConstant.java&#10;Jdbc&#9;FILE&#9;file://E:/zl/TYLC/springmvc/TYLC/erp-web/src/main/webapp/config/jdbc.properties&#10;Cons&#9;FILE&#9;file://E:/zl/TYLC/springmvc/TYLC/erp-services/src/main/java/com/qs/erp/services/common/MyConstant.java&#10;Login&#9;PSI&#9;JAVA://com.qs.erp.web.controller.LoginController&#10;GlobalParameter&#9;FILE&#9;file://E:/zl/TYLC/springmvc/TYLC/erp-services/src/main/java/com/qs/erp/services/common/GlobalParameter.java&#10;LOgin&#9;PSI&#9;JAVA://com.qs.erp.web.controller.LoginController&#10;PdaApicon&#9;FILE&#9;file://D:/qiansheng/biaozhun2 - 副本/springmvc/NewWeb/erp-web/src/main/java/com/qs/erp/web/controller/PDAApiController.java&#10;SellOrder/&#9;FILE&#9;file://D:/qiansheng/biaozhun2 - 副本/springmvc/NewWeb/erp-web/src/main/webapp/WEB-INF/pages/SellOrder&#10;JcJmScanOrder/OutStorage&#9;null&#9;null&#10;Sellorder/&#9;FILE&#9;file://D:/qiansheng/biaozhun2 - 副本/springmvc/NewWeb/erp-web/src/main/webapp/WEB-INF/pages/SellOrder&#10;PurchaseReturnOutOrder&#9;FILE&#9;file://D:/qiansheng/biaozhun2 - 副本/springmvc/NewWeb/erp-web/src/main/webapp/static-resources/ViewJSModels/PurchaseReturnOutOrder/vm.PurchaseReturnOutOrder.edit.js&#10;JcJmScanOutWarehouse/&#9;FILE&#9;file://D:/qiansheng/biaozhun2 - 副本/springmvc/NewWeb/erp-web/src/main/webapp/static-resources/ViewJSModels/JcJmScanOutWarehouse&#10;PurchaseReturnOutOrder/&#9;FILE&#9;file://D:/qiansheng/biaozhun2 - 副本/springmvc/NewWeb/erp-web/src/main/webapp/static-resources/ViewJSModels/PurchaseReturnOutOrder&#10;JcJmScanOutWarehouse&#9;PSI&#9;JAVA://com.qs.erp.web.controller.JcJmScanOutWarehouseController&#10;PostPrintOrder2&#9;PSI&#9;JAVA://com.qs.erp.web.controller.PostPrintOrder2Controller&#10;InventoryReport/&#9;FILE&#9;file://D:/qiansheng/biaozhun2 - 副本/springmvc/NewWeb/erp-web/src/main/webapp/static-resources/ViewJSModels/InventoryReport&#10;SortingWall/getProductOrderInfoBySortingWall&#9;null&#9;null&#10;ProductSorting/&#9;FILE&#9;file://D:/qiansheng/biaozhun2 - 副本/springmvc/NewWeb/erp-web/src/main/webapp/static-resources/ViewJSModels/ProductSorting&#10;JDExpressCheckBillService&#9;FILE&#9;file://D:/qiansheng/biaozhun2 - 副本/springmvc/NewWeb/erp-services/src/main/java/com/qs/erp/services/service/JDExpressCheckBillService.java&#10;PDAApi/PurchaseCodePick&#9;null&#9;null&#10;PDAApi/getRFPermission&#9;null&#9;null&#10;WaybillI/getListBySellOrder&#9;null&#9;null&#10;TaobaoFenXiaoPlatProductMatchService&#9;PSI&#9;JAVA://com.qs.erp.services.service.PlatProductDown.TaobaoFenXiao.TaobaoFenXiaoPlatProductMatchService&#10;Shop&#9;FILE&#9;file://D:/qiansheng/biaozhun2 - 副本/springmvc/NewWeb/erp-services/src/main/java/com/qs/erp/services/service/ShopService.java&#10;pda&#9;FILE&#9;file://D:/qiansheng/biaozhun2 - 副本/springmvc/NewWeb/erp-web/src/main/java/com/qs/erp/web/controller/PDAApiController.java&#10;InvTakingOrder/au&#9;FILE&#9;file://D:/qiansheng/biaozhun2 - 副本/springmvc/NewWeb/erp-web/src/main/java/com/qs/erp/web/controller/InvTakingOrderController.java&#10;DeliveryOrder/&#9;FILE&#9;file://D:/qiansheng/biaozhun2 - 副本/springmvc/NewWeb/erp-web/src/main/webapp/WEB-INF/pages/DeliveryOrder&#10;PDAApi/GetInvTakingHaveOrder&#9;null&#9;null&#10;InvTakingOrder&#9;PSI&#9;JAVA://com.qs.erp.entitys.entity.InvTakingOrder&#10;invAdjustOrder&#9;PSI&#9;JAVA://com.qs.erp.entitys.entity.InvAdjustOrder&#10;InvTakingOrder/Audit&#9;null&#9;null&#10;InvTakingOrder/&#9;FILE&#9;file://D:/qiansheng/biaozhun2 - 副本/springmvc/NewWeb/erp-web/src/main/webapp/static-resources/ViewJSModels/InvTakingOrder&#10;InvTakingOrder/index.jsp&#9;FILE&#9;file://D:/qiansheng/biaozhun2 - 副本/springmvc/NewWeb/erp-web/src/main/webapp/WEB-INF/pages/InvTakingOrder/index.jsp&#10;/PurchaseCodeComparison/getPrintPUnionCodeModel&#9;null&#9;null&#10;PurchaseCodeComparison/getPrintPUnionCodeModel&#9;null&#9;null&#10;SystemConfig/&#9;FILE&#9;file://D:/qiansheng/biaozhun2 - 副本/springmvc/NewWeb/erp-web/src/main/webapp/WEB-INF/pages/SystemConfig&#10;SystemConfig&#9;PSI&#9;JAVA://com.qs.erp.entitys.entity.SystemConfig&#10;Open&#9;PSI&#9;JAVA://com.qs.erp.web.controller.OpenApiController&#10;OPena&#9;RUN_CONFIGURATION&#9;OpenApiControllerTest.getOrder&#10;Sellor&#9;PSI&#9;JAVA://com.qs.erp.entitys.entity.SellOrder" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/erp-utils/src/main/java/com/qs/erp/utils/util" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.qs.erp.services.service" />
-      <recent name="com.qs.erp.web.controller" />
+      <recent name="com.qs.erp.entitys.common" />
+      <recent name="com.qs.erp.entitys.businessmodel" />
+      <recent name="com.qs.erp.services.common.excel" />
       <recent name="com.qs.erp.daos.dao" />
-      <recent name="com.qs.erp.entitys.entity" />
       <recent name="com.qs.erp.daos.daoext" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\zl\TYLC\springmvc\TYLC\erp-web\src\main\webapp\WEB-INF\pages\Cartoon" />
       <recent name="E:\zl\TYLC\springmvc\TYLC\erp-daos\src\main\resources\sqlmap" />
-      <recent name="E:\zl\TYLC\springmvc\TYLC\erp-web\src\main\webapp\WEB-INF\pages" />
-      <recent name="E:\zl\TYLC\springmvc\TYLC\erp-web\src\main\webapp\static-resources\ViewJSModels" />
-      <recent name="E:\zl\TYLC\springmvc\TYLC\erp-daos\src\main\resources\sqlmapext" />
+      <recent name="E:\zl\TYLC\springmvc\TYLC\erp-web\src\main\webapp\WEB-INF\pages\BusinessControl" />
+      <recent name="E:\zl\TYLC\springmvc\TYLC\erp-web\src\main\webapp\static-resources\ViewJSModels\base\c8Control" />
+      <recent name="E:\zl\TYLC\springmvc\TYLC\erp-web\src\main\webapp\static-resources\ViewJSModels\CartoonType" />
+      <recent name="E:\zl\TYLC\springmvc\TYLC\erp-web\src\main\webapp\WEB-INF\pages\CartoonType" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -885,7 +980,14 @@
       <workItem from="1534559699098" duration="334000" />
       <workItem from="1534577006726" duration="4134000" />
       <workItem from="1534655878829" duration="5010000" />
-      <workItem from="1534831634233" duration="3620000" />
+      <workItem from="1534831634233" duration="10422000" />
+      <workItem from="1534902509096" duration="46000" />
+      <workItem from="1534930973268" duration="5591000" />
+      <workItem from="1534988834801" duration="9593000" />
+      <workItem from="1535195453839" duration="525000" />
+      <workItem from="1535271617801" duration="6800000" />
+      <workItem from="1535334194807" duration="10821000" />
+      <workItem from="1535502448075" duration="6773000" />
     </task>
     <servers />
   </component>
@@ -922,7 +1024,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="811031000" />
+    <option name="totallyTimeSpent" value="857982000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -935,7 +1037,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="FindBugs-IDEA" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295325" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -948,20 +1049,21 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25214592" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.45838085" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.47662485" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32839224" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39680728" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17217788" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295325" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14139111" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295325" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295325" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3224249" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2553648" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295325" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -969,7 +1071,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295325" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -979,7 +1080,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32839224" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.094420604" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.094420604" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -987,19 +1088,19 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25214592" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22348917" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.44925883" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32839224" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23147093" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17217788" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295325" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14139111" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295325" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295325" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29935622" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25590128" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295325" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1184,11 +1285,35 @@
           <properties />
           <option name="timeStamp" value="409" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/erp-web/src/main/java/com/qs/erp/web/controller/FileController.java</url>
+          <line>27</line>
+          <properties />
+          <option name="timeStamp" value="412" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/erp-web/src/main/java/com/qs/erp/web/controller/CartoonController.java</url>
+          <line>45</line>
+          <properties />
+          <option name="timeStamp" value="413" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/erp-web/src/main/java/com/qs/erp/web/controller/CartoonController.java</url>
+          <line>46</line>
+          <properties />
+          <option name="timeStamp" value="414" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/erp-services/src/main/java/com/qs/erp/services/service/CartoonService.java</url>
+          <line>44</line>
+          <properties />
+          <option name="timeStamp" value="415" />
+        </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="410" />
+      <option name="time" value="416" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1227,648 +1352,626 @@
     </expressions>
     <expressions id="evaluateExpression">
       <expression>
-        <expression-string>map</expression-string>
+        <expression-string>dao.Create(cartoon)</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>com.qs.erp.utils.util.WebUtils.doPost(&quot;http://&quot; + tenantLogin.getIp() + &quot;:&quot; + tenantLogin.getPort() + &quot;/ClientCheck&quot;, map,ClientLoginBusiness.class)</expression-string>
+        <expression-string>cartoon</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>com.qs.erp.utils</expression-string>
+        <expression-string>service.Save(ControllerContext.getCurrentContext(),slave)</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>tenantDao.getLoginInfoByTenantcode(tenantcode)</expression-string>
+        <expression-string>ControllerContext.getCurrentContext()</expression-string>
+        <language-id>JAVA</language-id>
+        <custom-info>com.qs.erp.web.spring.ControllerContext</custom-info>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>slave</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>req.getParameter(&quot;sign&quot;)</expression-string>
+        <expression-string>callResult</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>tenantLoginDaoExt.getTenantLogin(cookie.getValue())</expression-string>
+        <expression-string>((DiskFileItem) ((CommonsMultipartFile) ImportExcelFile).getFileItem()).getTempFile()</expression-string>
         <language-id>JAVA</language-id>
+        <custom-info>org.springframework.web.multipart.commons.CommonsMultipartFile,org.apache.commons.fileupload.disk.DiskFileItem</custom-info>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>tenantLogin</expression-string>
+        <expression-string>((CommonsMultipartFile) ImportExcelFile).getFileItem()</expression-string>
         <language-id>JAVA</language-id>
+        <custom-info>org.springframework.web.multipart.commons.CommonsMultipartFile</custom-info>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>loginBusiness</expression-string>
+        <expression-string>ImportExcelFile</expression-string>
         <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>WebUtils.doPost(&quot;http://&quot; + tenantLogin.getIp() + &quot;:&quot; + tenantLogin.getPort() + &quot;/ClientCheck&quot;, map,ClientLoginBusiness.class)</expression-string>
-        <language-id>JAVA</language-id>
-        <custom-info>com.qs.erp.utils.util.WebUtils</custom-info>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/erp-services/src/main/java/com/qs/erp/services/common/TreeObjectCheckHelp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/erp-web/src/main/webapp/WEB-INF/pages/Role/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/erp-web/src/main/webapp/static-resources/ViewJSModels/Role/vm.Role.search.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="99" column="14" lean-forward="false" selection-start-line="99" selection-start-column="14" selection-end-line="99" selection-end-column="14" />
-          <folding>
-            <element signature="e#321#452#0" expanded="false" />
-            <element signature="e#381#444#0" expanded="false" />
-            <element signature="e#490#1931#0" expanded="false" />
-            <element signature="e#539#1033#0" expanded="false" />
-            <element signature="e#567#606#0" expanded="false" />
-            <element signature="e#647#831#0" expanded="false" />
-            <element signature="e#837#1023#0" expanded="false" />
-            <element signature="e#1052#1887#0" expanded="false" />
-            <element signature="e#1053#1886#0" expanded="false" />
-            <element signature="e#1066#1129#0" expanded="false" />
-            <element signature="e#1213#1506#0" expanded="false" />
-            <element signature="e#1331#1492#0" expanded="false" />
-            <element signature="e#1368#1420#0" expanded="false" />
-            <element signature="e#1426#1478#0" expanded="false" />
-            <element signature="e#2045#2096#0" expanded="false" />
-            <element signature="e#2536#2849#0" expanded="false" />
-            <element signature="e#2632#2692#0" expanded="false" />
-            <element signature="e#2728#2802#0" expanded="false" />
-            <element signature="e#2882#3134#0" expanded="false" />
-            <element signature="e#3167#3538#0" expanded="false" />
-            <element signature="e#3262#3412#0" expanded="false" />
-            <element signature="e#3426#3532#0" expanded="false" />
-            <element signature="e#3450#3522#0" expanded="false" />
-            <element signature="e#3572#4605#0" expanded="false" />
-            <element signature="e#3638#4597#0" expanded="false" />
-            <element signature="e#3770#4585#0" expanded="false" />
-            <element signature="e#4010#4123#0" expanded="false" />
-            <element signature="e#4161#4342#0" expanded="false" />
-            <element signature="e#4384#4446#0" expanded="false" />
-            <element signature="e#4486#4571#0" expanded="false" />
-            <element signature="e#4644#4744#0" expanded="false" />
-            <element signature="e#4779#4832#0" expanded="false" />
-            <element signature="e#4872#4972#0" expanded="false" />
-            <element signature="e#5013#5753#0" expanded="false" />
-            <element signature="e#5060#5722#0" expanded="false" />
-            <element signature="e#5308#5354#0" expanded="false" />
-            <element signature="e#5388#5491#0" expanded="false" />
-            <element signature="e#5529#5660#0" expanded="false" />
-            <element signature="e#5548#5596#0" expanded="false" />
-            <element signature="e#5696#5712#0" expanded="false" />
-            <element signature="e#5791#6524#0" expanded="false" />
-            <element signature="e#5838#6493#0" expanded="false" />
-            <element signature="e#6079#6125#0" expanded="false" />
-            <element signature="e#6159#6262#0" expanded="false" />
-            <element signature="e#6300#6431#0" expanded="false" />
-            <element signature="e#6319#6367#0" expanded="false" />
-            <element signature="e#6467#6483#0" expanded="false" />
-            <element signature="e#6558#7763#0" expanded="false" />
-            <element signature="e#6624#7755#0" expanded="false" />
-            <element signature="e#6854#7135#0" expanded="false" />
-            <element signature="e#6930#7036#0" expanded="false" />
-            <element signature="e#7058#7121#0" expanded="false" />
-            <element signature="e#7169#7325#0" expanded="false" />
-            <element signature="e#7363#7641#0" expanded="false" />
-            <element signature="e#7517#7595#0" expanded="false" />
-            <element signature="e#7677#7745#0" expanded="false" />
-            <element signature="e#7803#8051#0" expanded="false" />
-            <element signature="e#7858#8044#0" expanded="false" />
-            <element signature="e#7920#8032#0" expanded="false" />
-            <element signature="e#7959#8018#0" expanded="false" />
-            <element signature="e#8091#9396#0" expanded="false" />
-            <element signature="e#8187#8247#0" expanded="false" />
-            <element signature="e#8366#9388#0" expanded="false" />
-            <element signature="e#8417#9376#0" expanded="false" />
-            <element signature="e#8664#8914#0" expanded="false" />
-            <element signature="e#8952#9133#0" expanded="false" />
-            <element signature="e#9175#9237#0" expanded="false" />
-            <element signature="e#9277#9362#0" expanded="false" />
-            <element signature="e#9592#12192#0" expanded="false" />
-            <element signature="e#9828#9994#0" expanded="false" />
-            <element signature="e#9865#9988#0" expanded="false" />
-            <element signature="e#10050#10610#0" expanded="false" />
-            <element signature="e#10344#10508#0" expanded="false" />
-            <element signature="e#10658#12190#0" expanded="false" />
-            <element signature="e#10742#10811#0" expanded="false" />
-            <element signature="e#11066#11140#0" expanded="false" />
-            <element signature="e#11159#12182#0" expanded="false" />
-            <element signature="e#11408#11472#0" expanded="false" />
-            <element signature="e#11506#11679#0" expanded="false" />
-            <element signature="e#11717#12051#0" expanded="false" />
-            <element signature="e#11788#11876#0" expanded="false" />
-            <element signature="e#12087#12172#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/erp-daos/src/main/java/com/qs/erp/daos/daoext/RoleExtDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="14" column="3" lean-forward="false" selection-start-line="14" selection-start-column="3" selection-end-line="15" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/erp-daos/src/main/resources/sqlmapext/RoleExtDaoMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="70" lean-forward="false" selection-start-line="3" selection-start-column="58" selection-end-line="3" selection-end-column="70" />
-          <folding>
-            <element signature="e#545#549#0" expanded="false" />
-            <element signature="n#select#1;n#mapper#0;n#!!top" expanded="false" />
-            <element signature="n#where#0;n#select#1;n#mapper#0;n#!!top" expanded="false" />
-            <element signature="n#if#0;n#where#0;n#select#1;n#mapper#0;n#!!top" expanded="false" />
-            <element signature="n#update#0;n#mapper#0;n#!!top" expanded="false" />
-            <element signature="n#select#2;n#mapper#0;n#!!top" expanded="false" />
-            <element signature="n#select#3;n#mapper#0;n#!!top" expanded="false" />
-            <element signature="n#select#4;n#mapper#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/erp-entitys/src/main/java/com/qs/erp/entitys/entity/ProductOwner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="19" column="24" lean-forward="false" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/erp-daos/src/main/resources/sqlmap/RegionDaoMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1521604527338" expanded="true" signature="325:440" ph="SELECT RowId... region" />
-            <marker date="1521604527338" expanded="true" signature="512:548" ph="select * fro... Region" />
-            <marker date="1521604527338" expanded="true" signature="615:656" ph="select * fro... Region" />
-            <marker date="1521604527338" expanded="true" signature="705:1366" ph="update Region... " />
-            <marker date="1521604527338" expanded="true" signature="1417:1465" ph="delete from Region" />
-            <marker date="1521604527338" expanded="true" signature="1515:2573" ph="INSERT INTO Region... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/erp-services/src/main/java/com/qs/erp/services/service/CacheService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="50" column="0" lean-forward="false" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/erp-daos/src/main/java/com/qs/erp/daos/dao/RegionDao.java" />
-    <entry file="file://$PROJECT_DIR$/erp-daos/src/main/resources/sqlmapext/RegionExtDaoMapper.xml" />
-    <entry file="file://$PROJECT_DIR$/erp-daos/src/main/java/com/qs/erp/daos/daoext/RegionExtDao.java" />
-    <entry file="file://$PROJECT_DIR$/erp-web/src/main/webapp/WEB-INF/pages/Employee/add.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/erp-services/src/main/java/com/qs/erp/services/service/RoleService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="30" column="18" lean-forward="false" selection-start-line="30" selection-start-column="18" selection-end-line="30" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/erp-web/src/main/java/com/qs/erp/web/controller/RoleController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="22" column="4" lean-forward="false" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/erp-services/src/main/java/com/qs/erp/services/common/shiro/PasswordHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/erp-entitys/src/main/java/com/qs/erp/entitys/entity/Operator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/erp-entitys/src/main/java/com/qs/erp/entitys/entity/OperatorConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/erp-daos/src/main/java/com/qs/erp/daos/dao/OperatorDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/erp-daos/src/main/resources/sqlmapext/OperatorConfigDaoMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/erp-daos/src/main/resources/sqlmap/OperatorDaoMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1521604527282" expanded="true" signature="330:402" ph="select * fro... Operator" />
-            <marker date="1521604527282" expanded="true" signature="469:544" ph="select * fro... Operator" />
-            <marker date="1521604527282" expanded="true" signature="594:813" ph="update Operator... " />
-            <marker date="1521604527282" expanded="true" signature="861:943" ph="delete from Operator" />
-            <marker date="1521604527282" expanded="true" signature="993:1526" ph="INSERT INTO Operator... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/erp-daos/src/main/java/com/qs/erp/daos/daoext/OperatorConfigDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/erp-services/src/main/java/com/qs/erp/services/service/OperatorService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="35" column="24" lean-forward="true" selection-start-line="35" selection-start-column="24" selection-end-line="35" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/erp-daos/src/main/resources/sqlmapext/EmployeeDaoExtMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1525518967691" expanded="true" signature="344:920" ph="SELECT Emplo... Employee" />
-            <marker date="1525518967691" expanded="true" signature="1580:1660" ph="select * fro... Employee" />
-            <marker date="1525518967691" expanded="true" signature="1733:1909" ph="select * fro... Employee" />
-            <marker date="1525518967691" expanded="true" signature="1980:2245" ph="select * fro... Employee" />
-            <marker date="1525518967691" expanded="true" signature="2637:2737" ph="SELECT RowId... Employee" />
-            <marker date="1525518967691" expanded="true" signature="2816:3003" ph="SELECT RowId... Employee" />
-            <marker date="1525518967691" expanded="true" signature="2941:3002" ph="SELECT RowId... Operator" />
-            <marker date="1525518967691" expanded="true" signature="3058:3181" ph="update Employee... " />
-            <marker date="1525518967691" expanded="true" signature="3259:3355" ph="select * fro... Employee" />
-            <marker date="1525518967691" expanded="true" signature="3440:3517" ph="SELECT NAME Employee" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/erp-daos/src/main/java/com/qs/erp/daos/daoext/EmployeeDaoExt.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="13" column="31" lean-forward="false" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/erp-daos/src/main/java/com/qs/erp/daos/dao/EmployeeDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/erp-entitys/src/main/java/com/qs/erp/entitys/entity/Department.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/erp-services/src/main/java/com/qs/erp/services/service/EmployeeService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="7" column="45" lean-forward="true" selection-start-line="7" selection-start-column="45" selection-end-line="7" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/erp-web/src/main/webapp/WEB-INF/pages/Department/edit.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/erp-web/src/main/webapp/WEB-INF/pages/Employee/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/erp-daos/src/main/java/com/qs/erp/daos/daoext/DepartmentExtDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="16" column="16" lean-forward="false" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/erp-daos/src/main/resources/sqlmapext/DepartmentExtDaoMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-23">
-          <caret line="16" column="28" lean-forward="true" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
-          <folding>
-            <marker date="1521604527464" expanded="true" signature="281:508" ph="SELECT * FRO... Department" />
-            <marker date="1521604527464" expanded="true" signature="826:1004" ph="select * fro... Department" />
-            <marker date="1521604527464" expanded="true" signature="1059:1184" ph="update Department... " />
-            <marker date="1521604527464" expanded="true" signature="1255:1334" ph="select RowId... Department" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/erp-web/src/main/webapp/config/jdbc.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/erp-services/src/main/java/com/qs/erp/services/service/DepartmentService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="32" column="32" lean-forward="false" selection-start-line="32" selection-start-column="32" selection-end-line="32" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/erp-entitys/src/main/java/com/qs/erp/entitys/entity/CartoonDetail.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="12" column="28" lean-forward="true" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
-          <folding>
-            <element signature="e#324#325#0" expanded="true" />
-            <element signature="e#352#353#0" expanded="true" />
-            <element signature="e#392#393#0" expanded="true" />
-            <element signature="e#421#422#0" expanded="true" />
-            <element signature="e#458#459#0" expanded="true" />
-            <element signature="e#493#494#0" expanded="true" />
-            <element signature="e#547#548#0" expanded="true" />
-            <element signature="e#590#591#0" expanded="true" />
-            <element signature="e#620#621#0" expanded="true" />
-            <element signature="e#646#647#0" expanded="true" />
-            <element signature="e#684#685#0" expanded="true" />
-            <element signature="e#709#710#0" expanded="true" />
-            <element signature="e#744#745#0" expanded="true" />
-            <element signature="e#777#778#0" expanded="true" />
-            <element signature="e#827#828#0" expanded="true" />
-            <element signature="e#866#867#0" expanded="true" />
-            <element signature="e#898#899#0" expanded="true" />
-            <element signature="e#926#927#0" expanded="true" />
-            <element signature="e#968#969#0" expanded="true" />
-            <element signature="e#997#998#0" expanded="true" />
-            <element signature="e#1025#1026#0" expanded="true" />
-            <element signature="e#1052#1053#0" expanded="true" />
-            <element signature="e#1089#1090#0" expanded="true" />
-            <element signature="e#1116#1117#0" expanded="true" />
-            <element signature="e#1144#1145#0" expanded="true" />
-            <element signature="e#1171#1172#0" expanded="true" />
-            <element signature="e#1208#1209#0" expanded="true" />
-            <element signature="e#1235#1236#0" expanded="true" />
-            <element signature="e#1270#1271#0" expanded="true" />
-            <element signature="e#1301#1302#0" expanded="true" />
-            <element signature="e#1349#1350#0" expanded="true" />
-            <element signature="e#1384#1385#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/erp-entitys/src/main/java/com/qs/erp/entitys/entity/CartoonDetailChapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" column="28" lean-forward="true" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
-          <folding>
-            <element signature="e#267#268#0" expanded="true" />
-            <element signature="e#307#308#0" expanded="true" />
-            <element signature="e#336#337#0" expanded="true" />
-            <element signature="e#379#380#0" expanded="true" />
-            <element signature="e#420#421#0" expanded="true" />
-            <element signature="e#486#487#0" expanded="true" />
-            <element signature="e#541#542#0" expanded="true" />
-            <element signature="e#572#573#0" expanded="true" />
-            <element signature="e#599#600#0" expanded="true" />
-            <element signature="e#639#640#0" expanded="true" />
-            <element signature="e#666#667#0" expanded="true" />
-            <element signature="e#696#697#0" expanded="true" />
-            <element signature="e#722#723#0" expanded="true" />
-            <element signature="e#760#761#0" expanded="true" />
-            <element signature="e#785#786#0" expanded="true" />
-            <element signature="e#820#821#0" expanded="true" />
-            <element signature="e#851#852#0" expanded="true" />
-            <element signature="e#899#900#0" expanded="true" />
-            <element signature="e#934#935#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/erp-entitys/src/main/java/com/qs/erp/entitys/entity/Cartoon.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="82">
-          <caret line="4" column="20" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="20" />
-          <folding>
-            <element signature="e#327#328#0" expanded="true" />
-            <element signature="e#355#356#0" expanded="true" />
-            <element signature="e#395#396#0" expanded="true" />
-            <element signature="e#424#425#0" expanded="true" />
-            <element signature="e#456#457#0" expanded="true" />
-            <element signature="e#484#485#0" expanded="true" />
-            <element signature="e#526#527#0" expanded="true" />
-            <element signature="e#555#556#0" expanded="true" />
-            <element signature="e#590#591#0" expanded="true" />
-            <element signature="e#621#622#0" expanded="true" />
-            <element signature="e#669#670#0" expanded="true" />
-            <element signature="e#704#705#0" expanded="true" />
-            <element signature="e#739#740#0" expanded="true" />
-            <element signature="e#772#773#0" expanded="true" />
-            <element signature="e#822#823#0" expanded="true" />
-            <element signature="e#861#862#0" expanded="true" />
-            <element signature="e#896#897#0" expanded="true" />
-            <element signature="e#929#930#0" expanded="true" />
-            <element signature="e#979#980#0" expanded="true" />
-            <element signature="e#1018#1019#0" expanded="true" />
-            <element signature="e#1052#1053#0" expanded="true" />
-            <element signature="e#1082#1083#0" expanded="true" />
-            <element signature="e#1128#1129#0" expanded="true" />
-            <element signature="e#1161#1162#0" expanded="true" />
-            <element signature="e#1191#1192#0" expanded="true" />
-            <element signature="e#1217#1218#0" expanded="true" />
-            <element signature="e#1255#1256#0" expanded="true" />
-            <element signature="e#1280#1281#0" expanded="true" />
-            <element signature="e#1313#1314#0" expanded="true" />
-            <element signature="e#1342#1343#0" expanded="true" />
-            <element signature="e#1386#1387#0" expanded="true" />
-            <element signature="e#1417#1418#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/erp-daos/src/main/java/com/qs/erp/daos/dao/DepartmentDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="11" column="22" lean-forward="false" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/erp-daos/src/main/resources/sqlmap/DepartmentDaoMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding>
-            <marker date="1534667162655" expanded="true" signature="326:402" ph="select * fro... Department" />
-            <marker date="1534667162655" expanded="true" signature="469:549" ph="select * fro... Department" />
-            <marker date="1534667162655" expanded="true" signature="598:914" ph="update Department... " />
-            <marker date="1534667162655" expanded="true" signature="962:1049" ph="delete from Department" />
-            <marker date="1534667162655" expanded="true" signature="1099:1722" ph="INSERT INTO Department... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/erp-daos/src/main/resources/sqlmap/CartoonDaoMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="368">
-          <caret line="16" column="9" lean-forward="true" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
-          <folding>
-            <marker date="1534836398878" expanded="true" signature="235:689" ph="INSERT INTO Department... " />
-          </folding>
+          <caret line="51" column="30" lean-forward="false" selection-start-line="51" selection-start-column="21" selection-end-line="51" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/erp-daos/src/main/java/com/qs/erp/daos/dao/CartoonDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="40" lean-forward="true" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/erp-web/src/main/java/com/qs/erp/web/controller/DepartmentController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1334">
-          <caret line="75" column="27" lean-forward="false" selection-start-line="75" selection-start-column="27" selection-end-line="75" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/erp-web/src/main/webapp/WEB-INF/pages/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/erp-web/src/main/webapp/static-resources/ViewJSModels/Department/vm.Department.search.js">
+    <entry file="file://$PROJECT_DIR$/erp-daos/src/main/java/com/qs/erp/daos/dao/TenantLoginDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
-          <caret line="8" column="44" lean-forward="true" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
+          <caret line="13" column="27" lean-forward="true" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/erp-web/src/main/java/com/qs/erp/web/controller/IndexController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="35" lean-forward="false" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/erp-web/src/main/webapp/static-resources/ViewJSModels/base/select2.control.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="387">
+          <caret line="1331" column="49" lean-forward="true" selection-start-line="1331" selection-start-column="49" selection-end-line="1331" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/erp-services/src/main/java/com/qs/erp/services/service/TenantLoginService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="11" column="46" lean-forward="true" selection-start-line="11" selection-start-column="46" selection-end-line="11" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/erp-web/src/main/webapp/WEB-INF/decorators.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6394">
+          <caret line="278" column="39" lean-forward="false" selection-start-line="278" selection-start-column="39" selection-end-line="278" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/erp-web/src/main/webapp/static-resources/ViewJSModels/CartoonType/vm.CartoonType.search.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4002">
+          <caret line="174" column="23" lean-forward="false" selection-start-line="174" selection-start-column="17" selection-end-line="174" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/erp-services/src/main/java/com/qs/erp/services/service/CartoonTypeService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="23" column="24" lean-forward="false" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/erp-entitys/src/main/java/com/qs/erp/entitys/entity/CartoonType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="8" column="23" lean-forward="false" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/erp-daos/src/main/resources/sqlmap/CartoonTypeDaoMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="713">
+          <caret line="31" column="35" lean-forward="false" selection-start-line="31" selection-start-column="35" selection-end-line="31" selection-end-column="35" />
+          <folding>
+            <marker date="1535008244611" expanded="true" signature="236:400" ph="INSERT INTO CartoonType... " />
+            <marker date="1535008244611" expanded="true" signature="477:502" ph="SELECT * fro... Cartoon" />
+            <marker date="1535008244611" expanded="true" signature="551:595" ph="DELETE from CartoonType... " />
+            <marker date="1535008244611" expanded="true" signature="645:740" ph="update CartoonType... " />
+            <marker date="1535008244611" expanded="true" signature="813:859" ph="SELECT * fro... CartoonType" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/erp-web/src/main/webapp/WEB-INF/pages/CartoonType/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="71" lean-forward="false" selection-start-line="2" selection-start-column="71" selection-end-line="2" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/erp-web/src/main/webapp/WEB-INF/pages/CartoonType/edit.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/erp-web/src/main/webapp/static-resources/ViewJSModels/base/com.qiansheng.control.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="499">
+          <caret line="2533" column="39" lean-forward="true" selection-start-line="2533" selection-start-column="39" selection-end-line="2533" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/erp-web/src/main/webapp/static-resources/ViewJSModels/base/c8Control/vm.Control.SelectProductSkuModel.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="15" column="74" lean-forward="false" selection-start-line="15" selection-start-column="73" selection-end-line="15" selection-end-column="74" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/erp-web/src/main/java/com/qs/erp/web/controller/CartoonTypeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="635">
+          <caret line="44" column="19" lean-forward="false" selection-start-line="44" selection-start-column="19" selection-end-line="44" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/erp-web/src/main/java/com/qs/erp/web/controller/BusinessControlController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="27" column="5" lean-forward="false" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+          <folding>
+            <element signature="e#817#818#0" expanded="false" />
+            <element signature="e#864#865#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/erp-services/src/main/java/com/qs/erp/services/common/GlobalTenant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding>
+            <element signature="e#369#370#0" expanded="false" />
+            <element signature="e#399#400#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/erp-web/src/main/webapp/static-resources/ViewJSModels/base/c8Window.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="121" column="4" lean-forward="false" selection-start-line="121" selection-start-column="4" selection-end-line="121" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/erp-web/src/main/webapp/WEB-INF/pages/BusinessControl/AddPic.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="74" lean-forward="false" selection-start-line="5" selection-start-column="59" selection-end-line="5" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/erp-utils/src/main/java/com/qs/erp/utils/util/HttpClientUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="307" column="0" lean-forward="false" selection-start-line="307" selection-start-column="0" selection-end-line="307" selection-end-column="0" />
+          <folding>
+            <element signature="docComment;method#get#0;class#HttpClientUtil#0" expanded="false" />
+            <element signature="method#get#0;class#HttpClientUtil#0" expanded="false" />
+            <element signature="e#1818#1875#0" expanded="false" />
+            <element signature="e#2643#2706#0" expanded="false" />
+            <element signature="e#2855#2866#0" expanded="false" />
+            <element signature="method#get#1;class#HttpClientUtil#0" expanded="false" />
+            <element signature="method#get#2;class#HttpClientUtil#0" expanded="false" />
+            <element signature="method#get#3;class#HttpClientUtil#0" expanded="false" />
+            <element signature="e#6436#6499#0" expanded="false" />
+            <element signature="e#6648#6659#0" expanded="false" />
+            <element signature="method#getBytes#0;class#HttpClientUtil#0" expanded="false" />
+            <element signature="method#getBytes#1;class#HttpClientUtil#0" expanded="false" />
+            <element signature="e#8375#8432#0" expanded="false" />
+            <element signature="e#9200#9263#0" expanded="false" />
+            <element signature="e#9412#9423#0" expanded="false" />
+            <element signature="method#post#0;class#HttpClientUtil#0" expanded="false" />
+            <element signature="e#15706#15769#0" expanded="false" />
+            <element signature="e#15918#15929#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/erp-entitys/src/main/java/com/qs/erp/entitys/businessmodel/BaseMultiHandleDetailResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/erp-entitys/src/main/java/com/qs/erp/entitys/common/MyConstant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/erp-services/src/main/java/com/qs/erp/services/common/excel/ExcelResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/erp-entitys/src/main/java/com/qs/erp/entitys/businessmodel/BaseMultiHandleResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="83" column="16" lean-forward="false" selection-start-line="83" selection-start-column="16" selection-end-line="83" selection-end-column="16" />
+          <folding>
+            <element signature="e#2229#2230#0" expanded="false" />
+            <element signature="e#2263#2264#0" expanded="false" />
+            <element signature="e#2333#2334#0" expanded="false" />
+            <element signature="e#2372#2373#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/erp-entitys/src/main/java/com/qs/erp/entitys/businessmodel/CallResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="19" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="19" />
+          <folding>
+            <element signature="e#476#477#0" expanded="false" />
+            <element signature="e#509#510#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/erp-web/src/main/webapp/static-resources/ViewJSModels/base/c8Control/vm.Control.SelectVipModel.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/erp-web/src/main/webapp/static-resources/core.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="690">
+          <caret line="30" column="91" lean-forward="false" selection-start-line="30" selection-start-column="91" selection-end-line="30" selection-end-column="91" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/erp-web/src/main/java/com/qs/erp/web/controller/LoginCenterController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="759">
+          <caret line="33" column="44" lean-forward="false" selection-start-line="33" selection-start-column="44" selection-end-line="33" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/erp.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/erp-web/src/main/webapp/static-resources/control.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="897">
+          <caret line="39" column="69" lean-forward="false" selection-start-line="39" selection-start-column="69" selection-end-line="39" selection-end-column="69" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/erp-web/src/main/webapp/static-resources/ViewJSModels/base/c8Control/vm.Control.AddPic.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="37" column="43" lean-forward="false" selection-start-line="37" selection-start-column="34" selection-end-line="37" selection-end-column="43" />
+          <folding>
+            <element signature="e#0#41#0" expanded="false" />
+            <element signature="e#303#383#0" expanded="false" />
+            <element signature="e#712#751#0" expanded="false" />
+            <element signature="e#793#1187#0" expanded="false" />
+            <element signature="e#830#1126#0" expanded="false" />
+            <element signature="e#844#1116#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/erp-web/src/main/webapp/static-resources/ViewJSModels/Employee/vm.Employee.search.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="552">
-          <caret line="63" column="6" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="63" selection-end-column="6" />
+        <state relative-caret-position="170">
+          <caret line="605" column="0" lean-forward="true" selection-start-line="605" selection-start-column="0" selection-end-line="605" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/erp-web/src/main/java/com/qs/erp/web/controller/EmployeeController.java">
+    <entry file="file://$PROJECT_DIR$/erp-web/src/main/webapp/static-resources/ViewJSModels/base/c8ControlExt.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="25" column="33" lean-forward="false" selection-start-line="25" selection-start-column="33" selection-end-line="25" selection-end-column="33" />
+        <state relative-caret-position="216">
+          <caret line="493" column="24" lean-forward="false" selection-start-line="493" selection-start-column="9" selection-end-line="493" selection-end-column="24" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/erp-web/src/main/webapp/static-resources/ViewJSModels/Cartoon/vm.Cartoon.search.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="10" lean-forward="false" selection-start-line="0" selection-start-column="3" selection-end-line="0" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/erp-web/src/main/java/com/qs/erp/web/controller/CartoonController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="36" lean-forward="false" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#260#261#0" expanded="true" />
-            <element signature="e#298#299#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/erp-web/src/main/webapp/WEB-INF/pages/Cartoon/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="92">
-          <caret line="4" column="6" lean-forward="true" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+          <caret line="4" column="72" lean-forward="false" selection-start-line="4" selection-start-column="72" selection-end-line="4" selection-end-column="72" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/erp-web/src/main/webapp/WEB-INF/pages/main.jsp">
+    <entry file="file://$PROJECT_DIR$/erp-entitys/src/main/java/com/qs/erp/entitys/entity/CartoonDetail.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-828">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="92">
+          <caret line="4" column="26" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="26" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/erp-web/src/main/webapp/WEB-INF/sitemesh/basic.jsp">
+    <entry file="file://$PROJECT_DIR$/erp-web/src/main/java/com/qs/erp/web/controller/FileController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3210">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="299">
+          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/erp-web/src/main/webapp/WEB-INF/decorators.xml">
+    <entry file="file://$PROJECT_DIR$/erp-web/src/main/webapp/static-resources/ViewJSModels/Cartoon/vm.Cartoon.edit.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
-          <caret line="277" column="35" lean-forward="true" selection-start-line="277" selection-start-column="35" selection-end-line="277" selection-end-column="35" />
+        <state relative-caret-position="138">
+          <caret line="6" column="31" lean-forward="true" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="47" />
+          <folding>
+            <element signature="e#339#540#0" expanded="false" />
+            <element signature="e#589#1884#0" expanded="false" />
+            <element signature="e#657#1589#0" expanded="false" />
+            <element signature="e#689#1485#0" expanded="false" />
+            <element signature="e#781#964#0" expanded="false" />
+            <element signature="e#828#946#0" expanded="false" />
+            <element signature="e#1168#1262#0" expanded="false" />
+            <element signature="e#1491#1578#0" expanded="false" />
+            <element signature="e#1702#1878#0" expanded="false" />
+            <element signature="e#1955#2318#0" expanded="false" />
+            <element signature="e#1993#2028#0" expanded="false" />
+            <element signature="e#2099#2269#0" expanded="false" />
+            <element signature="e#2275#2312#0" expanded="false" />
+            <element signature="e#2350#3521#0" expanded="false" />
+            <element signature="e#2685#2789#0" expanded="false" />
+            <element signature="e#2904#3513#0" expanded="false" />
+            <element signature="e#3023#3088#0" expanded="false" />
+            <element signature="e#3744#5234#0" expanded="false" />
+            <element signature="e#5184#5228#0" expanded="false" />
+            <element signature="e#5272#5812#0" expanded="false" />
+            <element signature="e#5467#5650#0" expanded="false" />
+            <element signature="e#5706#5805#0" expanded="false" />
+            <element signature="e#5853#6289#0" expanded="false" />
+            <element signature="e#5969#6070#0" expanded="false" />
+            <element signature="e#5997#6040#0" expanded="false" />
+            <element signature="e#6125#6281#0" expanded="false" />
+            <element signature="e#6172#6269#0" expanded="false" />
+            <element signature="e#6204#6255#0" expanded="false" />
+            <element signature="e#6337#7152#0" expanded="false" />
+            <element signature="e#6388#6932#0" expanded="false" />
+            <element signature="e#6669#6719#0" expanded="false" />
+            <element signature="e#6753#6817#0" expanded="false" />
+            <element signature="e#6855#6870#0" expanded="false" />
+            <element signature="e#6906#6922#0" expanded="false" />
+            <element signature="e#6967#7119#0" expanded="false" />
+            <element signature="e#7025#7109#0" expanded="false" />
+            <element signature="e#7587#7891#0" expanded="false" />
+            <element signature="e#7611#7861#0" expanded="false" />
+            <element signature="e#7933#8400#0" expanded="false" />
+            <element signature="e#7953#8365#0" expanded="false" />
+            <element signature="e#8080#8292#0" expanded="false" />
+            <element signature="e#8434#8906#0" expanded="false" />
+            <element signature="e#8472#8871#0" expanded="false" />
+            <element signature="e#8631#8719#0" expanded="false" />
+            <element signature="e#8741#8861#0" expanded="false" />
+            <element signature="e#9324#9517#0" expanded="false" />
+            <element signature="e#9708#10482#0" expanded="false" />
+            <element signature="e#9742#9810#0" expanded="false" />
+            <element signature="e#9890#10231#0" expanded="false" />
+            <element signature="e#10026#10219#0" expanded="false" />
+            <element signature="e#10544#11015#0" expanded="false" />
+            <element signature="e#11046#11163#0" expanded="false" />
+            <element signature="e#11201#12054#0" expanded="false" />
+            <element signature="e#11321#11384#0" expanded="false" />
+            <element signature="e#11442#11510#0" expanded="false" />
+            <element signature="e#12087#12291#0" expanded="false" />
+            <element signature="e#12107#12285#0" expanded="false" />
+            <element signature="e#12223#12238#0" expanded="false" />
+            <element signature="e#12327#12373#0" expanded="false" />
+            <element signature="e#12409#12593#0" expanded="false" />
+            <element signature="e#14482#14635#0" expanded="false" />
+            <element signature="e#14658#14733#0" expanded="false" />
+            <element signature="e#14806#15062#0" expanded="false" />
+            <element signature="e#15084#15176#0" expanded="false" />
+            <element signature="e#15305#15367#0" expanded="false" />
+            <element signature="e#15415#15539#0" expanded="false" />
+            <element signature="e#15577#15876#0" expanded="false" />
+            <element signature="e#15745#15830#0" expanded="false" />
+            <element signature="e#15912#15928#0" expanded="false" />
+            <element signature="e#15988#17278#0" expanded="false" />
+            <element signature="e#16155#16464#0" expanded="false" />
+            <element signature="e#16226#16454#0" expanded="false" />
+            <element signature="e#16606#16772#0" expanded="false" />
+            <element signature="e#16680#16762#0" expanded="false" />
+            <element signature="e#16816#16928#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/erp-web/src/main/webapp/WEB-INF/pages/Cartoon/edit.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="24" column="52" lean-forward="false" selection-start-line="24" selection-start-column="43" selection-end-line="24" selection-end-column="52" />
+          <folding>
+            <element signature="n#style#0;n#input#0;n#div#2;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/erp-entitys/src/main/java/com/qs/erp/entitys/businessmodel/Role/CartoonMasterSlave.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="8" column="16" lean-forward="true" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#357#358#0" expanded="true" />
+            <element signature="e#389#390#0" expanded="true" />
+            <element signature="e#440#441#0" expanded="true" />
+            <element signature="e#477#478#0" expanded="true" />
+            <element signature="e#535#536#0" expanded="true" />
+            <element signature="e#576#577#0" expanded="true" />
+            <element signature="e#765#766#0" expanded="true" />
+            <element signature="e#805#806#0" expanded="true" />
+            <element signature="e#875#876#0" expanded="true" />
+            <element signature="e#928#929#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/erp-entitys/src/main/java/com/qs/erp/entitys/entity/Cartoontypes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="25" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="25" />
+          <folding>
+            <element signature="e#182#183#0" expanded="true" />
+            <element signature="e#210#211#0" expanded="true" />
+            <element signature="e#250#251#0" expanded="true" />
+            <element signature="e#279#280#0" expanded="true" />
+            <element signature="e#316#317#0" expanded="true" />
+            <element signature="e#351#352#0" expanded="true" />
+            <element signature="e#405#406#0" expanded="true" />
+            <element signature="e#448#449#0" expanded="true" />
+            <element signature="e#489#490#0" expanded="true" />
+            <element signature="e#528#529#0" expanded="true" />
+            <element signature="e#590#591#0" expanded="true" />
+            <element signature="e#641#642#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/erp-daos/src/main/java/com/qs/erp/daos/dao/EmployeeDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="10" column="16" lean-forward="false" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/erp-daos/src/main/resources/sqlmap/EmployeeDaoMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding>
+            <marker date="1525240118841" expanded="true" signature="343:898" ph="SELECT Emplo... Employee" />
+            <marker date="1525240118841" expanded="true" signature="387:866" ph="select RowId... Employee" />
+            <marker date="1525240118841" expanded="true" signature="1441:1514" ph="select * fro... Employee" />
+            <marker date="1525240118841" expanded="true" signature="1581:1657" ph="select * fro... Employee" />
+            <marker date="1525240118841" expanded="true" signature="1730:1820" ph="select * fro... Employee" />
+            <marker date="1525240118841" expanded="true" signature="1869:2439" ph="update Employee... " />
+            <marker date="1525240118841" expanded="true" signature="2487:2570" ph="delete from Employee" />
+            <marker date="1525240118841" expanded="true" signature="2620:3660" ph="INSERT INTO Employee... " />
+            <marker date="1525240118841" expanded="true" signature="3745:3823" ph="select Name employee" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/erp-daos/src/main/resources/sqlmap/CartoontypesDaoMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="14" column="67" lean-forward="false" selection-start-line="14" selection-start-column="55" selection-end-line="14" selection-end-column="67" />
+          <folding>
+            <marker date="1535514877461" expanded="true" signature="237:399" ph="INSERT INTO cartoontypes" />
+            <marker date="1535514877461" expanded="true" signature="448:508" ph="DELETE FROM cartoontypes... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/erp-entitys/src/main/java/com/qs/erp/entitys/entity/Employee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="13" column="11" lean-forward="false" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/erp-daos/src/main/java/com/qs/erp/daos/dao/CartoontypesDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="12" lean-forward="false" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/erp-daos/src/main/java/com/qs/erp/daos/dao/CartoonTypeDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/erp-web/src/main/java/com/qs/erp/web/controller/CartoonController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="46" column="0" lean-forward="false" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/erp-services/src/main/java/com/qs/erp/services/service/CartoonService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="44" column="20" lean-forward="false" selection-start-line="44" selection-start-column="20" selection-end-line="44" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/erp-daos/src/main/resources/sqlmap/CartoonDaoMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="20" column="19" lean-forward="false" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
+          <folding>
+            <marker date="1535515423730" expanded="true" signature="235:676" ph="INSERT INTO Department... " />
+            <marker date="1535515423730" expanded="true" signature="725:897" ph="UPDATE Cartoon... " />
+            <marker date="1535515423730" expanded="true" signature="969:990" ph="SELECT * fro... CartoonDao" />
+            <marker date="1535515423730" expanded="true" signature="1059:1087" ph="SELECT COUNT... CartoonDao" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/erp-daos/src/main/java/com/qs/erp/daos/dao/CartoonDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="9" column="27" lean-forward="false" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/erp-entitys/src/main/java/com/qs/erp/entitys/entity/Cartoon.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="37" column="17" lean-forward="false" selection-start-line="37" selection-start-column="17" selection-end-line="37" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#447#448#0" expanded="true" />
+            <element signature="e#476#477#0" expanded="true" />
+            <element signature="e#1479#1480#0" expanded="true" />
+            <element signature="e#1511#1512#0" expanded="true" />
+            <element signature="e#1565#1566#0" expanded="true" />
+            <element signature="e#1602#1603#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

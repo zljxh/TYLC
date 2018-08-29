@@ -1,16 +1,18 @@
 package com.qs.erp.entitys.entity;
 
 import java.util.Date;
+import java.util.List;
 
 public class Cartoon {
     private long RowId;
     private String Title;
-    private String Describe;
+    private String Des;
     private Date CreateTime;
     private Date UpdateTime;
     private String Creater;
     private String Pic;
     private String Author;
+    private List<Long> TypeRowId;
 
     public long getRowId() {
         return RowId;
@@ -28,12 +30,12 @@ public class Cartoon {
         Title = title;
     }
 
-    public String getDescribe() {
-        return Describe;
+    public String getDes() {
+        return Des;
     }
 
-    public void setDescribe(String describe) {
-        Describe = describe;
+    public void setDes(String des) {
+        Des = des;
     }
 
     public Date getCreateTime() {
@@ -74,5 +76,13 @@ public class Cartoon {
 
     public void setAuthor(String author) {
         Author = author;
+    }
+
+    public List<Long> getTypeRowId() {
+        return TypeRowId;
+    }
+
+    public void setTypeRowId(List<Long> typeRowId) {
+        TypeRowId = typeRowId;
     }
 }

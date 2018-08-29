@@ -1,6 +1,8 @@
 ﻿<html>
 <head>
-    <script src="/ViewJSModels/Cartoon/vm.Cartoon.search.js?x3666444441"></script>
+    <script src="/ViewJSModels/Cartoon/vm.Cartoon.search.js?154312"></script>
+    <script src="/ViewJSModels/Cartoon/vm.Cartoon.edit.js?15412"></script>
+    <script src="/ViewJSModels/base/c8Control/vm.Control.AddPic.js?22255"></script>
 </head>
 <body>
 <div id="tb" style="height:auto">

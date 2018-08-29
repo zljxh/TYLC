@@ -2494,5 +2494,48 @@ com.qiansheng.control = function () {
             }
         }
     };
+
+
+    controlList["typeRowIdGrid"] = {
+        type: "combogrid", option: {
+            panelWidth: 160,
+            url: '/CartoonTypeController/TypeRowIdGrid',
+            idField: 'RowId',
+            textField: 'Name',
+            mode: 'local',
+            fitColumns: true,
+            columns: [
+                [
+
+                    {field: 'Name', title: '类型', align: 'left', width: 80, sortable: true}
+                ]
+            ],
+            filter: function (q, row) {
+                var result = LoadReturnResult(q, row, ["PinYin", "Code", "Name"]);
+                return result;
+            }
+        }
+    };
+
+   /* controlList["shopComboGrid"] = {
+        type: "combogrid", option: {
+            panelWidth: 160,
+            url: '/BusinessControl/GetComboGridShop',
+            idField: 'RowId',
+            textField: 'Name',
+            mode: 'local',
+            fitColumns: true,
+            columns: [
+                [
+
+                    {field: 'Name', title: '名称', align: 'left', width: 80, sortable: true}
+                ]
+            ],
+            filter: function (q, row) {
+                var result = LoadReturnResult(q, row, ["PinYin", "Code", "Name"]);
+                return result;
+            }
+        }
+    };*/
 };
 

@@ -63,8 +63,6 @@
     <link href="/Content/js/jquery-ext/confirm/jquery-confirm.min.css" rel="stylesheet">
     <link rel="stylesheet" href="/Content/js/jquery-ext/poshytip/tip-yellowsimple/tip-yellowsimple.css?v2"/>
     <script src="/Content/js/jquery-ext/poshytip/jquery.poshytip.min.js?123"></script>
-    <link rel="stylesheet" href="/Content/js/jquery-ext/city-picker/city-picker.min.css?22gg3r2"/>
-    <script src="/Content/js/jquery-ext/city-picker/city-picker.min.js?avcqggrffd1"></script>
     <script src="/Content/js/jquery-ext/select2/4.0.2/select2.full.min.js?vc12"></script>
     <script src="/Content/js/jquery-ext/select2/4.0.2/i18n/zh-CN.js?vt1"></script>
     <link href="/Content/js/jquery-ext/select2/4.0.2/css/select2.css?v123" rel="stylesheet">
@@ -83,9 +81,9 @@
     <script src="/ViewJSModels/base/c8Grid.js?v34657"></script>
     <script src="/ViewJSModels/base/c8TreeGrid.js?6v1"></script>
     <script src="/ViewJSModels/base/c8Window.js?bgt422"></script>
-    <script src="/ViewJSModels/base/com.qiansheng.control.js?4xa8184xbc0510bc2018720"></script>
+    <script src="/ViewJSModels/base/com.qiansheng.control.js?1234"></script>
     <script src="/ViewJSModels/base/c8Control/vm.Control.GridLayout.js?v2"></script>
-    <script src="/ViewJSModels/base/select2.control.js?tyu29363333bc2018720"></script>
+    <script src="/ViewJSModels/base/select2.control.js?123"></script>
     <%--自定义js控件--%>
     <%}%>
     <decorator:head/>
@@ -144,7 +142,7 @@
 <script src="/ViewJSModels/base/c8Control/vm.Control.ShowPostPrintOrder2RemainProducts.js?vf35678453333r2we"></script>
 <script src="/ViewJSModels/base/c8Control/vm.Control.SelectInvoiceOrder.js?vf333333"></script>
 <script src="/ViewJSModels/base/c8Control/vm.Control.SelectOperatorModel.js?1x"></script>
-<script src="/ViewJSModels/base/c8ControlExt.js?v12345123123"></script>
+<script src="/ViewJSModels/base/c8ControlExt.js?123"></script>
 <script src="/Content/js/CaiNiaoPrintFuncs.js"></script>
 <%--自定义js控件--%>
 <%}%>

@@ -276,6 +276,7 @@
         <pattern>/SetPdaPrint</pattern>
         <pattern>/SellReport</pattern>
         <pattern>/Cartoon</pattern>
+        <pattern>/CartoonType</pattern>
     </decorator>
 
 </decorators>

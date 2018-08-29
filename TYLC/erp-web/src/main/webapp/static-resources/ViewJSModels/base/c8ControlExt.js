@@ -491,6 +491,28 @@
 
     }
 
+    $.fn.c8SelectPicText=function (parameter) {
+        var modeWin = new vm.Control.AddPic();
+        modeWin.setParameter(parameter);
+        var win = new c8.c8Window({url: modeWin.winUrl, isShowParent: true, model: modeWin});
+        modeWin.setWinId(win.c8GetWinId());
+        modeWin.setWin(win);
+
+        var dataoptions = {
+            prompt: '请选择会员',
+            iconWidth: 18, icons: [{
+                iconCls: 'icon-line_edit',
+                handler: function (e) {
+                    win.c8OpenWin();
+                    ko.c8BindEnter($(".SearchConditions input"), function () {
+                        modeWin.searchClick();
+                    });
+                }
+            }]
+        };
+        $(this).textbox(dataoptions);
+    }
+
     //add by banchao 供应商选择
     $.fn.c8SelectSupplierText = function (parameter) {
         var modeWin = new vm.Control.Supplier();

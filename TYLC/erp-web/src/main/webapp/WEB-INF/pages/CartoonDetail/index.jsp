@@ -1,7 +1,7 @@
 ﻿<html>
 <head>
-    <script src="/ViewJSModels/Cartoon/vm.Cartoon.search.js?152342"></script>
-    <script src="/ViewJSModels/Cartoon/vm.Cartoon.edit.js?34"></script>
+    <script src="/ViewJSModels/CartoonDetail/vm.CartoonDetail.search.js?152342"></script>
+    <script src="/ViewJSModels/CartoonDetail/vm.CartoonDetail.edit.js?34"></script>
     <script src="/ViewJSModels/base/c8Control/vm.Control.AddPic.js?22"></script>
 </head>
 <body>

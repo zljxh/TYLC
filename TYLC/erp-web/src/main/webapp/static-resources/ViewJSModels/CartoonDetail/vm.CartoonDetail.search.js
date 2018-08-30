@@ -1,9 +1,9 @@
-vm.Cartoon=vm.Cartoon || {};
-vm.Cartoon.search = function (dataParameter){
+vm.CartoonDetail=vm.CartoonDetail || {};
+vm.CartoonDetail.search = function (dataParameter){
     var base = this;
     var griddataParameter = {};
-    griddataParameter.pageUrl = "/Cartoon/getpage";
-    griddataParameter.countUrl = "/Cartoon/getcount";
+    griddataParameter.pageUrl = "/CartoonDetail/getpage";
+    griddataParameter.countUrl = "/CartoonDetail/getcount";
     griddataParameter.form = {};//this.form;
     griddataParameter.dataoptions = {
         onSelect: function (rowIndex, rowData) {
@@ -58,7 +58,7 @@ vm.Cartoon.search = function (dataParameter){
     }
 };
 
-var opModel = new vm.Cartoon.search();
+var opModel = new vm.CartoonDetail.search();
 ko.bindingViewModel(opModel);
 $(function () {
     opModel.setFormValidate();

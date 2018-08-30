@@ -1,11 +1,11 @@
-vm.Cartoon = vm.Cartoon || {};
-vm.Cartoon.edit = function (dataParameter) {
+vm.CartoonDetail = vm.CartoonDetail || {};
+vm.CartoonDetail.edit = function (dataParameter) {
     this.ParentModel = null;
     this.mode = null;
     var base = this;//
-    var editurl = "/Cartoon/edit";
-    var saveDetailModelUrl = "/Cartoon/saveajax";
-    var getUrl = "/Cartoon/get";
+    var editurl = "/CartoonDetail/edit";
+    var saveDetailModelUrl = "/CartoonDetail/saveajax";
+    var getUrl = "/CartoonDetail/get";
     this.modelInfo = {};
 
 

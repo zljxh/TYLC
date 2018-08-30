@@ -50,4 +50,7 @@
         UPDATE  Cartoon set Enable =(case when Enable=1 then 0 else 1 end) where rowid=#{RowId}
     </update>
 
+    <select id="Get" resultType="Cartoon">
+        SELECT  * FROM  Cartoon where RowId=#{RowId}
+    </select>
 </mapper>

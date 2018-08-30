@@ -17,4 +17,6 @@ public interface CartoonDao {
     public long getcount();
 
     public void changeEnable(@Param("RowId") long rowid);
+
+    public Cartoon Get(@Param("RowId") long RowId);
 }

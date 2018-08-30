@@ -5,7 +5,7 @@ public class CartoonDetailChapter {
     private long CartoondetailRowId;
     private String Sort;
     private String Pic;
-    private String Describe;
+    private String Des;
 
     public long getRowId() {
         return RowId;
@@ -40,10 +40,10 @@ public class CartoonDetailChapter {
     }
 
     public String getDescribe() {
-        return Describe;
+        return Des;
     }
 
-    public void setDescribe(String describe) {
-        Describe = describe;
+    public void setDescribe(String des) {
+        Des = des;
     }
 }

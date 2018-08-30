@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.qs.erp.daos.dao.CartoonDetailDao">
+
+    <select id="getByCartoonRowId" resultType="CartoonDetail">
+        SELECT * FROM CartoonDetail where CartoonRowId=#{CartoonRowId} order by sort asc
+    </select>
+
+    <insert id="Save">
+        INSERT  INTO  CartoonDetail (RowId,CartoonRowId,Pic,CreateTime,Title,Cost,Sort,Des) VALUES (
+        #{RowId},#{CartoonRowId},#{Pic},#{CreateTime},#{Title},#{Cost},#{Sort},#{Des}
+        )
+    </insert>
+
+    <select id="getList" resultType="CartoonDetail">
+        SELECT * from CartoonDetail order by CartoonRowId,Sort
+    </select>
+    <select id="Get" resultType="CartoonDetail">
+        SELECT * from CartoonDetail WHERE RowId=#{RowId}
+    </select>
+</mapper>

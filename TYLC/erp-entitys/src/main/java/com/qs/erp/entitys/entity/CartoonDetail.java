@@ -10,7 +10,7 @@ public class CartoonDetail {
     private String Title;
     private int Cost;
     private int Sort;
-    private String Describe;
+    private String Des;
 
     public long getRowId() {
         return RowId;
@@ -68,11 +68,11 @@ public class CartoonDetail {
         Sort = sort;
     }
 
-    public String getDescribe() {
-        return Describe;
+    public String getDes() {
+        return Des;
     }
 
-    public void setDescribe(String describe) {
-        Describe = describe;
+    public void setDes(String des) {
+        Des = des;
     }
 }

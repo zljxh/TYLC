@@ -4,6 +4,7 @@ import com.qs.erp.entitys.businessmodel.CallResult;
 import com.qs.erp.entitys.businessmodel.FileResult;
 import com.qs.erp.services.common.GlobalTenant;
 import com.qs.erp.services.common.excel.ExcelResult;
+import com.qs.erp.services.service.FileService;
 import com.qs.erp.utils.util.HttpClientUtil;
 import org.apache.commons.fileupload.disk.DiskFileItem;
 import org.apache.http.entity.mime.content.ContentBody;
@@ -27,12 +28,14 @@ public class FileController {
 
     @Autowired
     GlobalTenant globalTenant;
+    @Autowired
+    FileService fileService;
 
     @RequestMapping(value = "/File/ImportFile", method = RequestMethod.POST)
     @ResponseBody
     public CallResult importFile(@RequestParam("ImportExcelFile") MultipartFile ImportExcelFile) throws Exception {
         CallResult callResult = new CallResult();
-        File file=a(ImportExcelFile);
+        File file=fileService.MultipartFileToFile(ImportExcelFile);
         Map<String, ContentBody> maps = HttpClientUtil.getReqParamToFileCenter("2", "", "", "",file );
         FileResult object = HttpClientUtil.postFileMultiPart(globalTenant.getFileUrl("/file/cartoon"), maps, FileResult.class);
 
@@ -44,36 +47,6 @@ public class FileController {
     }
 
 
-    public File a(MultipartFile file)throws Exception {
-
-        File f = null;
-        if (file.equals("") || file.getSize() <= 0) {
-            file = null;
-        } else {
-            InputStream ins = file.getInputStream();
-            f = new File(file.getOriginalFilename());
-            inputStreamToFile(ins, f);
-
-
-        }
-
-        return f;
-    }
-
-    public  void inputStreamToFile(InputStream ins,File file) {
-        try {
-            OutputStream os = new FileOutputStream(file);
-            int bytesRead = 0;
-            byte[] buffer = new byte[8192];
-            while ((bytesRead = ins.read(buffer, 0, 8192)) != -1) {
-                os.write(buffer, 0, bytesRead);
-            }
-            os.close();
-            ins.close();
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-    }
 
 
     }

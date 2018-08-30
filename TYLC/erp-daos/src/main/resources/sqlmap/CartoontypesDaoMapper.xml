@@ -14,5 +14,9 @@
     <delete id="Delete">
         DELETE FROM cartoontypes WHERE  CartoonRowId=#{CartoonRowId}
     </delete>
+    
+    <select id="getList" resultType="cartoontypes">
+        select * from cartoontypes where CartoonRowId=#{CartoonRowId} ;
+    </select>
 
 </mapper>

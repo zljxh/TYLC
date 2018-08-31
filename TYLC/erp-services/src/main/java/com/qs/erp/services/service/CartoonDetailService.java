@@ -1,7 +1,9 @@
 package com.qs.erp.services.service;
 
+import cfca.org.bouncycastle.cms.P;
 import com.qs.erp.common.ServiceContext;
 import com.qs.erp.daos.dao.CartoonDao;
+import com.qs.erp.daos.dao.CartoonDetailChapterDao;
 import com.qs.erp.daos.dao.CartoonDetailDao;
 import com.qs.erp.daos.dao.CartoontypesDao;
 import com.qs.erp.entitys.businessmodel.CallResult;
@@ -9,6 +11,7 @@ import com.qs.erp.entitys.businessmodel.Role.CartoonDetailMasterSlave;
 import com.qs.erp.entitys.businessmodel.Role.CartoonMasterSlave;
 import com.qs.erp.entitys.entity.Cartoon;
 import com.qs.erp.entitys.entity.CartoonDetail;
+import com.qs.erp.entitys.entity.CartoonDetailChapter;
 import com.qs.erp.entitys.entity.Cartoontypes;
 import com.qs.erp.services.businessmodel.PageQueryParameters;
 import com.qs.erp.utils.util.Snowflake.FactoryIdWorker;
@@ -23,6 +26,8 @@ import java.util.List;
 public class CartoonDetailService {
     @Autowired
     CartoonDetailDao dao;
+    @Autowired
+    CartoonDetailChapterDao cartoonDetailChapterDao;
 
     public List<CartoonDetail> getByCartoonRowId(long CartoonRowId) {
         return dao.getByCartoonRowId(CartoonRowId);
@@ -38,8 +43,25 @@ public class CartoonDetailService {
 
     public CallResult Save(ServiceContext context, CartoonDetailMasterSlave slave) {
         CallResult callResult = new CallResult();
-
+        if (slave.getSellOrder() != null) {
+            CartoonDetail detail = slave.getSellOrder();
+            dao.Update(detail);
+        }
+        if (slave.getSellOrderDetailSet() != null) {
+            List<CartoonDetailChapter> chapters = slave.getSellOrderDetailSet();
+            for (CartoonDetailChapter chapter : chapters) {
+                if (chapter.getRowId() != 0) {
+                    cartoonDetailChapterDao.Update(chapter);
+                } else {
+                    chapter.setDes("");
+                    chapter.setCartoondetailRowId(slave.getSellOrder().getRowId());
+                    chapter.setRowId(FactoryIdWorker.NextId());
+                    cartoonDetailChapterDao.Save(chapter);
+                }
+            }
+        }
         return callResult;
     }
+
 
 }

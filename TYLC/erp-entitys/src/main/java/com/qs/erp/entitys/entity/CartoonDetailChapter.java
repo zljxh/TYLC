@@ -39,11 +39,11 @@ public class CartoonDetailChapter {
         Pic = pic;
     }
 
-    public String getDescribe() {
+    public String getDes() {
         return Des;
     }
 
-    public void setDescribe(String des) {
+    public void setDes(String des) {
         Des = des;
     }
 }

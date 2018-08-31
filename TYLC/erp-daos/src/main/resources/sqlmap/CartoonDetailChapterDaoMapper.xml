@@ -8,9 +8,13 @@
 
     <insert id="Save">
         INSERT  INTO  cartoondetailchapter (RowId,CartoondetailRowId,Pic,Sort,Des) VALUES (
-        #{RowId},#{CartoonRowId},#{Pic},#{Sort},#{Des}
+        #{RowId},#{CartoondetailRowId},#{Pic},#{Sort},#{Des}
         )
     </insert>
+
+    <update id="Update">
+        UPDATE cartoondetailchapter SET Sort=#{Sort},Pic=#{Pic} where rowid=#{RowId}
+    </update>
 
     <select id="getList" resultType="cartoondetailchapter">
         SELECT * from cartoondetailchapter order by CartoondetailRowId,Sort

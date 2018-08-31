@@ -12,6 +12,7 @@ public interface CartoonDetailChapterDao {
     public List<CartoonDetailChapter> getByCartoonRowId(@Param("CartoondetailRowId") long CartoondetailRowId);
 
     public void Save(CartoonDetailChapter cartoonDetail);
+    public void Update(CartoonDetailChapter cartoonDetail);
 
     public List<CartoonDetailChapter> getList();
 

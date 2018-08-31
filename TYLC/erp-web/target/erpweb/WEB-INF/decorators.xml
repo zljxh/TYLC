@@ -277,6 +277,7 @@
         <pattern>/SellReport</pattern>
         <pattern>/Cartoon</pattern>
         <pattern>/CartoonType</pattern>
+        <pattern>/CartoonDetail</pattern>
     </decorator>
 
 </decorators>

@@ -16,6 +16,10 @@
         SELECT * from CartoonDetail order by CartoonRowId,Sort
     </select>
     <select id="Get" resultType="CartoonDetail">
-        SELECT * from CartoonDetail WHERE RowId=#{RowId}
+        SELECT * from CartoonDetail WHERE RowId=#{CartoonRowId}
     </select>
+
+    <update id="Update">
+        UPDATE CartoonDetail SET Title=#{Title},Pic=#{Pic},Des=#{Des}  where rowid =#{RowId}
+    </update>
 </mapper>

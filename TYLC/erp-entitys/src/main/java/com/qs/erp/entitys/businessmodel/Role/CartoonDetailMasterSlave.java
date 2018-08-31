@@ -2,27 +2,29 @@ package com.qs.erp.entitys.businessmodel.Role;
 
 import com.qs.erp.entitys.entity.Cartoon;
 import com.qs.erp.entitys.entity.CartoonDetail;
+import com.qs.erp.entitys.entity.CartoonDetailChapter;
 
 import java.util.List;
 
 public class CartoonDetailMasterSlave {
-    private Cartoon SellOrder;
-    private List<CartoonDetail> sellOrderDetailSet;
+    private CartoonDetail SellOrder;
+    private List<CartoonDetailChapter> sellOrderDetailSet;
     private List<Long> DeleteDetailIdSet;
 
-    public Cartoon getSellOrder() {
+
+    public CartoonDetail getSellOrder() {
         return SellOrder;
     }
 
-    public void setSellOrder(Cartoon sellOrder) {
+    public void setSellOrder(CartoonDetail sellOrder) {
         SellOrder = sellOrder;
     }
 
-    public List<CartoonDetail> getSellOrderDetailSet() {
+    public List<CartoonDetailChapter> getSellOrderDetailSet() {
         return sellOrderDetailSet;
     }
 
-    public void setSellOrderDetailSet(List<CartoonDetail> sellOrderDetailSet) {
+    public void setSellOrderDetailSet(List<CartoonDetailChapter> sellOrderDetailSet) {
         this.sellOrderDetailSet = sellOrderDetailSet;
     }
 

@@ -22,10 +22,10 @@ public class CartoonDetailController {
     @Autowired
     CartoonDetailService cartoonDetailService;
 
-    @RequestMapping(value = "Cartoon/getCartoonDetailListByParentId",method = RequestMethod.GET)
+    @RequestMapping(value = "Cartoon/getCartoonDetailListByParentId", method = RequestMethod.GET)
     @ResponseBody
-    public Object  getCartoonDetailListByParentId(@RequestParam("SellOrderRowId") long SellOrderRowId) {
-    return cartoonDetailService.getByCartoonRowId(SellOrderRowId);
+    public Object getCartoonDetailListByParentId(@RequestParam("SellOrderRowId") long SellOrderRowId) {
+        return cartoonDetailService.getByCartoonRowId(SellOrderRowId);
     }
 
     @RequestMapping(value = "CartoonDetail")
@@ -72,4 +72,6 @@ public class CartoonDetailController {
         CartoonDetail cartoon = cartoonDetailService.Get(RowId);
         return cartoon;
     }
+
+
 }

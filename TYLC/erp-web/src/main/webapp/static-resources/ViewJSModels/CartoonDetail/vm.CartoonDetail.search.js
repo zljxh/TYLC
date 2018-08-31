@@ -13,13 +13,14 @@ vm.CartoonDetail.search = function (dataParameter){
         singleSelect: true,
         checkOnSelect: false,
         selectOnCheck: false,
-        columns: [[{title: '标题', field: 'Title', width: 80, align: 'right'},
-            {title: '图片', field: 'Pic', width: 80, align: 'right'},
-            {title: '作者', field: 'Author', width: 80, align: 'right'},
-            {title: '创建人', field: 'Creater', width: 80, align: 'right'},
+        columns: [[{title: '标题', field: 'Title', width: 100, align: 'right'},
+            {title: '图片', field: 'Pic', width: 100, align: 'right'},
+            {title: '排序', field: 'Sort', width: 100, align: 'right'},
+            {title: '价格', field: 'Cost', width: 100, align: 'right'},
+            {title: '创建人', field: 'Creater', width: 100, align: 'right'},
             {title: '描述', field: 'Des', width: 300, align: 'right'},
             {title: '创建时间', field: 'CreateTime', width: 130, align: 'right'},
-            {title: '更新时间', field: 'UpdateTime', width: 130, align: 'right'},
+
          ]]
     };
     this.gridPaginationModel = new c8GridPaginationModel(griddataParameter);
@@ -35,7 +36,7 @@ vm.CartoonDetail.search = function (dataParameter){
 
     var loadWinEdit = function () {
         if (!winedit) {
-            winedit = new vm.Cartoon.edit();
+            winedit = new vm.CartoonDetail.edit();
             winedit.ParentModel = base;
         }
     }

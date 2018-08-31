@@ -15,4 +15,6 @@ public interface CartoonDetailDao {
     public List<CartoonDetail> getList();
 
     public CartoonDetail Get(@Param("CartoonRowId") long RowId);
+
+    void Update(CartoonDetail detail);
 }

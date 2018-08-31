@@ -85,15 +85,14 @@ vm.CartoonDetail.edit = function (dataParameter) {
 
 
     this.griddataParameter = {};
-    this.griddataParameter.pageUrl = "/Cartoon/getCartoonDetailListByParentId";
+    this.griddataParameter.pageUrl = "/CartoonDetail/getCartoonDetailListByParentId";
     this.griddataParameter.FormName = "SellOrderProductEdit";
     this.griddataParameter.dataoptions = {
         remoteSort: false, onClickCell: onclickcell, idField: "RowId", showFooter: true, columns: [[
-            {title: '标题', field: 'Title', width: 100, align: 'left', editor: {type: 'textbox'}},
+
             {title: '排序', field: 'Sort', width: 100, align: 'left', editor: {type: 'textbox'}},
-            {title: '价格', field: 'Cost', width: 100, align: 'left', editor: {type: 'textbox'}},
             {
-                title: '图片', field: 'Pic', width: 100, align: 'left',
+                title: '图片', field: 'Pic', width: 200, align: 'left',
                 editor: {
                     type: 'textbox'
                     , options: {

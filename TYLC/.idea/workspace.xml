@@ -27,7 +27,7 @@
       <file leaf-file-name="CartoonDetailChapterController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/erp-web/src/main/java/com/qs/erp/web/controller/CartoonDetailChapterController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
+            <state relative-caret-position="437">
               <caret line="19" column="5" lean-forward="false" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -39,7 +39,7 @@
       <file leaf-file-name="edit.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/erp-web/src/main/webapp/WEB-INF/pages/CartoonDetail/edit.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
+            <state relative-caret-position="1012">
               <caret line="44" column="72" lean-forward="false" selection-start-line="44" selection-start-column="63" selection-end-line="44" selection-end-column="72" />
               <folding />
             </state>
@@ -71,8 +71,8 @@
       <file leaf-file-name="vm.CartoonDetail.edit.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/erp-web/src/main/webapp/static-resources/ViewJSModels/CartoonDetail/vm.CartoonDetail.edit.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="217" column="19" lean-forward="true" selection-start-line="217" selection-start-column="19" selection-end-line="217" selection-end-column="19" />
+            <state relative-caret-position="23">
+              <caret line="240" column="0" lean-forward="false" selection-start-line="240" selection-start-column="0" selection-end-line="240" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -81,8 +81,8 @@
       <file leaf-file-name="c8Grid.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/erp-web/src/main/webapp/static-resources/ViewJSModels/base/c8Grid.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="341">
-              <caret line="320" column="26" lean-forward="true" selection-start-line="320" selection-start-column="26" selection-end-line="320" selection-end-column="26" />
+            <state relative-caret-position="7360">
+              <caret line="320" column="26" lean-forward="false" selection-start-line="320" selection-start-column="26" selection-end-line="320" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -91,7 +91,7 @@
       <file leaf-file-name="c8help.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/erp-web/src/main/webapp/static-resources/Content/js/Core/c8help.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="74">
+            <state relative-caret-position="3450">
               <caret line="150" column="68" lean-forward="false" selection-start-line="150" selection-start-column="68" selection-end-line="150" selection-end-column="68" />
               <folding />
             </state>
@@ -315,7 +315,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds">
     <option name="x" value="-7" />
     <option name="y" value="1" />
     <option name="width" value="1934" />
@@ -336,10 +336,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
       <pane id="Scratches" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -350,87 +350,25 @@
             <path>
               <item name="TYLC" type="b2602c69:ProjectViewProjectNode" />
               <item name="TYLC" type="462c0819:PsiDirectoryNode" />
-              <item name="erp-daos" type="462c0819:PsiDirectoryNode" />
+              <item name="erp-common" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="TYLC" type="b2602c69:ProjectViewProjectNode" />
               <item name="TYLC" type="462c0819:PsiDirectoryNode" />
-              <item name="erp-daos" type="462c0819:PsiDirectoryNode" />
+              <item name="erp-common" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="TYLC" type="b2602c69:ProjectViewProjectNode" />
               <item name="TYLC" type="462c0819:PsiDirectoryNode" />
-              <item name="erp-daos" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TYLC" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TYLC" type="462c0819:PsiDirectoryNode" />
-              <item name="erp-daos" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TYLC" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TYLC" type="462c0819:PsiDirectoryNode" />
-              <item name="erp-daos" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="daos" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TYLC" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TYLC" type="462c0819:PsiDirectoryNode" />
-              <item name="erp-daos" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="daos" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TYLC" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TYLC" type="462c0819:PsiDirectoryNode" />
-              <item name="erp-daos" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TYLC" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TYLC" type="462c0819:PsiDirectoryNode" />
-              <item name="erp-daos" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="sqlmap" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TYLC" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TYLC" type="462c0819:PsiDirectoryNode" />
-              <item name="erp-entitys" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TYLC" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TYLC" type="462c0819:PsiDirectoryNode" />
-              <item name="erp-entitys" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TYLC" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TYLC" type="462c0819:PsiDirectoryNode" />
-              <item name="erp-entitys" type="462c0819:PsiDirectoryNode" />
+              <item name="erp-common" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="TYLC" type="b2602c69:ProjectViewProjectNode" />
               <item name="TYLC" type="462c0819:PsiDirectoryNode" />
-              <item name="erp-entitys" type="462c0819:PsiDirectoryNode" />
+              <item name="erp-common" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -438,189 +376,11 @@
             <path>
               <item name="TYLC" type="b2602c69:ProjectViewProjectNode" />
               <item name="TYLC" type="462c0819:PsiDirectoryNode" />
-              <item name="erp-entitys" type="462c0819:PsiDirectoryNode" />
+              <item name="erp-common" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="entitys" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TYLC" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TYLC" type="462c0819:PsiDirectoryNode" />
-              <item name="erp-entitys" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="entitys" type="462c0819:PsiDirectoryNode" />
-              <item name="entity" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TYLC" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TYLC" type="462c0819:PsiDirectoryNode" />
-              <item name="erp-services" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TYLC" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TYLC" type="462c0819:PsiDirectoryNode" />
-              <item name="erp-services" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TYLC" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TYLC" type="462c0819:PsiDirectoryNode" />
-              <item name="erp-services" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TYLC" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TYLC" type="462c0819:PsiDirectoryNode" />
-              <item name="erp-services" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TYLC" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TYLC" type="462c0819:PsiDirectoryNode" />
-              <item name="erp-services" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="services" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TYLC" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TYLC" type="462c0819:PsiDirectoryNode" />
-              <item name="erp-services" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="services" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TYLC" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TYLC" type="462c0819:PsiDirectoryNode" />
-              <item name="erp-web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TYLC" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TYLC" type="462c0819:PsiDirectoryNode" />
-              <item name="erp-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TYLC" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TYLC" type="462c0819:PsiDirectoryNode" />
-              <item name="erp-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TYLC" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TYLC" type="462c0819:PsiDirectoryNode" />
-              <item name="erp-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TYLC" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TYLC" type="462c0819:PsiDirectoryNode" />
-              <item name="erp-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TYLC" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TYLC" type="462c0819:PsiDirectoryNode" />
-              <item name="erp-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TYLC" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TYLC" type="462c0819:PsiDirectoryNode" />
-              <item name="erp-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TYLC" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TYLC" type="462c0819:PsiDirectoryNode" />
-              <item name="erp-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="static-resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TYLC" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TYLC" type="462c0819:PsiDirectoryNode" />
-              <item name="erp-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="static-resources" type="462c0819:PsiDirectoryNode" />
-              <item name="QSContent" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TYLC" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TYLC" type="462c0819:PsiDirectoryNode" />
-              <item name="erp-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="static-resources" type="462c0819:PsiDirectoryNode" />
-              <item name="ViewJSModels" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TYLC" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TYLC" type="462c0819:PsiDirectoryNode" />
-              <item name="erp-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="static-resources" type="462c0819:PsiDirectoryNode" />
-              <item name="ViewJSModels" type="462c0819:PsiDirectoryNode" />
-              <item name="CartoonDetail" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TYLC" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TYLC" type="462c0819:PsiDirectoryNode" />
-              <item name="erp-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TYLC" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TYLC" type="462c0819:PsiDirectoryNode" />
-              <item name="erp-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TYLC" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TYLC" type="462c0819:PsiDirectoryNode" />
-              <item name="erp-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="CartoonDetail" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -632,7 +392,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="D:/qiansheng/biaozhun2 - 副本/springmvc/NewWeb" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../cartoonWeb" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
@@ -962,7 +722,13 @@
       <workItem from="1535334194807" duration="10821000" />
       <workItem from="1535502448075" duration="19843000" />
       <workItem from="1535594066953" duration="3175000" />
-      <workItem from="1535604921915" duration="8436000" />
+      <workItem from="1535604921915" duration="9037000" />
+      <workItem from="1535710038326" duration="577000" />
+      <workItem from="1535728201017" duration="671000" />
+      <workItem from="1535768343546" duration="591000" />
+      <workItem from="1535854103242" duration="592000" />
+      <workItem from="1535889857785" duration="14000" />
+      <workItem from="1536286772548" duration="23000" />
     </task>
     <servers />
   </component>
@@ -999,7 +765,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="882663000" />
+    <option name="totallyTimeSpent" value="885732000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1011,7 +777,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1048" extended-state="7" />
+    <frame x="-7" y="1" width="1934" height="1036" extended-state="0" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="FindBugs-IDEA" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295325" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1024,18 +790,17 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25214592" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24173318" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24173318" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32839224" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3899658" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295325" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14139111" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14139111" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295325" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295325" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33959228" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3639785" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -1044,6 +809,7 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3899658" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295325" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout>
@@ -1405,7 +1171,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
           <caret line="10" column="16" lean-forward="false" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1413,17 +1178,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="46">
           <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding>
-            <marker date="1525240118841" expanded="true" signature="343:898" ph="SELECT Emplo... Employee" />
-            <marker date="1525240118841" expanded="true" signature="387:866" ph="select RowId... Employee" />
-            <marker date="1525240118841" expanded="true" signature="1441:1514" ph="select * fro... Employee" />
-            <marker date="1525240118841" expanded="true" signature="1581:1657" ph="select * fro... Employee" />
-            <marker date="1525240118841" expanded="true" signature="1730:1820" ph="select * fro... Employee" />
-            <marker date="1525240118841" expanded="true" signature="1869:2439" ph="update Employee... " />
-            <marker date="1525240118841" expanded="true" signature="2487:2570" ph="delete from Employee" />
-            <marker date="1525240118841" expanded="true" signature="2620:3660" ph="INSERT INTO Employee... " />
-            <marker date="1525240118841" expanded="true" signature="3745:3823" ph="select Name employee" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1438,7 +1192,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
           <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1446,7 +1199,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="335">
           <caret line="101" column="32" lean-forward="false" selection-start-line="101" selection-start-column="32" selection-end-line="101" selection-end-column="32" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1454,7 +1206,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="344">
           <caret line="95" column="24" lean-forward="true" selection-start-line="95" selection-start-column="24" selection-end-line="95" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1469,9 +1220,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="298">
           <caret line="31" column="82" lean-forward="false" selection-start-line="31" selection-start-column="40" selection-end-line="31" selection-end-column="82" />
-          <folding>
-            <marker date="1521604527464" expanded="true" signature="1059:1184" ph="update Department... " />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1535,9 +1283,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="253">
           <caret line="11" column="24" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1545,7 +1290,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="437">
           <caret line="43" column="29" lean-forward="false" selection-start-line="43" selection-start-column="29" selection-end-line="43" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1553,7 +1297,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="402">
           <caret line="18" column="46" lean-forward="true" selection-start-line="18" selection-start-column="46" selection-end-line="18" selection-end-column="46" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1568,7 +1311,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
           <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1576,15 +1318,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="46">
           <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding>
-            <marker date="1535559537594" expanded="true" signature="235:676" ph="INSERT INTO Department... " />
-            <marker date="1535559537594" expanded="true" signature="725:897" ph="UPDATE Cartoon... " />
-            <marker date="1535559537594" expanded="true" signature="969:990" ph="SELECT * fro... CartoonDao" />
-            <marker date="1535559537594" expanded="true" signature="1059:1087" ph="SELECT COUNT... CartoonDao" />
-            <marker date="1535559537594" expanded="true" signature="1142:1229" ph="UPDATE Cartoon " />
-            <marker date="1535559537594" expanded="true" signature="1296:1319" ph="SELECT * FRO... Cartoon" />
-            <marker date="1535559537594" expanded="true" signature="1296:1340" ph="SELECT * FRO... Cartoon" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1592,75 +1325,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2254">
           <caret line="306" column="30" lean-forward="false" selection-start-line="306" selection-start-column="30" selection-end-line="306" selection-end-column="30" />
-          <folding>
-            <element signature="e#339#540#0" expanded="false" />
-            <element signature="e#589#1884#0" expanded="false" />
-            <element signature="e#657#1589#0" expanded="false" />
-            <element signature="e#689#1485#0" expanded="false" />
-            <element signature="e#781#964#0" expanded="false" />
-            <element signature="e#828#946#0" expanded="false" />
-            <element signature="e#1168#1262#0" expanded="false" />
-            <element signature="e#1491#1578#0" expanded="false" />
-            <element signature="e#1702#1878#0" expanded="false" />
-            <element signature="e#1955#2318#0" expanded="false" />
-            <element signature="e#1993#2028#0" expanded="false" />
-            <element signature="e#2099#2269#0" expanded="false" />
-            <element signature="e#2275#2312#0" expanded="false" />
-            <element signature="e#2350#3521#0" expanded="false" />
-            <element signature="e#2685#2789#0" expanded="false" />
-            <element signature="e#2904#3513#0" expanded="false" />
-            <element signature="e#3023#3088#0" expanded="false" />
-            <element signature="e#3841#5123#0" expanded="false" />
-            <element signature="e#5180#5224#0" expanded="false" />
-            <element signature="e#5849#6285#0" expanded="false" />
-            <element signature="e#5965#6066#0" expanded="false" />
-            <element signature="e#5993#6036#0" expanded="false" />
-            <element signature="e#6121#6277#0" expanded="false" />
-            <element signature="e#6168#6265#0" expanded="false" />
-            <element signature="e#6200#6251#0" expanded="false" />
-            <element signature="e#6333#7148#0" expanded="false" />
-            <element signature="e#6384#6928#0" expanded="false" />
-            <element signature="e#6665#6715#0" expanded="false" />
-            <element signature="e#6749#6813#0" expanded="false" />
-            <element signature="e#6851#6866#0" expanded="false" />
-            <element signature="e#6902#6918#0" expanded="false" />
-            <element signature="e#6963#7115#0" expanded="false" />
-            <element signature="e#7021#7105#0" expanded="false" />
-            <element signature="e#7583#7887#0" expanded="false" />
-            <element signature="e#7607#7857#0" expanded="false" />
-            <element signature="e#7929#8396#0" expanded="false" />
-            <element signature="e#7949#8361#0" expanded="false" />
-            <element signature="e#8076#8288#0" expanded="false" />
-            <element signature="e#8430#8902#0" expanded="false" />
-            <element signature="e#8468#8867#0" expanded="false" />
-            <element signature="e#8627#8715#0" expanded="false" />
-            <element signature="e#8737#8857#0" expanded="false" />
-            <element signature="e#9320#9513#0" expanded="false" />
-            <element signature="e#9704#10478#0" expanded="false" />
-            <element signature="e#9738#9806#0" expanded="false" />
-            <element signature="e#9886#10227#0" expanded="false" />
-            <element signature="e#10022#10215#0" expanded="false" />
-            <element signature="e#10540#11011#0" expanded="false" />
-            <element signature="e#12529#12544#0" expanded="false" />
-            <element signature="e#12580#12596#0" expanded="false" />
-            <element signature="e#12672#12718#0" expanded="false" />
-            <element signature="e#12754#12938#0" expanded="false" />
-            <element signature="e#14827#14980#0" expanded="false" />
-            <element signature="e#15003#15078#0" expanded="false" />
-            <element signature="e#15151#15407#0" expanded="false" />
-            <element signature="e#15429#15521#0" expanded="false" />
-            <element signature="e#15650#15712#0" expanded="false" />
-            <element signature="e#15760#15884#0" expanded="false" />
-            <element signature="e#15922#16221#0" expanded="false" />
-            <element signature="e#16090#16175#0" expanded="false" />
-            <element signature="e#16257#16273#0" expanded="false" />
-            <element signature="e#16333#17623#0" expanded="false" />
-            <element signature="e#16500#16809#0" expanded="false" />
-            <element signature="e#16571#16799#0" expanded="false" />
-            <element signature="e#16951#17117#0" expanded="false" />
-            <element signature="e#17025#17107#0" expanded="false" />
-            <element signature="e#17161#17273#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1668,7 +1332,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
           <caret line="6" column="6" lean-forward="false" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1676,19 +1339,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
           <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#403#404#0" expanded="false" />
-            <element signature="e#432#433#0" expanded="false" />
-            <element signature="e#473#474#0" expanded="false" />
-            <element signature="e#504#505#0" expanded="false" />
-            <element signature="e#602#603#0" expanded="false" />
-            <element signature="e#631#632#0" expanded="false" />
-            <element signature="e#1634#1635#0" expanded="false" />
-            <element signature="e#1666#1667#0" expanded="false" />
-            <element signature="e#1720#1721#0" expanded="false" />
-            <element signature="e#1757#1758#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1696,9 +1346,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
           <caret line="13" column="24" lean-forward="false" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1706,11 +1353,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="414">
           <caret line="18" column="68" lean-forward="false" selection-start-line="18" selection-start-column="56" selection-end-line="18" selection-end-column="68" />
-          <folding>
-            <marker date="1535599561227" expanded="true" signature="237:399" ph="INSERT INTO cartoontypes" />
-            <marker date="1535599561227" expanded="true" signature="448:508" ph="DELETE FROM cartoontypes... " />
-            <marker date="1535599561227" expanded="true" signature="588:649" ph="select * fro... cartoontypes" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1718,7 +1360,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="506">
           <caret line="35" column="1" lean-forward="false" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1726,7 +1367,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="230">
           <caret line="20" column="33" lean-forward="false" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1734,7 +1374,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="92">
           <caret line="4" column="20" lean-forward="false" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1742,18 +1381,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="407">
           <caret line="26" column="16" lean-forward="false" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
-          <folding>
-            <element signature="e#438#439#0" expanded="false" />
-            <element signature="e#470#471#0" expanded="false" />
-            <element signature="e#527#528#0" expanded="false" />
-            <element signature="e#564#565#0" expanded="false" />
-            <element signature="e#629#630#0" expanded="false" />
-            <element signature="e#670#671#0" expanded="false" />
-            <element signature="e#866#867#0" expanded="false" />
-            <element signature="e#906#907#0" expanded="false" />
-            <element signature="e#976#977#0" expanded="false" />
-            <element signature="e#1029#1030#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1769,7 +1396,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="296">
           <caret line="279" column="41" lean-forward="true" selection-start-line="279" selection-start-column="41" selection-end-line="279" selection-end-column="41" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1785,14 +1411,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="121">
           <caret line="40" column="21" lean-forward="true" selection-start-line="40" selection-start-column="21" selection-end-line="40" selection-end-column="21" />
-          <folding>
-            <element signature="e#1202#1203#0" expanded="false" />
-            <element signature="e#1260#1261#0" expanded="false" />
-            <element signature="e#1333#1334#0" expanded="false" />
-            <element signature="e#1369#1370#0" expanded="false" />
-            <element signature="e#1413#1414#0" expanded="false" />
-            <element signature="e#1450#1451#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1800,9 +1418,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="98">
           <caret line="16" column="49" lean-forward="false" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="49" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1810,13 +1425,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
           <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-          <folding>
-            <marker date="1535623705143" expanded="true" signature="278:358" ph="SELECT * FRO... CartoonDetail" />
-            <marker date="1535623705143" expanded="true" signature="405:593" ph="INSERT INTO CartoonDetail" />
-            <marker date="1535623705143" expanded="true" signature="670:724" ph="SELECT * fro... CartoonDetail" />
-            <marker date="1535623705143" expanded="true" signature="796:851" ph="SELECT * fro... WHERE" />
-            <marker date="1535623705143" expanded="true" signature="900:984" ph="UPDATE CartoonDetail... " />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1824,6 +1432,24 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="127">
           <caret line="71" column="0" lean-forward="false" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/erp-web/src/main/java/com/qs/erp/web/controller/CartoonDetailChapterController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="19" column="5" lean-forward="false" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/erp-web/src/main/webapp/WEB-INF/pages/CartoonDetail/edit.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1012">
+          <caret line="44" column="72" lean-forward="false" selection-start-line="44" selection-start-column="63" selection-end-line="44" selection-end-column="72" />
           <folding />
         </state>
       </provider>
@@ -1838,14 +1464,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/erp-entitys/src/main/java/com/qs/erp/entitys/entity/CartoonDetailChapter.java">
+    <entry file="file://$PROJECT_DIR$/erp-web/src/main/webapp/WEB-INF/pages/CartoonDetail/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding>
-            <element signature="e#874#875#0" expanded="true" />
-            <element signature="e#899#900#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="69">
+          <caret line="3" column="79" lean-forward="false" selection-start-line="3" selection-start-column="79" selection-end-line="3" selection-end-column="79" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/erp-web/src/main/webapp/static-resources/ViewJSModels/base/c8Grid.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7360">
+          <caret line="320" column="26" lean-forward="false" selection-start-line="320" selection-start-column="26" selection-end-line="320" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/erp-web/src/main/webapp/static-resources/Content/js/Core/c8help.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3450">
+          <caret line="150" column="68" lean-forward="false" selection-start-line="150" selection-start-column="68" selection-end-line="150" selection-end-column="68" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1854,6 +1493,17 @@
         <state relative-caret-position="138">
           <caret line="11" column="28" lean-forward="false" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/erp-entitys/src/main/java/com/qs/erp/entitys/entity/CartoonDetailChapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding>
+            <element signature="e#874#875#0" expanded="true" />
+            <element signature="e#899#900#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1871,52 +1521,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/erp-web/src/main/java/com/qs/erp/web/controller/CartoonDetailChapterController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="19" column="5" lean-forward="false" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/erp-web/src/main/webapp/WEB-INF/pages/CartoonDetail/edit.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="44" column="72" lean-forward="false" selection-start-line="44" selection-start-column="63" selection-end-line="44" selection-end-column="72" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/erp-web/src/main/webapp/WEB-INF/pages/CartoonDetail/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="79" lean-forward="false" selection-start-line="3" selection-start-column="79" selection-end-line="3" selection-end-column="79" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/erp-web/src/main/webapp/static-resources/Content/js/Core/c8help.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="74">
-          <caret line="150" column="68" lean-forward="false" selection-start-line="150" selection-start-column="68" selection-end-line="150" selection-end-column="68" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/erp-web/src/main/webapp/static-resources/ViewJSModels/base/c8Grid.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="320" column="26" lean-forward="true" selection-start-line="320" selection-start-column="26" selection-end-line="320" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/erp-web/src/main/webapp/static-resources/ViewJSModels/CartoonDetail/vm.CartoonDetail.edit.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="217" column="19" lean-forward="true" selection-start-line="217" selection-start-column="19" selection-end-line="217" selection-end-column="19" />
+        <state relative-caret-position="23">
+          <caret line="240" column="0" lean-forward="false" selection-start-line="240" selection-start-column="0" selection-end-line="240" selection-end-column="0" />
           <folding />
         </state>
       </provider>

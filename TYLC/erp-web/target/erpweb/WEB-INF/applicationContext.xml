@@ -8,19 +8,19 @@
 
     <!--<context:component-scan base-package="com.springapp"/>-->
     <!-- 扫描注解Bean -->
-    <context:component-scan base-package="com.qs.erp.services,com.qs.erp.web,com.qs.erp.webservices">
+    <context:component-scan base-package="com.ty.erp.services,com.ty.erp.web,com.ty.erp.webservices">
         <context:exclude-filter type="annotation" expression="org.springframework.stereotype.Controller"/>
     </context:component-scan>
     <context:annotation-config/>
 
     <!-- 缓存管理器 -->
-    <bean id="cacheManager" class="com.qs.erp.web.spring.SpringCacheManagerWrapper">
+    <bean id="cacheManager" class="com.ty.erp.web.spring.SpringCacheManagerWrapper">
         <property name="cacheManager" ref="springCacheManager"/>
     </bean>
 
     <!-- 凭证匹配器 -->
     <bean id="credentialsMatcher"
-          class="com.qs.erp.services.common.shiro.credentials.RetryLimitHashedCredentialsMatcher">
+          class="com.ty.erp.services.common.shiro.credentials.RetryLimitHashedCredentialsMatcher">
         <constructor-arg ref="cacheManager"/>
         <property name="hashAlgorithmName" value="md5"/>
         <property name="hashIterations" value="2"/>
@@ -33,7 +33,7 @@
     <!--&lt;!&ndash;<property name="rememberMeParam" value="rememberMe"/>&ndash;&gt;-->
     <!--<property name="loginUrl" value="/login"/>-->
     <!--</bean>-->
-    <bean id="jCaptchaValidateFilter" class="com.qs.erp.web.jcaptcha.JCaptchaValidateFilter">
+    <bean id="jCaptchaValidateFilter" class="com.ty.erp.web.jcaptcha.JCaptchaValidateFilter">
         <property name="jcaptchaEbabled" value="true"/>
         <property name="jcaptchaParam" value="jcaptchaCode"/>
         <property name="failureKeyAttribute" value="shiroLoginFailure"/>
@@ -50,10 +50,10 @@
                     <bean class="org.apache.shiro.web.filter.authc.AnonymousFilter"/>
                 </entry>
                 <entry key="authc">
-                    <bean class="com.qs.erp.services.common.shiro.CPassThruAuthenticationFilter"/>
+                    <bean class="com.ty.erp.services.common.shiro.CPassThruAuthenticationFilter"/>
                 </entry>
                 <entry key="perms">
-                    <bean class="com.qs.erp.services.common.shiro.CPermissionsAuthorizationFilter"></bean>
+                    <bean class="com.ty.erp.services.common.shiro.CPermissionsAuthorizationFilter"></bean>
                 </entry>
             </util:map>
         </property>
@@ -101,9 +101,9 @@
     <bean id="myCookie" class="org.apache.shiro.web.servlet.SimpleCookie">
         <property name="name" value="sid"/>
     </bean>
-    <bean id="mysessionDao" class="com.qs.erp.services.common.shiro.MySessionDAO"></bean>
+    <bean id="mysessionDao" class="com.ty.erp.services.common.shiro.MySessionDAO"></bean>
 
-    <bean id="myRealm" class="com.qs.erp.services.common.shiro.MyRealm">
+    <bean id="myRealm" class="com.ty.erp.services.common.shiro.MyRealm">
         <property name="credentialsMatcher" ref="credentialsMatcher"/>
         <property name="cachingEnabled" value="true"/>
         <property name="authenticationCachingEnabled" value="true"/>
@@ -111,7 +111,7 @@
         <property name="authorizationCachingEnabled" value="true"/>
         <property name="authorizationCacheName" value="authorizationCache"/>
     </bean>
-    <bean id="filterChainManager" class="com.qs.erp.services.common.shiro.CustomDefaultFilterChainManager">
+    <bean id="filterChainManager" class="com.ty.erp.services.common.shiro.CustomDefaultFilterChainManager">
 
     </bean>
     <!--<bean id="filterChainResolver" class="com.springapp.shiro.CustomPathMatchingFilterChainResolver">-->
@@ -126,7 +126,7 @@
     <!-- Shiro生命周期处理器-->
     <bean id="lifecycleBeanPostProcessor" class="org.apache.shiro.spring.LifecycleBeanPostProcessor"/>
 
-    <bean id="exceptionHandler" class="com.qs.erp.web.spring.MyExceptionHandler">
+    <bean id="exceptionHandler" class="com.ty.erp.web.spring.MyExceptionHandler">
         <property name="order" value="-1"/>
     </bean>
     <import resource="classpath*:spring.xml"/>

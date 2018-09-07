@@ -11,7 +11,7 @@
            http://www.springframework.org/schema/context/spring-context-3.1.xsd">
 
     <!--DaoCreateMethodInterceptor-->
-     <bean id="daoCreateMethodInterceptor" class="com.qs.erp.services.common.AopInterceptor.DaoCreateMethodInterceptor"></bean>
+     <bean id="daoCreateMethodInterceptor" class="com.ty.erp.services.common.AopInterceptor.DaoCreateMethodInterceptor"></bean>
     <bean id="daoCreateMethodAdvisor" class="org.springframework.aop.support.RegexpMethodPointcutAdvisor">
         <property name="advice" ref="daoCreateMethodInterceptor"/>
         <property name="patterns">
@@ -21,7 +21,7 @@
         </property>
     </bean>
 
-    <bean id="daoUpdateMethodInterceptor" class="com.qs.erp.services.common.AopInterceptor.DaoUpdateMethodInterceptor"></bean>
+    <bean id="daoUpdateMethodInterceptor" class="com.ty.erp.services.common.AopInterceptor.DaoUpdateMethodInterceptor"></bean>
     <bean id="daoUpdateMethodAdvisor" class="org.springframework.aop.support.RegexpMethodPointcutAdvisor">
         <property name="advice" ref="daoUpdateMethodInterceptor"/>
         <property name="patterns">
@@ -31,7 +31,7 @@
         </property>
     </bean>
 
-    <bean id="daoDeleteMethodInterceptor" class="com.qs.erp.services.common.AopInterceptor.DaoDeleteMethodInterceptor"></bean>
+    <bean id="daoDeleteMethodInterceptor" class="com.ty.erp.services.common.AopInterceptor.DaoDeleteMethodInterceptor"></bean>
     <bean id="daoDeleteMethodAdvisor" class="org.springframework.aop.support.RegexpMethodPointcutAdvisor">
         <property name="advice" ref="daoDeleteMethodInterceptor"/>
         <property name="patterns">
@@ -42,7 +42,7 @@
     </bean>
 
 
-    <bean  id="daoGetMethodInterceptor" class="com.qs.erp.services.common.AopInterceptor.DaoGetMethodInterceptor"></bean>
+    <bean  id="daoGetMethodInterceptor" class="com.ty.erp.services.common.AopInterceptor.DaoGetMethodInterceptor"></bean>
     <bean id="daoGetMethodAdvisor" class="org.springframework.aop.support.RegexpMethodPointcutAdvisor">
         <property name="advice" ref="daoGetMethodInterceptor"/>
         <property name="patterns">

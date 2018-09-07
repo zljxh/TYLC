@@ -6,9 +6,9 @@
 	http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
 	http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util-2.0.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.1.xsd">
     <context:property-placeholder location="config/globalConfig.properties" ignore-unresolvable="true"/>
-    <bean id="globalTenant" class="com.qs.erp.services.common.GlobalTenant">
+    <bean id="globalTenant" class="com.ty.erp.services.common.GlobalTenant">
       <property name="FileUrl" value="${globalConfig.FileUrl}"></property>
       <property name="TenantCenterIP" value="${globalConfig.TenantCenterIP}"></property>
     </bean>
-    <bean id="SpringContextUtil " class="com.qs.erp.services.common.spring.SpringContextUtil"/>
+    <bean id="SpringContextUtil " class="com.ty.erp.services.common.spring.SpringContextUtil"/>
 </beans>

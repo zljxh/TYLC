@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.qs.erp.daos.dao.CartoonDetailChapterDao">
+<mapper namespace="com.ty.erp.daos.dao.CartoonDetailChapterDao">
 
     <select id="getByCartoonRowId" resultType="cartoondetailchapter">
         SELECT * FROM cartoondetailchapter where CartoondetailRowId=#{CartoondetailRowId} order by sort asc

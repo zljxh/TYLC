@@ -8,7 +8,7 @@
         <!--<groupId>com.qs.erp</groupId>-->
         <!--<version>1.0-SNAPSHOT</version>-->
     <!--</parent>-->
-    <groupId>com.qs.erp</groupId>
+    <groupId>com.ty.erp</groupId>
     <artifactId>erp-webservices</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>jar</packaging>
@@ -23,22 +23,22 @@
 
     <dependencies>
         <dependency>
-            <groupId>com.qs.erp</groupId>
+            <groupId>com.ty.erp</groupId>
             <artifactId>erp-services</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
         <dependency>
-            <groupId>com.qs.erp</groupId>
+            <groupId>com.ty.erp</groupId>
             <artifactId>erp-utils</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
         <dependency>
-            <groupId>com.qs.erp</groupId>
+            <groupId>com.ty.erp</groupId>
             <artifactId>erp-entitys</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
         <dependency>
-            <groupId>com.qs.erp</groupId>
+            <groupId>com.ty.erp</groupId>
             <artifactId>erp-daos</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>

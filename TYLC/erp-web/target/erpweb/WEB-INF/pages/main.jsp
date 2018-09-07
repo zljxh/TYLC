@@ -1,4 +1,4 @@
-﻿<%@ page import="com.qs.erp.services.common.GlobalParameter" %>
+﻿<%@ page import="com.ty.erp.services.common.GlobalParameter" %>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <link href="/Content/css/MainPage/index.css?3232123" rel="stylesheet"/>

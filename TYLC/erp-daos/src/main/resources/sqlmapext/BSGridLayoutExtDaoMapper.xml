@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.qs.erp.daos.daoext.BSGridLayoutExtDao">
+<mapper namespace="com.ty.erp.daos.daoext.BSGridLayoutExtDao">
     <select id="getByOpeaterAndFormName" resultType="BSGridLayout">
         select * from bsgridlayout where OpeaterRowId=#{OpeaterRowId} and FormName=#{FormName} and TenantRowId=#{TenantRowId} limit 1;
     </select>

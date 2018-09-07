@@ -1,4 +1,4 @@
-﻿<%@ page import="com.qs.erp.services.common.GlobalParameter" %>
+﻿<%@ page import="com.ty.erp.services.common.GlobalParameter" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%request.setAttribute("releaseDate", "20180516");%>
 <html xmlns="http://www.w3.org/1999/xhtml">

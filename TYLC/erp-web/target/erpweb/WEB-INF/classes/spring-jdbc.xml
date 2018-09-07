@@ -59,13 +59,13 @@
         <property name="dataSource" ref="db_balance" />
     </bean>
     <bean id="db"
-          class="com.qs.erp.services.common.DataBase">
+          class="com.ty.erp.services.common.DataBase">
         <property name="Db" ref="jdbcTemplate" />
     </bean>
     <!--创建SqlSessionFactory :访问数据库mapper，实体类型-->
     <bean id="sqlSessionFactoryBalance" class="org.mybatis.spring.SqlSessionFactoryBean">
         <property name="dataSource" ref="db_balance"/>
-        <property name="typeAliasesPackage" value="com.qs.erp.entitys.entity,com.qs.erp.entitys.businessmodel"/>
+        <property name="typeAliasesPackage" value="com.ty.erp.entitys.entity,com.ty.erp.entitys.businessmodel"/>
         <property name="mapperLocations" value="classpath*:/sqlmap*/*Mapper.xml"/>
     </bean>
     <bean id="sqlSessionBalance" class="org.mybatis.spring.SqlSessionTemplate">
@@ -75,8 +75,8 @@
     <bean id="balancescan"  class="org.mybatis.spring.mapper.MapperScannerConfigurer">
         <property name="sqlSessionTemplateBeanName" value="sqlSessionBalance"/>
         <!--property name="sqlSessionFactoryBeanName" value="sqlSessionFactoryAdmin"/ -->
-        <property name="basePackage" value="com.qs.erp.daos.dao,com.qs.erp.daos.daoext"/>
-        <property name="annotationClass" value="com.qs.erp.daos.MyBatisRepository"/>
+        <property name="basePackage" value="com.ty.erp.daos.dao,com.ty.erp.daos.daoext"/>
+        <property name="annotationClass" value="com.ty.erp.daos.MyBatisRepository"/>
     </bean>
 
     <!-- 事务管理器 -->

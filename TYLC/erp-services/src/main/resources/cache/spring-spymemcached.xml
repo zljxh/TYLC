@@ -7,7 +7,7 @@
            http://www.springframework.org/schema/context
            http://www.springframework.org/schema/context/spring-context-3.1.xsd">
    <context:property-placeholder location="config/spymemcached.properties" ignore-unresolvable="true"/>
-       <bean id="memcachedClient" class="com.qs.erp.services.common.cache.CustomerMemcachedClientFactoryBean">
+       <bean id="memcachedClient" class="com.ty.erp.services.common.cache.CustomerMemcachedClientFactoryBean">
            <property name="servers" value="${memcache.spymemcacheServers}" />
            <!--<property name="protocol" value="BINARY"/>-->
            <!--<property name="transcoder">-->
@@ -23,7 +23,7 @@
            <!--<property name="failureMode" value="Redistribute"/>-->
            <!--<property name="useNagleAlgorithm" value="false"/>-->
        </bean>
-       <bean id="customerSpyMemcached" class="com.qs.erp.services.common.cache.CustomerSpyMemcached">
+       <bean id="customerSpyMemcached" class="com.ty.erp.services.common.cache.CustomerSpyMemcached">
            <property name="debug" value="false"></property>
        </bean>
 </beans>

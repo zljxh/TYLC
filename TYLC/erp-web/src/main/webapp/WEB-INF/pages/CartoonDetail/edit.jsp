@@ -1,4 +1,4 @@
-﻿<%@ page import="com.qs.erp.web.spring.ControllerContext" %>
+﻿<%@ page import="com.ty.erp.web.spring.ControllerContext" %>
 <div class="easyui-dialog"
      data-options="iconCls:'fa fa-pencil-square-o',resizable:true,collapsible:false,minimizable:false,modal:true,title:'编辑明细'"
      style="width:1070px;height:525px;"

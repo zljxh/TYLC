@@ -8,7 +8,7 @@
         http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc.xsd">
 
     <!-- 扫描controller -->
-    <context:component-scan base-package="com.qs.erp.web.controller" use-default-filters="false">
+    <context:component-scan base-package="com.ty.erp.web.controller" use-default-filters="false">
         <context:include-filter type="annotation"
                                 expression="org.springframework.stereotype.Controller"/>
 
@@ -28,7 +28,7 @@
         <mvc:interceptor>
             <mvc:mapping path="/**"/>
             <mvc:exclude-mapping path="/login**"/>
-            <bean class="com.qs.erp.web.interceptor.MonitorInterceptor"/>
+            <bean class="com.ty.erp.web.interceptor.MonitorInterceptor"/>
         </mvc:interceptor>
     </mvc:interceptors>
     <mvc:resources mapping="/update.config" location="/"/>
@@ -46,8 +46,8 @@
         <!-- 指定所上传文件的总大小不能超过20000KB。注意maxUploadSize属性的限制不是针对单个文件，而是所有文件的容量之和 -->
         <property name="maxUploadSize" value="20000000000"/>
     </bean>
-    <bean id="cDefaultPropertyNamingStrategy" class="com.qs.erp.utils.util.CDefaultPropertyNamingStrategy"></bean>
-    <bean id="cMappingJacksonObjectMapper" class="com.qs.erp.utils.util.CMappingJacksonObjectMapper">
+    <bean id="cDefaultPropertyNamingStrategy" class="com.ty.erp.utils.util.CDefaultPropertyNamingStrategy"></bean>
+    <bean id="cMappingJacksonObjectMapper" class="com.ty.erp.utils.util.CMappingJacksonObjectMapper">
         <!--   <property name="propertyNamingStrategy" ref="cDefaultPropertyNamingStrategy"></property>-->
     </bean>
 
@@ -64,7 +64,7 @@
             </list>
         </property>
     </bean>
-    <bean id="exceptionResolver" class="com.qs.erp.web.spring.CustomSimpleMappingExceptionResolver">
+    <bean id="exceptionResolver" class="com.ty.erp.web.spring.CustomSimpleMappingExceptionResolver">
         <property name="exceptionMappings">
             <props>
                 <prop key="org.springframework.jdbc.BadSqlGrammarException">error/sqlException</prop>

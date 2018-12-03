@@ -16,7 +16,11 @@
     </delete>
     
     <select id="getList" resultType="cartoontypes">
-        select * from cartoontypes where CartoonRowId=#{CartoonRowId} ;
+         SELECT *,NAME AS TypeName FROM cartoontypes INNER  JOIN  CartoonType ON CartoonType.Rowid=cartoontypes.`CartoonTypeRowId`  where CartoonRowId=#{CartoonRowId} ;
+    </select>
+
+    <select id="getRowList" resultType="long">
+        select RowId from cartoontypes where CartoonRowId=#{CartoonRowId} ;
     </select>
 
 </mapper>

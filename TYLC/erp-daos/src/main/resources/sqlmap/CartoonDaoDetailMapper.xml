@@ -7,9 +7,10 @@
     </select>
 
     <insert id="Save">
-        INSERT  INTO  CartoonDetail (RowId,CartoonRowId,Pic,CreateTime,Title,Cost,Sort,Des) VALUES (
-        #{RowId},#{CartoonRowId},#{Pic},#{CreateTime},#{Title},#{Cost},#{Sort},#{Des}
-        )
+        INSERT  INTO  CartoonDetail (RowId,CartoonRowId,Pic,CreateTime,Title,Cost,Sort,Des,ChapterStatus) VALUES (
+        #{RowId},#{CartoonRowId},#{Pic},#{CreateTime},#{Title},#{Cost},#{Sort},#{Des},#{ChapterStatus}
+        );UPDATE cartoon SET Total=(SELECT COUNT(*) FROM cartoondetail WHERE cartoondetail.`CartoonRowId`=#{CartoonRowId} ) WHERE rowid=#{CartoonRowId}
+
     </insert>
 
     <select id="getList" resultType="CartoonDetail">
@@ -21,5 +22,28 @@
 
     <update id="Update">
         UPDATE CartoonDetail SET Title=#{Title},Pic=#{Pic},Des=#{Des}  where rowid =#{RowId}
+    </update>
+
+    <update id="setAllFree">
+        UPDATE CartoonDetail SET ChapterStatus=0 WHERE CartoonRowId IN
+        <foreach collection="RowIdList" item="item" index="index" open="(" separator="," close=")">
+            #{item}
+        </foreach>
+        ;update Cartoon set FreeStatus=-1 WHERE RowId IN
+        <foreach collection="RowIdList" item="item" index="index" open="(" separator="," close=")">
+            #{item}
+        </foreach>
+
+    </update>
+
+    <update id="setPartFree">
+        UPDATE CartoonDetail SET ChapterStatus=0 WHERE CartoonRowId IN
+        <foreach collection="RowIdList" item="item" index="index" open="(" separator="," close=")">
+            #{item}
+        </foreach>  and Sort &lt;=#{part}
+        ;update Cartoon set FreeStatus=#{part} WHERE RowId IN
+        <foreach collection="RowIdList" item="item" index="index" open="(" separator="," close=")">
+            #{item}
+        </foreach>
     </update>
 </mapper>

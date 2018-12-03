@@ -15,6 +15,21 @@ public class Cartoon {
     private List<Long> TypeRowId;
     private int Enable;
     private long VisitCount;
+    private String Pic1;
+    private Long FreeStatus; //-1 表示全免费，否则就是免费到章节
+    private int Total;//总章节数
+
+    //用seo优化的
+    private String KeyWords;
+    private String Description;
+
+    public Long getFreeStatus() {
+        return FreeStatus;
+    }
+
+    public void setFreeStatus(Long freeStatus) {
+        FreeStatus = freeStatus;
+    }
 
     public int getEnable() {
         return Enable;
@@ -102,5 +117,29 @@ public class Cartoon {
 
     public void setVisitCount(long visitCount) {
         VisitCount = visitCount;
+    }
+
+    public String getPic1() {
+        return Pic1;
+    }
+
+    public void setPic1(String pic1) {
+        Pic1 = pic1;
+    }
+
+    public String getKeyWords() {
+        return KeyWords;
+    }
+
+    public void setKeyWords(String keyWords) {
+        KeyWords = keyWords;
+    }
+
+    public String getDescription() {
+        return Description;
+    }
+
+    public void setDescription(String description) {
+        Description = description;
     }
 }

@@ -32,6 +32,10 @@ public class CartoonController {
     public String edit() {
         return "Cartoon/edit";
     }
+    @RequestMapping(value = "cartoon/partfree")
+    public String partfree(){
+        return "Cartoon/partfree";
+    }
 
     @RequestMapping(value = "/Cartoon/getpage", method = RequestMethod.POST)
     @ResponseBody

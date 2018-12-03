@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ty.erp.daos.dao.BookDao">
+
+
+    <insert id="Create">
+        INSERT INTO Book
+        (
+              RowId,
+              Title,
+              Des,
+              CreateDate,
+              Pic,
+              Author,
+              VisitCount,
+              FreeStatus,
+              Enable,
+              AllCount,
+              Sex
+        )
+        VALUES(
+              #{RowId},
+              #{Title},
+              #{Des},
+              #{CreateDate},
+              #{Pic},
+              #{Author},
+              #{VisitCount},
+              #{FreeStatus},
+              #{Enable},
+              #{AllCount},
+              #{Sex}
+        )
+    </insert>
+
+    <insert id="Update">
+        UPDATE Book SET
+        Des=#{Des},
+        Title=#{Title},
+        Pic=#{Pic},
+        Author=#{Author},
+        VisitCount=#{VisitCount},
+        FreeStatus=#{FreeStatus},
+        Enable=${Enable},
+        AllCount=#{AllCount},
+        Sex=#{Sex}
+        where RowId=#{RowId}
+
+    </insert>
+
+    <select id="getList" resultType="Book">
+        SELECT * from Book
+    </select>
+
+    <select id="getcount" resultType="long">
+        SELECT COUNT(*) from Book
+    </select>
+
+    <update id="changeEnable">
+        UPDATE  Book set Enable =(case when Enable=1 then 0 else 1 end) where rowid=#{RowId}
+    </update>
+
+    <select id="Get" resultType="Book">
+        SELECT  * FROM  Book where RowId=#{RowId}
+    </select>
+
+    <update id="setAllFree">
+        UPDATE book set FreeStatus=-1 WHERE rowid IN
+        <foreach collection="BookRowIds" index="index" item="item" open="(" separator="," close=")">
+            #{item}
+        </foreach>
+        ;update bookdetail set Cost=0 where BookRowId in
+        <foreach collection="BookRowIds" index="index" item="item" open="(" separator="," close=")">
+            #{item}
+        </foreach>
+    </update>
+    <update id="setPartFree">
+        UPDATE bookdetail SET Cost=0 WHERE BookRowId IN
+        <foreach collection="BookRowIds" item="item" index="index" open="(" separator="," close=")">
+            #{item}
+        </foreach>  and Sort &lt;=#{part}
+        ;update book set FreeStatus=#{part} WHERE RowId IN
+        <foreach collection="BookRowIds" item="item" index="index" open="(" separator="," close=")">
+            #{item}
+        </foreach>
+    </update>
+
+    <update id="setAllCount">
+        UPDATE book set AllCount=AllCount+#{Count} where RowId=#{RowId}
+    </update>
+</mapper>

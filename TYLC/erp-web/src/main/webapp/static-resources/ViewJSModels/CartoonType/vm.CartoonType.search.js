@@ -29,11 +29,7 @@ vm.CartoonType.search = function (dataParameter) {
                     return "停用";
                 }
             }
-            },
-            {title: '显示顺序', field: 'DisplayNum', width: 80, align: 'right'},
-            {title: '创建时间', field: 'CreateDate', width: 130, align: 'right'},
-            {title: '创建人', field: 'Creater', width: 80, align: 'right'},
-            {title: '拼音', field: 'Pinyin', width: 80, align: 'right'}
+            }
         ]]
     };
     this.gridPaginationModel = new c8GridPaginationModel(griddataParameter);

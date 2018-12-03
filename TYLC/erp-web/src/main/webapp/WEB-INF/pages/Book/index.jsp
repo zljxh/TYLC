@@ -1,7 +1,7 @@
 ﻿<html>
 <head>
-    <script src="/ViewJSModels/Cartoon/vm.Cartoon.search.js?32332"></script>
-    <script src="/ViewJSModels/Cartoon/vm.Cartoon.edit.js?34"></script>
+    <script src="/ViewJSModels/Book/vm.Book.search.js?016"></script>
+    <script src="/ViewJSModels/Book/vm.Book.edit.js?016"></script>
     <script src="/ViewJSModels/base/c8Control/vm.Control.AddPic.js?22"></script>
 </head>
 <body>
@@ -14,6 +14,8 @@
            data-bind="click:ChangeEnabled">启用</a>
         <a href="javascript:void(0)" class="easyui-linkbutton" iconcls="fa fa-plus" plain="true" data-bind="click:allFree">设置全免</a>
         <a href="javascript:void(0)" class="easyui-linkbutton" iconcls="fa fa-plus" plain="true" data-bind="click:partFreeWin">设置前几免费</a>
+        <a href="javascript:void(0)" class="easyui-linkbutton" iconcls="fa fa-plus" plain="true" data-bind="click:addBookDetail">增加详情</a>
+        <a href="javascript:void(0)" class="easyui-linkbutton" iconcls="fa fa-plus" plain="true" data-bind="click:setCost">修改价格</a>
 
     </div>
     <div class="c8SearchConditions">

@@ -38,23 +38,25 @@
                         </div>
 
                         <div class="fitem">
-                            <label>图片1:</label>
-                            <input c8name="Pic1" class="easyui-textbox" style="width:160px"
-                                   c8data-bind="c8SelectPicText:c8SelectAddPicTextOption"
-                                   data-options="editable:true">
-                        </div>
-
-                        <div class="fitem">
                             <label>访问量:</label>
                             <input c8name="VisitCount" style="width:160px" data-options="min:0,precision:2" required="true"
                                    class="easyui-textbox">
+                        </div>
+
+                        <div class="fitem">
+                            <label>性别:</label>
+                            <select class="c8Select2" c8name="Sex">
+                                <option value="1" >男</option>
+                                <option value="2">女</option>
+                                <option value="3" selected>不限</option>
+                            </select>
                         </div>
 
 
                         <div class="fitem">
                             <label>描述:</label>
                             <input c8name="Des" data-options="multiline:true" class="easyui-textbox" required="true"
-                                   style="height: 50px;width: 250px;">
+                                   style="height: 100px;width: 450px;">
                         </div>
 
                     </form>

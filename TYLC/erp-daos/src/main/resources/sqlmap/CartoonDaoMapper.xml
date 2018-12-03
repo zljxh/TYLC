@@ -13,7 +13,11 @@
               UpdateTime,
               Creater,
               Pic,
-              Author
+              Author,
+              VisitCount,
+              FreeStatus,
+              KeyWords,
+              Description,
         )
         VALUES(
               #{RowId},
@@ -23,7 +27,11 @@
               #{UpdateTime},
               #{Creater},
               #{Pic},
-              #{Author}
+              #{Author},
+              #{VisitCount},
+              #{FreeStatus},
+              #{KeyWords},
+              #{Description}
         )
     </insert>
 
@@ -33,7 +41,10 @@
         Describe=#{Describe},
         Title=#{Title},
         Pic=#{Pic},
-        Author=#{Author}
+        Author=#{Author},
+        VisitCount=#{VisitCount},
+        KeyWords=#{KeyWords},
+        Description=#{Description}
         where RowId=#{Rowid}
 
     </insert>

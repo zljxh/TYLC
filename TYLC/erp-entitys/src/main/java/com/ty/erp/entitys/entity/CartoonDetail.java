@@ -3,6 +3,12 @@ package com.ty.erp.entitys.entity;
 import java.util.Date;
 
 public class CartoonDetail {
+
+    public CartoonDetail() {
+        setChapterStatus(1);
+        setCost(50);
+    }
+
     private long RowId;
     private long CartoonRowId;
     private String Pic;
@@ -11,6 +17,8 @@ public class CartoonDetail {
     private int Cost;
     private int Sort;
     private String Des;
+    private int ChapterStatus;
+
 
     public long getRowId() {
         return RowId;
@@ -74,5 +82,13 @@ public class CartoonDetail {
 
     public void setDes(String des) {
         Des = des;
+    }
+
+    public int getChapterStatus() {
+        return ChapterStatus;
+    }
+
+    public void setChapterStatus(int chapterStatus) {
+        ChapterStatus = chapterStatus;
     }
 }

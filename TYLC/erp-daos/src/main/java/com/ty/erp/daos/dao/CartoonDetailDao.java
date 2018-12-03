@@ -17,4 +17,8 @@ public interface CartoonDetailDao {
     public CartoonDetail Get(@Param("CartoonRowId") long RowId);
 
     void Update(CartoonDetail detail);
+
+    void setAllFree(@Param("RowIdList") List<Long> RowIdList);
+
+    void setPartFree(@Param("RowIdList") List<Long> RowIdList,@Param("part") int part);
 }

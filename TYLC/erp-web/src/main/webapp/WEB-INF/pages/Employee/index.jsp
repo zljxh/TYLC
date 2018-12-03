@@ -7,15 +7,15 @@
 <div id="tb" style="height:auto">
     <div style="margin-bottom:2px">
         <a title="" href="javascript:void(0)" class="easyui-linkbutton" iconcls="fa fa-plus" plain="true"
-           c8disabled='<%= !ControllerContext.isPermitted("1000100006")%>' c8data-bind="click:addWinFun">新增</a>
+            c8data-bind="click:addWinFun">新增</a>
         <a href="javascript:void(0)" class="easyui-linkbutton" iconcls="fa fa-pencil-square-o" plain="true"
-           c8disabled='<%= !ControllerContext.isPermitted("1000100007")%>' c8data-bind="click:editWinFun">修改</a>
+            c8data-bind="click:editWinFun">修改</a>
         <a href="javascript:void(0)" class="easyui-linkbutton" iconcls="fa fa-toggle-on" plain="true"
-           c8disabled='<%= !ControllerContext.isPermitted("1000100004")%>' c8data-bind="click:EnabledWin">启用</a>
+            c8data-bind="click:EnabledWin">启用</a>
         <a href="javascript:void(0)" class="easyui-linkbutton" iconcls="fa fa-toggle-off" plain="true"
-           c8disabled='<%= !ControllerContext.isPermitted("1000100005")%>' c8data-bind="click:NotEnabledWin">停用</a>
+            c8data-bind="click:NotEnabledWin">停用</a>
         <a href="javascript:void(0)" class="easyui-linkbutton" iconcls="fa fa-pencil-square-o" plain="true"
-           c8disabled='<%= !ControllerContext.isPermitted("1000100001")%>' c8data-bind="click:ResetPwd"
+           c8data-bind="click:ResetPwd"
            title="密码重置为12345">重置密码</a>
         <%--<a href="javascript:void(0)" class="easyui-linkbutton" iconcls="fa fa-trash-o" plain="true"--%>
            <%--c8disabled='<%= !ControllerContext.isPermitted("1000100002")%>' c8data-bind="click:setOperatorRole">设置角色</a>--%>

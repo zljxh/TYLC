@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ty.erp.daos.dao.BookDetailDao">
+
+
+    <insert id="Create">
+        INSERT INTO BookDetail
+        (
+              RowId,
+              Title,
+              Content,
+              CreateDate,
+              Enable,
+              Cost,
+              Sort,
+              BookRowId
+        )
+        VALUES(
+              #{RowId},
+              #{Title},
+              #{Content},
+              #{CreateDate},
+              #{Enable},
+              #{Cost},
+              #{Sort},
+              #{BookRowId}
+        )
+    </insert>
+
+    <insert id="Update">
+        UPDATE BookDetail SET
+        Title=#{Title},
+        Content=#{Content},
+        Enable=#{Enable},
+        Cost=#{Cost},
+        Sort=${Sort}
+        where RowId=#{RowId}
+
+    </insert>
+
+    <select id="getList" resultType="BookDetail">
+        SELECT * from BookDetail
+    </select>
+
+    <select id="getcount" resultType="long">
+        SELECT COUNT(*) from BookDetail
+    </select>
+
+    <update id="changeEnable">
+        UPDATE  BookDetail set Enable =(case when Enable=1 then 0 else 1 end) where rowid=#{RowId}
+    </update>
+
+    <select id="Get" resultType="BookDetail">
+        SELECT  * FROM  BookDetail where RowId=#{RowId}
+    </select>
+
+    <delete id="deleteByRowIds" parameterType="java.util.List">
+        DELETE from BookDetail where Rowid IN
+        <foreach collection="Rowids" item="item" index="index" open="(" separator="," close=")">
+            #{item}
+        </foreach>
+    </delete>
+
+    <select id="getByBookRowId" resultType="BookDetail">
+        SELECT * from BookDetail where BookRowId =${BookRowId} and Enable=TRUE order by Sort desc
+    </select>
+
+    <select id="getLastChapterSort" resultType="int">
+        SELECT NULLIF(MAX(Sort),0) from BookDetail where BookRowId =${BookRowId}
+    </select>
+
+    <update id="saveCost">
+        UPDATE BookDetail SET Cost=#{Cost} where rowid in
+        <foreach collection="Rowids" index="index" item="item" open="(" separator="," close=",">
+            #{item}
+        </foreach>
+    </update>
+</mapper>

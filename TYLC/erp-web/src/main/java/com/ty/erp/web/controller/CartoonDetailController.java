@@ -1,6 +1,7 @@
 package com.ty.erp.web.controller;
 
 import com.ty.erp.entitys.businessmodel.CallResult;
+import com.ty.erp.entitys.businessmodel.FreeModel;
 import com.ty.erp.entitys.businessmodel.Role.CartoonDetailMasterSlave;
 import com.ty.erp.entitys.entity.CartoonDetail;
 import com.ty.erp.services.businessmodel.PageQueryParameters;
@@ -67,5 +68,12 @@ public class CartoonDetailController {
         return cartoon;
     }
 
+    @RequestMapping(value = "cartoondetail/addfree", method = RequestMethod.POST)
+    @ResponseBody
+    public CallResult CartoonDetailSetFree(@RequestBody FreeModel free) {
+        CallResult result = new CallResult();
+        cartoonDetailService.setFree(free);
+        return result;
+    }
 
 }

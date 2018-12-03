@@ -12,4 +12,6 @@ public void Save(Cartoontypes cartoontypes);
 
 public void Delete(@Param("CartoonRowId")Long CartoonRowId);
 public List<Cartoontypes> getList(@Param("CartoonRowId") long CartoonRowId);
+
+    public List<Long> getRowList(@Param("CartoonRowId") long CartoonRowId);
 }

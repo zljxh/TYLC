@@ -4,6 +4,7 @@ import com.ty.erp.common.ServiceContext;
 import com.ty.erp.daos.dao.CartoonDetailChapterDao;
 import com.ty.erp.daos.dao.CartoonDetailDao;
 import com.ty.erp.entitys.businessmodel.CallResult;
+import com.ty.erp.entitys.businessmodel.FreeModel;
 import com.ty.erp.entitys.businessmodel.Role.CartoonDetailMasterSlave;
 import com.ty.erp.entitys.entity.CartoonDetail;
 import com.ty.erp.entitys.entity.CartoonDetailChapter;
@@ -56,4 +57,11 @@ public class CartoonDetailService {
     }
 
 
+    public void setFree(FreeModel free) {
+       if (free.getType()==1){
+           dao.setAllFree(free.getRowIdList());
+       }else {
+           dao.setPartFree(free.getRowIdList(),free.getStart());
+       }
+    }
 }

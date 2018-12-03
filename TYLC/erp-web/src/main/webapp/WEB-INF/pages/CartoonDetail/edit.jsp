@@ -31,7 +31,7 @@
 
                         <div class="fitem">
                             <label>描述:</label>
-                            <input c8name="Des" data-options="multiline:true" class="easyui-textbox" required="true"
+                            <input c8name="Des" data-options="multiline:true" class="easyui-textbox"
                                    style="height: 50px;width: 250px;">
                         </div>
 

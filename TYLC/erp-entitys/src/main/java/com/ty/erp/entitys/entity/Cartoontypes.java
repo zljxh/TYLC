@@ -4,6 +4,7 @@ public class Cartoontypes {
     private long RowId;
     private long CartoonRowId;
     private long CartoonTypeRowId;
+    private String TypeName;
 
     public long getRowId() {
         return RowId;
@@ -27,5 +28,13 @@ public class Cartoontypes {
 
     public void setCartoonTypeRowId(long cartoonTypeRowId) {
         CartoonTypeRowId = cartoonTypeRowId;
+    }
+
+    public String getTypeName() {
+        return TypeName;
+    }
+
+    public void setTypeName(String typeName) {
+        TypeName = typeName;
     }
 }
